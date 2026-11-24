@@ -1,0 +1,32 @@
+{
+  "MARKET_TRANSLATE_KEY": "CSSZH_PluginMarket_Translate",
+  "pluginNameDict": {
+    "All plugins": "全部插件",
+    "Featured": "精选",
+    "Installed": "已安装",
+    "Most Popular": "最受欢迎",
+    "Recently Updated": "最近更新",
+    "First-party": "官方出品",
+    "Community": "社区插件"
+  },
+  "descriptionDict": {
+    "Search the marketplace": "搜索插件市场"
+  },
+  "fragmentRules": [
+    [
+      "Upgrade to",
+      "升级到 "
+    ]
+  ],
+  "uiDict": {
+    "Balanced quality and speed, recommended for most tasks": "兼顾质量与速度，推荐用于大多数任务",
+    "Greeting conversation": "问候对话",
+    "Effort": "思考强度",
+    "Context": "上下文",
+    "Fast": "快速",
+    "Effort the model uses to generate its response.": "模型生成回复时使用的思考强度。",
+    "Context size used to trigger conversation compaction.": "触发对话压缩的上下文大小。",
+    "Significantly faster but consumes more usage": "速度显著更快，但消耗更多用量",
+    "Controls the model thinking intensity for this run.": "控制本次运行的模型思考强度。"
+  }
+}

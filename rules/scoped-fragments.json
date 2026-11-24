@@ -1,0 +1,9318 @@
+[
+  [
+    "primaryButton:\"OK\"",
+    "primaryButton:\"确定\""
+  ],
+  [
+    "case\"canvas\":return\"Canvas\"",
+    "case\"canvas\":return\"画布\""
+  ],
+  [
+    "case\"canvases\":return\"Canvas\"",
+    "case\"canvases\":return\"画布\""
+  ],
+  [
+    "case\"browser\":return\"Browser\"",
+    "case\"browser\":return\"浏览器\""
+  ],
+  [
+    "case\"chat\":return\"Chat\"",
+    "case\"chat\":return\"聊天\""
+  ],
+  [
+    "case\"clipboard\":return\"Clipboard\"",
+    "case\"clipboard\":return\"剪贴板\""
+  ],
+  [
+    "case\"subagent\":return\"Subagent\"",
+    "case\"subagent\":return\"子智能体\""
+  ],
+  [
+    "case\"mode\":return\"Mode\"",
+    "case\"mode\":return\"模式\""
+  ],
+  [
+    "label:\"Canvas\"",
+    "label:\"画布\""
+  ],
+  [
+    "displayName:\"Featured\"",
+    "displayName:\"精选\""
+  ],
+  [
+    "displayName:\"Infrastructure\"",
+    "displayName:\"基础设施\""
+  ],
+  [
+    "displayName:\"Data & Analytics\"",
+    "displayName:\"数据与分析\""
+  ],
+  [
+    "displayName:\"Productivity\"",
+    "displayName:\"生产力\""
+  ],
+  [
+    "displayName:\"Payments\"",
+    "displayName:\"付款\""
+  ],
+  [
+    "displayName:\"Agent Orchestration\"",
+    "displayName:\"智能体编排\""
+  ],
+  [
+    "displayName:\"Canvas\"",
+    "displayName:\"画布\""
+  ],
+  [
+    "error:\"Run\"",
+    "error:\"运行\""
+  ],
+  [
+    "error:\"Delete\"",
+    "error:\"删除\""
+  ],
+  [
+    "error:\"Grep\"",
+    "error:\"搜索\""
+  ],
+  [
+    "error:\"Read\"",
+    "error:\"读取\""
+  ],
+  [
+    "error:\"Update todos\"",
+    "error:\"更新待办\""
+  ],
+  [
+    "error:\"Read todos\"",
+    "error:\"读取待办\""
+  ],
+  [
+    "error:\"List\"",
+    "error:\"列出\""
+  ],
+  [
+    "error:\"Read lints\"",
+    "error:\"读取 Lints\""
+  ],
+  [
+    "error:\"Explore tools\"",
+    "error:\"探索工具\""
+  ],
+  [
+    "error:\"Search\"",
+    "error:\"搜索\""
+  ],
+  [
+    "error:\"Write plan\"",
+    "error:\"编写计划\""
+  ],
+  [
+    "error:\"Search web\"",
+    "error:\"搜索网页\""
+  ],
+  [
+    "error:\"Work on task\"",
+    "error:\"处理任务\""
+  ],
+  [
+    "error:\"List resources\"",
+    "error:\"列出资源\""
+  ],
+  [
+    "error:\"Read resource\"",
+    "error:\"读取资源\""
+  ],
+  [
+    "error:\"Apply diff\"",
+    "error:\"应用差异\""
+  ],
+  [
+    "error:\"Ask question\"",
+    "error:\"提问\""
+  ],
+  [
+    "error:\"Look up blame\"",
+    "error:\"查看 Blame\""
+  ],
+  [
+    "error:\"Wait\"",
+    "error:\"等待\""
+  ],
+  [
+    "error:\"Fetch\"",
+    "error:\"获取\""
+  ],
+  [
+    "error:\"Switch mode\"",
+    "error:\"切换模式\""
+  ],
+  [
+    "error:\"Generate image\"",
+    "error:\"生成图片\""
+  ],
+  [
+    "error:\"Record screen\"",
+    "error:\"录制屏幕\""
+  ],
+  [
+    "error:\"Use computer\"",
+    "error:\"使用电脑\""
+  ],
+  [
+    "error:\"Write to shell\"",
+    "error:\"写入 Shell\""
+  ],
+  [
+    "error:\"Reflect\"",
+    "error:\"反思\""
+  ],
+  [
+    "error:\"Set up VM\"",
+    "error:\"配置虚拟机\""
+  ],
+  [
+    "error:\"Replace environment\"",
+    "error:\"替换环境\""
+  ],
+  [
+    "error:\"Search conversations\"",
+    "error:\"搜索对话\""
+  ],
+  [
+    "error:\"Create goal\"",
+    "error:\"创建目标\""
+  ],
+  [
+    "error:\"Update goal\"",
+    "error:\"更新目标\""
+  ],
+  [
+    "error:\"Process\"",
+    "error:\"处理\""
+  ],
+  [
+    "error:\"Execute\"",
+    "error:\"执行\""
+  ],
+  [
+    "error:\"Plan\"",
+    "error:\"规划\""
+  ],
+  [
+    "error:\"Fetch page\"",
+    "error:\"获取页面\""
+  ],
+  [
+    "error:\"Report results\"",
+    "error:\"报告结果\""
+  ],
+  [
+    "error:\"Learn from Cursor Blame\"",
+    "error:\"从 Cursor Blame 学习\""
+  ],
+  [
+    "error:\"Update progress\"",
+    "error:\"更新进度\""
+  ],
+  [
+    "error:\"Manage PR\"",
+    "error:\"管理 PR\""
+  ],
+  [
+    "error:\"Edit PR labels\"",
+    "error:\"编辑 PR 标签\""
+  ],
+  [
+    "error:\"Fetch cloud agent data\"",
+    "error:\"获取云智能体数据\""
+  ],
+  [
+    "error:\"Authenticate MCP server\"",
+    "error:\"认证 MCP 服务器\""
+  ],
+  [
+    "error:\"Report bug\"",
+    "error:\"报告 Bug\""
+  ],
+  [
+    "error:\"Record final summary\"",
+    "error:\"记录最终总结\""
+  ],
+  [
+    "error:\"Send message\"",
+    "error:\"发送消息\""
+  ],
+  [
+    "error:\"Update metadata\"",
+    "error:\"更新元数据\""
+  ],
+  [
+    "error:\"Update code tour\"",
+    "error:\"更新代码导览\""
+  ],
+  [
+    "error:\"Record CI findings\"",
+    "error:\"记录 CI 结果\""
+  ],
+  [
+    "error:\"Write\"",
+    "error:\"写入\""
+  ],
+  [
+    "label:\"Home\",workspaceIdentifier",
+    "label:\"主页\",workspaceIdentifier"
+  ],
+  [
+    "title:ce?\"Copied!\":\"Copy path\"",
+    "title:ce?\"已复制!\":\"复制路径\""
+  ],
+  [
+    "\"aria-label\":\"Copy path\"",
+    "\"aria-label\":\"复制路径\""
+  ],
+  [
+    "message:\"Copied path to clipboard\"",
+    "message:\"已复制路径到剪贴板\""
+  ],
+  [
+    "message:T(\"glassFileTreeCopiedRelativePath\",\"Copied path to clipboard\")",
+    "message:T(\"glassFileTreeCopiedRelativePath\",\"已复制相对路径到剪贴板\")"
+  ],
+  [
+    "message:T(\"glassFileTreeCopiedPath\",\"Copied path to clipboard\")",
+    "message:T(\"glassFileTreeCopiedPath\",\"已复制路径到剪贴板\")"
+  ],
+  [
+    "message:T(\"glassFileTreeCopiedCursorComLink\",\"Copied URL to clipboard\")",
+    "message:T(\"glassFileTreeCopiedCursorComLink\",\"已复制 URL 到剪贴板\")"
+  ],
+  [
+    "\"No output yet\"",
+    "\"暂无输出\""
+  ],
+  [
+    "\"No output channels available\"",
+    "\"无可用输出通道\""
+  ],
+  [
+    "heading:\"Suggested\"",
+    "heading:\"推荐\""
+  ],
+  [
+    "children:\"Suggested\"",
+    "children:\"推荐\""
+  ],
+  [
+    "title:ce?\"Results\":\"Suggested\"",
+    "title:ce?\"结果\":\"推荐\""
+  ],
+  [
+    "case\"canvas-mention-card\":return\"Canvas\"",
+    "case\"canvas-mention-card\":return\"画布\""
+  ],
+  [
+    "placeholder:\"Coordinate tasks\"",
+    "placeholder:\"协调任务\""
+  ],
+  [
+    "\"Search plugins\"",
+    "\"搜索插件\""
+  ],
+  [
+    "\"Root workspace\"",
+    "\"根工作区\""
+  ],
+  [
+    "children:k?\"Deleting...\":\"Delete\"",
+    "children:k?\"正在删除...\":\"删除\""
+  ],
+  [
+    "children:\"Delete\"",
+    "children:\"删除\""
+  ],
+  [
+    "id:\"delete\",label:\"Delete\"",
+    "id:\"delete\",label:\"删除\""
+  ],
+  [
+    "label:\"Delete\"",
+    "label:\"删除\""
+  ],
+  [
+    "placeholder:\"Search\"",
+    "placeholder:\"搜索\""
+  ],
+  [
+    "children:[\"Open\",_]",
+    "children:[\"打开\",_]"
+  ],
+  [
+    "children:[\"Open\",k0(Bi,",
+    "children:[\"打开\",k0(Bi,"
+  ],
+  [
+    "title:\"Create New Canvas\",titleColor:\"tertiary\"",
+    "title:\"新建画布\",titleColor:\"tertiary\""
+  ],
+  [
+    "title:\"No agents yet\"",
+    "title:\"暂无智能体\""
+  ],
+  [
+    "description:\"Create an agent to start working on tasks\"",
+    "description:\"创建智能体以开始处理任务\""
+  ],
+  [
+    "actionTitle:\"New Agent\"",
+    "actionTitle:\"新建智能体\""
+  ],
+  [
+    "_createButton(this._buttonContainer,GCe,\"Quick Edit\")",
+    "_createButton(this._buttonContainer,GCe,\"快速编辑\")"
+  ],
+  [
+    "_createButton(this._buttonContainer,k0e,\"Quick Edit\")",
+    "_createButton(this._buttonContainer,k0e,\"快速编辑\")"
+  ],
+  [
+    "{value:\"Create Rule\",original:\"Create Rule\"}",
+    "{value:\"创建规则\",original:\"创建规则\"}"
+  ],
+  [
+    "label:s?\"复制消息\":\"Copy\"",
+    "label:s?\"复制消息\":\"复制\""
+  ],
+  [
+    "label:\"Bold\"",
+    "label:\"加粗\""
+  ],
+  [
+    "label:\"Italic\"",
+    "label:\"斜体\""
+  ],
+  [
+    "label:\"Underline\"",
+    "label:\"下划线\""
+  ],
+  [
+    "label:\"Strikethrough\"",
+    "label:\"删除线\""
+  ],
+  [
+    "label:\"Link\"",
+    "label:\"链接\""
+  ],
+  [
+    "label:\"Blockquote\"",
+    "label:\"引用块\""
+  ],
+  [
+    "label:\"Inline code\"",
+    "label:\"行内代码\""
+  ],
+  [
+    "label:\"Code block\"",
+    "label:\"代码块\""
+  ],
+  [
+    "title:\"Add Directory to Cursor Chat\"",
+    "title:\"将目录添加到 Cursor 聊天\""
+  ],
+  [
+    "title:\"Add Directory to New Cursor Chat\"",
+    "title:\"将目录添加到新的 Cursor 聊天\""
+  ],
+  [
+    "title:\"Move into New Window\"",
+    "title:\"移动到新窗口\""
+  ],
+  [
+    "?\"View PR\":\"Create PR\"",
+    "?\"查看 PR\":\"创建 PR\""
+  ],
+  [
+    "label:\"Create PR\",tooltip:\"Create a new pull request\"",
+    "label:\"创建 PR\",tooltip:\"创建新的拉取请求\""
+  ],
+  [
+    "action:\"Create PRs\"",
+    "action:\"创建 PRs\""
+  ],
+  [
+    "action:\"Create PR\"",
+    "action:\"创建 PR\""
+  ],
+  [
+    "action:\"Checkout Branch\"",
+    "action:\"切换分支\""
+  ],
+  [
+    "action:\"Update Branch\"",
+    "action:\"更新分支\""
+  ],
+  [
+    "label:\"Copy Link\"",
+    "label:\"复制链接\""
+  ],
+  [
+    "label:\"Start New Chat\"",
+    "label:\"开始新聊天\""
+  ],
+  [
+    "label:\"Open Agent\"",
+    "label:\"打开智能体\""
+  ],
+  [
+    "error:\"Connect GitHub\"",
+    "error:\"连接 GitHub\""
+  ],
+  [
+    "label:\"Open as Editor\",tooltip:\"Open as Editor\"",
+    "label:\"在编辑器中打开\",tooltip:\"在编辑器中打开\""
+  ],
+  [
+    "label:\"Add to Home\"",
+    "label:\"添加到主页\""
+  ],
+  [
+    "label:\"Continue Anyway\"",
+    "label:\"仍然继续\""
+  ],
+  [
+    "label:\"Checkout Branch\"",
+    "label:\"切换分支\""
+  ],
+  [
+    "children:\"Checkout Branch\"",
+    "children:\"切换分支\""
+  ],
+  [
+    "\"Branches\"",
+    "\"分支\""
+  ],
+  [
+    "title:\"Connect your Repos to Cursor\"",
+    "title:\"将仓库连接到 Cursor\""
+  ],
+  [
+    "connectLabel:\"Connect Repos\"",
+    "connectLabel:\"连接仓库\""
+  ],
+  [
+    "buttonLabel:\"Connect Your Repos\"",
+    "buttonLabel:\"连接你的仓库\""
+  ],
+  [
+    "\"Unknown error\"",
+    "\"未知错误\""
+  ],
+  [
+    "children:\"Fix All\"",
+    "children:\"全部修复\""
+  ],
+  [
+    "children:\"Review Again\"",
+    "children:\"再次审查\""
+  ],
+  [
+    "hintText:\"Review Again\"",
+    "hintText:\"再次审查\""
+  ],
+  [
+    "children:\"Open settings\"",
+    "children:\"打开设置\""
+  ],
+  [
+    "children:\"Install Now\"",
+    "children:\"立即安装\""
+  ],
+  [
+    "tooltip:\"Delete chat\"",
+    "tooltip:\"删除对话\""
+  ],
+  [
+    "label:\"Delete chat\"",
+    "label:\"删除对话\""
+  ],
+  [
+    "label:\"Close Chat\",tooltip:\"Close Chat\"",
+    "label:\"关闭对话\",tooltip:\"关闭对话\""
+  ],
+  [
+    "label:\"Close Other Chats\",tooltip:\"Close Other Chats\"",
+    "label:\"关闭其他对话\",tooltip:\"关闭其他对话\""
+  ],
+  [
+    "\"aria-label\":\"Go back\"",
+    "\"aria-label\":\"返回\""
+  ],
+  [
+    "label:\"Go back\"",
+    "label:\"返回\""
+  ],
+  [
+    "?\"Resume\":\"Try again\"",
+    "?\"继续\":\"再试一次\""
+  ],
+  [
+    "?\"Sends without interrupting the agent\":\"Send now\"",
+    "?\"不打断 Agent 即可发送\":\"立即发送\""
+  ],
+  [
+    "hintText:\"Send now\"",
+    "hintText:\"立即发送\""
+  ],
+  [
+    "label:\"Copy Image\"",
+    "label:\"复制图片\""
+  ],
+  [
+    "label:\"Download Image\"",
+    "label:\"下载图片\""
+  ],
+  [
+    "label:\"Fix with Agent\"",
+    "label:\"用 Agent 修复\""
+  ],
+  [
+    "hintText:\"Fix with Agent\"",
+    "hintText:\"用 Agent 修复\""
+  ],
+  [
+    "label:\"Find with Agent\"",
+    "label:\"用 Agent 查找\""
+  ],
+  [
+    "children:\"Find with Agent\"",
+    "children:\"用 Agent 查找\""
+  ],
+  [
+    "name:\"Find with Agent\"",
+    "name:\"用 Agent 查找\""
+  ],
+  [
+    "title:\"Fix in Agent\"",
+    "title:\"在 Agent 中修复\""
+  ],
+  [
+    "=\"Fix in Agent\",",
+    "=\"在 Agent 中修复\","
+  ],
+  [
+    "label:\"Commit Changes\"",
+    "label:\"提交更改\""
+  ],
+  [
+    "label:\"Open in External Browser\"",
+    "label:\"在外部浏览器中打开\""
+  ],
+  [
+    "label:\"Open as Pane\",tooltip:\"Open as Pane\"",
+    "label:\"在窗格中打开\",tooltip:\"在窗格中打开\""
+  ],
+  [
+    "label:\"Open Virtual Machine\",tooltip:\"Open Virtual Machine\"",
+    "label:\"打开虚拟机\",tooltip:\"打开虚拟机\""
+  ],
+  [
+    "title:{value:\"Open Virtual Machine\",original:\"Open Virtual Machine\"}",
+    "title:{value:\"打开虚拟机\",original:\"打开虚拟机\"}"
+  ],
+  [
+    "label:\"Mark as Read\"",
+    "label:\"标记为已读\""
+  ],
+  [
+    "tooltip:\"Mark chat as read\"",
+    "tooltip:\"将对话标记为已读\""
+  ],
+  [
+    "label:\"Merge commit\",tooltip:\"Create a merge commit\"",
+    "label:\"合并提交\",tooltip:\"创建合并提交\""
+  ],
+  [
+    "title:\"Merge commit\",id:\"merge\"",
+    "title:\"合并提交\",id:\"merge\""
+  ],
+  [
+    "?\"Rebase merges\":\"Merge commits\"",
+    "?\"变基合并\":\"合并提交\""
+  ],
+  [
+    "label:\"Rebase merge\",tooltip:\"Rebase and merge commits\"",
+    "label:\"变基合并\",tooltip:\"变基并合并提交\""
+  ],
+  [
+    "label:\"Merge manually\"",
+    "label:\"手动合并\""
+  ],
+  [
+    "label:\"Default Mode\"",
+    "label:\"默认模式\""
+  ],
+  [
+    "label:\"Open in Design Mode\"",
+    "label:\"在设计模式下打开\""
+  ],
+  [
+    "children:\"Manage Environments\"",
+    "children:\"管理环境\""
+  ],
+  [
+    "label:\"Download request content\"",
+    "label:\"下载请求内容\""
+  ],
+  [
+    "title:\"Download request content\"",
+    "title:\"下载请求内容\""
+  ],
+  [
+    "children:\"View setup instructions\"",
+    "children:\"查看设置说明\""
+  ],
+  [
+    "emptyMessage:\"No changes\"",
+    "emptyMessage:\"暂无更改\""
+  ],
+  [
+    "?\"No pending changes to review\":\"No changes to review\"",
+    "?\"没有待审查的更改\":\"没有可审查的更改\""
+  ],
+  [
+    "\"No changes to apply\"",
+    "\"没有可应用的更改\""
+  ],
+  [
+    "\"No changes to create PR\"",
+    "\"没有更改，无法创建 PR\""
+  ],
+  [
+    "\"Needs Attention\"",
+    "\"需要关注\""
+  ],
+  [
+    "\"Needs authentication\"",
+    "\"需要身份验证\""
+  ],
+  [
+    "children:\"Log in\"",
+    "children:\"登录\""
+  ],
+  [
+    "hintText:\"Log in to use Cursor AI features\"",
+    "hintText:\"登录以使用 Cursor AI 功能\""
+  ],
+  [
+    "hintText:\"Log in to use Cloud Agents\"",
+    "hintText:\"登录以使用云智能体\""
+  ],
+  [
+    "title:\"Log In\"",
+    "title:\"登录\""
+  ],
+  [
+    "text:\"Log In\"",
+    "text:\"登录\""
+  ],
+  [
+    "label:\"New Chat\"",
+    "label:\"新对话\""
+  ],
+  [
+    "\"New Chat\"",
+    "\"新对话\""
+  ],
+  [
+    "cloudOptionLabel:\"Run in Cloud\"",
+    "cloudOptionLabel:\"在云端运行\""
+  ],
+  [
+    "label:\"Replace Chat\"",
+    "label:\"替换对话\""
+  ],
+  [
+    "title:\"Replace Chat\"",
+    "title:\"替换对话\""
+  ],
+  [
+    "title:\"Import Chat\"",
+    "title:\"导入对话\""
+  ],
+  [
+    "label:\"Import Claude Code Conversations\"",
+    "label:\"导入 Claude Code 对话\""
+  ],
+  [
+    "title:\"Data Sharing\"",
+    "title:\"数据共享\""
+  ],
+  [
+    "title:\"Remove local plugin\"",
+    "title:\"移除本地插件\""
+  ],
+  [
+    "children:\"Manage Usage\"",
+    "children:\"管理用量\""
+  ],
+  [
+    "<div>Invite by email</div>",
+    "<div>通过电子邮件邀请</div>"
+  ],
+  [
+    "label:\"Open Composer Settings\",tooltip:\"Open Composer Settings\"",
+    "label:\"打开 Composer 设置\",tooltip:\"打开 Composer 设置\""
+  ],
+  [
+    "title:{value:\"Connect Slack\",original:\"Connect Slack\"}",
+    "title:{value:\"连接 Slack\",original:\"连接 Slack\"}"
+  ],
+  [
+    "label:\"Connect Slack\"",
+    "label:\"连接 Slack\""
+  ],
+  [
+    "label:\"Dismiss\"",
+    "label:\"忽略\""
+  ],
+  [
+    "\"aria-label\":\"Dismiss\"",
+    "\"aria-label\":\"忽略\""
+  ],
+  [
+    "=\"Copy Branch Name\"",
+    "=\"复制分支名称\""
+  ],
+  [
+    ">View All Models\"",
+    ">查看所有模型\""
+  ],
+  [
+    "label:\"Filter By\",ariaLabel:\"Filter by options\"",
+    "label:\"筛选\",ariaLabel:\"筛选选项\""
+  ],
+  [
+    "{value:\"scope\",label:\"Source\",icon:\"folder\"}",
+    "{value:\"scope\",label:\"来源\",icon:\"folder\"}"
+  ],
+  [
+    "{value:\"author\",label:\"Author\",icon:\"person\"}",
+    "{value:\"author\",label:\"作者\",icon:\"person\"}"
+  ],
+  [
+    "{value:\"name\",label:\"Name\",icon:\"text-aa\"}",
+    "{value:\"name\",label:\"名称\",icon:\"text-aa\"}"
+  ],
+  [
+    "?\"Manage in Dashboard\":\"Open\"",
+    "?\"在仪表盘中管理\":\"打开\""
+  ],
+  [
+    "prompt:\"Enter Command Name\",placeHolder:\"Command name\"",
+    "prompt:\"输入命令名称\",placeHolder:\"命令名称\""
+  ],
+  [
+    "?\"收起\":\"Show more\"",
+    "?\"收起\":\"显示更多\""
+  ],
+  [
+    "prompt:\"User Rules apply to all of your chats\"",
+    "prompt:\"用户规则适用于你的所有对话\""
+  ],
+  [
+    "te===\"skill\"?\"Skill\":\"Subagent\"",
+    "te===\"skill\"?\"技能\":\"子代理\""
+  ],
+  [
+    "x===\"skill\"?\"Skill\":\"Subagent\"",
+    "x===\"skill\"?\"技能\":\"子代理\""
+  ],
+  [
+    "title:`New User ${oe}`",
+    "title:`新建用户${oe}`"
+  ],
+  [
+    "prompt:`Enter a name for the new ${ee}`",
+    "prompt:`为新的${ee}输入名称`"
+  ],
+  [
+    "title:`New User ${M}`",
+    "title:`新建用户${M}`"
+  ],
+  [
+    "prompt:`Enter a name for the new ${I}`",
+    "prompt:`为新的${M}输入名称`"
+  ],
+  [
+    "title:`New User ${re}`",
+    "title:`新建用户${re}`"
+  ],
+  [
+    "\"Loading changes...\"",
+    "\"正在加载更改...\""
+  ],
+  [
+    "\"Loading changes\"",
+    "\"正在加载更改\""
+  ],
+  [
+    "title:{value:\"Cycle model parameter\",original:\"Cycle model parameter\"}",
+    "title:{value:\"切换模型参数\",original:\"切换模型参数\"}"
+  ],
+  [
+    "\\xB7 Cycle ${Jn} (${Lr})",
+    "\\xB7 切换${Jn} (${Lr})"
+  ],
+  [
+    "\\xB7 Cycle ${Or} (${Ni})",
+    "\\xB7 切换${Or} (${Ni})"
+  ],
+  [
+    "\\xB7 Cycle ${hr} (${Oi})",
+    "\\xB7 切换${hr} (${Oi})"
+  ],
+  [
+    "{action:\"Asking questions\",details:",
+    "{action:\"正在提问\",details:"
+  ],
+  [
+    "{action:\"Asked\",details:",
+    "{action:\"已提问\",details:"
+  ],
+  [
+    "return\"Add more optional details\";",
+    "return\"补充更多可选细节\";"
+  ],
+  [
+    "?\"Add more optional details...\":",
+    "?\"补充更多可选细节…\":"
+  ],
+  [
+    "children:\"Retry\"",
+    "children:\"重试\""
+  ],
+  [
+    "label:\"Retry\"",
+    "label:\"重试\""
+  ],
+  [
+    "?\"审查\":\"Open\"",
+    "?\"审查\":\"打开\""
+  ],
+  [
+    "primaryButton:\"Open\"",
+    "primaryButton:\"打开\""
+  ],
+  [
+    "return\"Taking longer than expected\\u2026\";",
+    "return\"耗时超出预期…\";"
+  ],
+  [
+    "]:\"Context Window\"",
+    "]:\"上下文窗口\""
+  ],
+  [
+    "\"Maximum context window size\"",
+    "\"最大上下文窗口大小\""
+  ],
+  [
+    "\"Enable extended thinking for complex reasoning tasks\"",
+    "\"为复杂推理任务启用扩展思考\""
+  ],
+  [
+    "\"Claude 4.5 Sonnet with standard context (200K tokens)\"",
+    "\"Claude 4.5 Sonnet 标准上下文（200K tokens）\""
+  ],
+  [
+    "\"Claude 4.5 Sonnet with extended context (1M tokens)\"",
+    "\"Claude 4.5 Sonnet 扩展上下文（1M tokens）\""
+  ],
+  [
+    "\"Claude 4.5 Sonnet with thinking mode enabled\"",
+    "\"Claude 4.5 Sonnet 已启用思考模式\""
+  ],
+  [
+    "\"Claude 4.5 Sonnet with thinking mode and extended context\"",
+    "\"Claude 4.5 Sonnet 思考模式与扩展上下文\""
+  ],
+  [
+    "children:[\"Setting up indexing\",",
+    "children:[\"正在建立索引\","
+  ],
+  [
+    "\"Allowlist (with Sandbox)\"",
+    "\"白名单（沙盒）\""
+  ],
+  [
+    "\"Auto-review (with Sandbox)\"",
+    "\"自动审查（沙盒）\""
+  ],
+  [
+    "\"Automatically run operations that Auto-review classifies as safe, using sandboxing when possible\"",
+    "\"自动运行「自动审查」判定为安全的操作，尽可能使用沙盒\""
+  ],
+  [
+    "\"Automatically run operations that Auto-review classifies as safe\"",
+    "\"自动运行「自动审查」判定为安全的操作\""
+  ],
+  [
+    ":\"Auto-review\";",
+    ":\"自动审查\";"
+  ],
+  [
+    "label:\"Auto-review\",sandboxBacked:!1",
+    "label:\"自动审查\",sandboxBacked:!1"
+  ],
+  [
+    "\"Auto-review requires approval\"",
+    "\"自动审查需要批准\""
+  ],
+  [
+    "\"Always Applied\"",
+    "\"始终应用\""
+  ],
+  [
+    "\"Agent Decides When to Apply\"",
+    "\"由 Agent 决定应用时机\""
+  ],
+  [
+    "[\"Waiting\",\"已等待\",\"Wait skipped\"]",
+    "[\"等待中\",\"已等待\",\"跳过等待\"]"
+  ],
+  [
+    "{action:\"Waiting\",details:",
+    "{action:\"等待中\",details:"
+  ],
+  [
+    "case\"waiting\":return\"Waiting\";",
+    "case\"waiting\":return\"等待中\";"
+  ],
+  [
+    "?\"Waiting\":\"Wait\"",
+    "?\"等待中\":\"等待\""
+  ],
+  [
+    "compact:\"Waiting\"",
+    "compact:\"等待中\""
+  ],
+  [
+    "return t?e&&e.length>0?`for ${e} in ${t}`:`for ${t}`:\"\"",
+    "return t?e&&e.length>0?`（${t} 中的 ${e}）`:`（${t}）`:\"\""
+  ],
+  [
+    "return e?t&&t.length>0?`for ${t} in ${e}`:`for ${e}`:\"\"",
+    "return e?t&&t.length>0?`（${e} 中的 ${t}）`:`（${e}）`:\"\""
+  ],
+  [
+    "`up to ${cAr(p)} ${d}`",
+    "`最长 ${cAr(p)} ${d}`"
+  ],
+  [
+    "`up to ${syi(g)} ${h}`",
+    "`最长 ${syi(g)} ${h}`"
+  ],
+  [
+    "nowLabel:\"Just now\"",
+    "nowLabel:\"刚刚\""
+  ],
+  [
+    "if(n<60)return\"Just now\"",
+    "if(n<60)return\"刚刚\""
+  ],
+  [
+    "if(a<60)return\"just now\"",
+    "if(a<60)return\"刚刚\""
+  ],
+  [
+    "?\"just now\":",
+    "?\"刚刚\":"
+  ],
+  [
+    "`Done \\u2022 ${s}`",
+    "`完成 \\u2022 ${s}`"
+  ],
+  [
+    "\"Agent complete\"",
+    "\"智能体完成\""
+  ],
+  [
+    "<span>Recent projects</span>",
+    "<span>最近项目</span>"
+  ],
+  [
+    "opacity-80\">Settings'",
+    "opacity-80\">设置'"
+  ],
+  [
+    "?\"Success!\":",
+    "?\"成功!\":"
+  ],
+  [
+    "?\"Importing\":\"Import\"",
+    "?\"导入中\":\"导入\""
+  ],
+  [
+    "`Show ${T} more`",
+    "`显示 ${T} 更多`"
+  ],
+  [
+    "function mSg(e){const t=ERs(e);return t.variants=t.variants??[],t.parameterDefinitions=t.parameterDefinitions??[],t}",
+    "function mSg(e){const t=ERs(e);return t.variants=t.variants??[],t.parameterDefinitions=(t.parameterDefinitions??[]).map(function(p){if(!p)return p;if(p.name===\"Effort\"||p.name===\"Thinking intensity\"){p.name=\"思考强度\";if(p.markdownTooltip===\"Effort the model uses to generate its response.\")p.markdownTooltip=\"模型生成回复时使用的思考强度。\";else if(p.markdownTooltip===\"Controls the model thinking intensity for this run.\")p.markdownTooltip=\"控制本次运行的模型思考强度。\"}if(p.name===\"Context\"){p.name=\"上下文长度\";if(p.markdownTooltip===\"Context size used to trigger conversation compaction.\")p.markdownTooltip=\"触发对话压缩的上下文大小。\"}if(p.name===\"Fast\"){p.name=\"快速\";if(p.markdownTooltip===\"Significantly faster but consumes more usage\")p.markdownTooltip=\"速度显著更快，但消耗更多用量\"}return p}),t}"
+  ],
+  [
+    "function Lfg(e){const t=kRs(e);return t.variants=t.variants??[],t.parameterDefinitions=t.parameterDefinitions??[],t}",
+    "function Lfg(e){const t=kRs(e);return t.variants=t.variants??[],t.parameterDefinitions=(t.parameterDefinitions??[]).map(function(p){if(!p)return p;if(p.name===\"Effort\"||p.name===\"Thinking intensity\"){p.name=\"思考强度\";if(p.markdownTooltip===\"Effort the model uses to generate its response.\")p.markdownTooltip=\"模型生成回复时使用的思考强度。\";else if(p.markdownTooltip===\"Controls the model thinking intensity for this run.\")p.markdownTooltip=\"控制本次运行的模型思考强度。\"}if(p.name===\"Context\"){p.name=\"上下文长度\";if(p.markdownTooltip===\"Context size used to trigger conversation compaction.\")p.markdownTooltip=\"触发对话压缩的上下文大小。\"}if(p.name===\"Fast\"){p.name=\"快速\";if(p.markdownTooltip===\"Significantly faster but consumes more usage\")p.markdownTooltip=\"速度显著更快，但消耗更多用量\"}return p}),t}"
+  ],
+  [
+    "function dzg(e){const t=p4s(e);return t.variants=t.variants??[],t.parameterDefinitions=t.parameterDefinitions??[],t}",
+    "function dzg(e){const t=p4s(e);return t.variants=t.variants??[],t.parameterDefinitions=(t.parameterDefinitions??[]).map(function(p){if(!p)return p;if(p.name===\"Effort\"||p.name===\"Thinking intensity\"){p.name=\"思考强度\";if(p.markdownTooltip===\"Effort the model uses to generate its response.\")p.markdownTooltip=\"模型生成回复时使用的思考强度。\";else if(p.markdownTooltip===\"Controls the model thinking intensity for this run.\")p.markdownTooltip=\"控制本次运行的模型思考强度。\"}if(p.name===\"Context\"){p.name=\"上下文长度\";if(p.markdownTooltip===\"Context size used to trigger conversation compaction.\")p.markdownTooltip=\"触发对话压缩的上下文大小。\"}if(p.name===\"Fast\"){p.name=\"快速\";if(p.markdownTooltip===\"Significantly faster but consumes more usage\")p.markdownTooltip=\"速度显著更快，但消耗更多用量\"}return p}),t}"
+  ],
+  [
+    "\"New Folder\"",
+    "\"新建文件夹\""
+  ],
+  [
+    "\"New File\"",
+    "\"新建文件\""
+  ],
+  [
+    "\"Refresh Explorer\"",
+    "\"刷新资源管理器\""
+  ],
+  [
+    "\"Deleted\"",
+    "\"已删除\""
+  ],
+  [
+    "\"Terminal\"",
+    "\"终端\""
+  ],
+  [
+    "\"Preview\"",
+    "\"预览\""
+  ],
+  [
+    "label:\"Source\",ariaLabel:\"Source\"",
+    "label:\"源码\",ariaLabel:\"源码\""
+  ],
+  [
+    "Keep all changes",
+    "保留所有更改"
+  ],
+  [
+    "Review Next File",
+    "审查下一个文件"
+  ],
+  [
+    "\"Stop\"",
+    "\"停止\""
+  ],
+  [
+    "\"Review\"",
+    "\"审查\""
+  ],
+  [
+    "\"Accept\"",
+    "\"接受\""
+  ],
+  [
+    "\"Reject\"",
+    "\"拒绝\""
+  ],
+  [
+    "Repo: ",
+    "仓库："
+  ],
+  [
+    "Branch: ",
+    "分支："
+  ],
+  [
+    "\"Add Files to New Chat\"",
+    "\"添加文件到新聊天\""
+  ],
+  [
+    "\"Add Files to Chat\"",
+    "\"添加文件到聊天\""
+  ],
+  [
+    "Reveal in File Explorer",
+    "在文件资源管理器中显示"
+  ],
+  [
+    "Copy Remote URL",
+    "复制远程 URL"
+  ],
+  [
+    "Diff View",
+    "差异视图"
+  ],
+  [
+    "More search options",
+    "更多搜索选项"
+  ],
+  [
+    "Match Case",
+    "匹配大小写"
+  ],
+  [
+    "Match Whole Word",
+    "匹配整个单词"
+  ],
+  [
+    "Accept all changes",
+    "接受所有更改"
+  ],
+  [
+    "Keep All",
+    "保留全部"
+  ],
+  [
+    "} added, ${",
+    "} 新增, ${"
+  ],
+  [
+    "} deleted`",
+    "} 删除`"
+  ],
+  [
+    "} deleted)",
+    "} 删除)"
+  ],
+  [
+    "\"Keep\"",
+    "\"保留\""
+  ],
+  [
+    "Review Changes",
+    "审查更改"
+  ],
+  [
+    "\"Connection Failed\"",
+    "\"连接失败\""
+  ],
+  [
+    "\"Restart Browser\"",
+    "\"重启浏览器\""
+  ],
+  [
+    "Show ${",
+    "显示 ${"
+  ],
+  [
+    "} enabled`",
+    "} 已启用`"
+  ],
+  [
+    "Add for Myself",
+    "为我添加"
+  ],
+  [
+    "Add to Project",
+    "添加到项目"
+  ],
+  [
+    "Show Output",
+    "显示输出"
+  ],
+  [
+    "\"Private\"",
+    "\"私有\""
+  ],
+  [
+    "\"Disabled\"",
+    "\"已禁用\""
+  ],
+  [
+    "\"Personal\"",
+    "\"个人\""
+  ],
+  [
+    "hintText:\"Delete\"",
+    "hintText:\"删除\""
+  ],
+  [
+    "No MCP Tools",
+    "没有 MCP 工具"
+  ],
+  [
+    "Add a custom MCP tool here or configure project-specific tools in",
+    "在此添加自定义 MCP 工具，或在项目专用工具中配置"
+  ],
+  [
+    "Add Custom MCP",
+    "添加自定义 MCP"
+  ],
+  [
+    "Open in Browser",
+    "在浏览器中打开"
+  ],
+  [
+    "Add File to Cursor Chat",
+    "添加文件到 Cursor 聊天"
+  ],
+  [
+    "Add File to New Cursor Chat",
+    "添加文件到新 Cursor 聊天"
+  ],
+  [
+    "\"AI Code Tracking Stats - Agent\"",
+    "\"AI 代码追踪统计 - 智能体\""
+  ],
+  [
+    "\"AI Code Tracking Stats - Tab\"",
+    "\"AI 代码追踪统计 - Tab\""
+  ],
+  [
+    "More actions",
+    "更多操作"
+  ],
+  [
+    "Render Whitespace",
+    "显示空白"
+  ],
+  [
+    "Check for updates",
+    "检查更新"
+  ],
+  [
+    "Copy version info",
+    "复制版本信息"
+  ],
+  [
+    "Go to File",
+    "转到文件"
+  ],
+  [
+    "Go to Symbol in Workspace",
+    "转到工作区中的符号"
+  ],
+  [
+    "Hard reload (clears cache)",
+    "硬重新加载(清除缓存)"
+  ],
+  [
+    "Auto-Review",
+    "自动审查"
+  ],
+  [
+    "API requests",
+    "API 请求"
+  ],
+  [
+    "Agent requests",
+    "智能体请求"
+  ],
+  [
+    "Codebase indexing",
+    "代码库索引"
+  ],
+  [
+    "Authentication UI (login page)",
+    "身份验证界面(登录页)"
+  ],
+  [
+    "Extension marketplace",
+    "扩展市场"
+  ],
+  [
+    "Marketplace CDN",
+    "市场 CDN"
+  ],
+  [
+    "Client updates",
+    "客户端更新"
+  ],
+  [
+    "Good response",
+    "良好回复"
+  ],
+  [
+    "Bad response",
+    "不良回复"
+  ],
+  [
+    "Copy Message",
+    "复制消息"
+  ],
+  [
+    "Show all (<!> more)",
+    "显示全部(<!> 更多)"
+  ],
+  [
+    "\"Unstaged\"",
+    "\"未暂存\""
+  ],
+  [
+    "\"Staged\"",
+    "\"已暂存\""
+  ],
+  [
+    "children:\"Resume\"",
+    "children:\"继续\""
+  ],
+  [
+    "label:\"Resume\"",
+    "label:\"继续\""
+  ],
+  [
+    "Summarizing chat context",
+    "正在总结对话上下文"
+  ],
+  [
+    "\"Thought\"",
+    "\"思考\""
+  ],
+  [
+    "\"briefly\"",
+    "\"片刻\""
+  ],
+  [
+    "} ago",
+    "} 之前"
+  ],
+  [
+    "}m ago",
+    "}m 之前"
+  ],
+  [
+    "}h ago",
+    "}h 之前"
+  ],
+  [
+    "}d ago",
+    "}d 之前"
+  ],
+  [
+    "}w ago",
+    "}w 之前"
+  ],
+  [
+    "}y ago",
+    "}y 之前"
+  ],
+  [
+    "}s ago",
+    "}s 之前"
+  ],
+  [
+    "}mo ago",
+    "}mo 之前"
+  ],
+  [
+    "} days ago",
+    "} 天前"
+  ],
+  [
+    "\" ago",
+    "\" 之前"
+  ],
+  [
+    "m ago\"",
+    "m 之前\""
+  ],
+  [
+    "h ago\"",
+    "h 之前\""
+  ],
+  [
+    "\"Ran\"",
+    "\"已运行\""
+  ],
+  [
+    "\"Exploring\"",
+    "\"正在探索\""
+  ],
+  [
+    "\"Worked\"",
+    "\"已工作\""
+  ],
+  [
+    "Loading Chat",
+    "正在加载对话"
+  ],
+  [
+    "Loading chat",
+    "正在加载对话"
+  ],
+  [
+    "\"Reconnecting...\"",
+    "\"正在重新连接...\""
+  ],
+  [
+    "\"Reconnecting\"",
+    "\"正在重新连接\""
+  ],
+  [
+    "\"Try again\"",
+    "\"重试\""
+  ],
+  [
+    "Planning next moves",
+    "正在规划下一步"
+  ],
+  [
+    "\"Thinking\"",
+    "\"思考中\""
+  ],
+  [
+    "\"Editor\"",
+    "\"编辑器\""
+  ],
+  [
+    "\"Explored\"",
+    "\"已探索\""
+  ],
+  [
+    "\"Waited\"",
+    "\"已等待\""
+  ],
+  [
+    "completed:\"Listed\"",
+    "completed:\"已列出\""
+  ],
+  [
+    "completed:\"Grepped\"",
+    "completed:\"已搜索\""
+  ],
+  [
+    "loading:\"Waiting\"",
+    "loading:\"正在等待\""
+  ],
+  [
+    "loading:\"Listing\"",
+    "loading:\"正在列出\""
+  ],
+  [
+    "loading:\"Grepping\"",
+    "loading:\"正在搜索\""
+  ],
+  [
+    "loading:\"Exploring\"",
+    "loading:\"正在探索\""
+  ],
+  [
+    "\"Preparing\\u2026\"",
+    "\"正在准备…\""
+  ],
+  [
+    "\"Warming up\\u2026\"",
+    "\"正在预热…\""
+  ],
+  [
+    "\"Updating canvas\\u2026\"",
+    "\"正在更新画布…\""
+  ],
+  [
+    "\"Waiting for environment\\u2026\"",
+    "\"等待环境…\""
+  ],
+  [
+    "\"Applying changes locally\\u2026\"",
+    "\"正在本地应用更改…\""
+  ],
+  [
+    "\"Processing voice input\\u2026\"",
+    "\"正在处理语音输入…\""
+  ],
+  [
+    "\"Show all models\\u2026\"",
+    "\"显示所有模型…\""
+  ],
+  [
+    "\"Enter to send \\xB7 Esc to skip\"",
+    "\"回车发送 · Esc 跳过\""
+  ],
+  [
+    "\"Index Link \\u23CE\"",
+    "\"索引链接 ⏎\""
+  ],
+  [
+    "\"Bulk Import Chats \\u2014 pick directory of exported chats\"",
+    "\"批量导入对话 — 选择导出的对话目录\""
+  ],
+  [
+    "\"Blocked URL: \"",
+    "\"被阻止的 URL: \""
+  ],
+  [
+    "Chat context summarized",
+    "对话上下文已总结"
+  ],
+  [
+    "Unable to open",
+    "无法打开"
+  ],
+  [
+    "Read attempted",
+    "已尝试读取"
+  ],
+  [
+    "Disable Inline Diffs",
+    "禁用内联差异"
+  ],
+  [
+    "Enable auto-keep to have changes be updated automatically",
+    "启用自动保留，使更改自动更新"
+  ],
+  [
+    "Enable auto-keep",
+    "启用自动保留"
+  ],
+  [
+    "Worked for ",
+    "工作了 "
+  ],
+  [
+    "action:\"Skipped\"",
+    "action:\"已跳过\""
+  ],
+  [
+    "children:\"Skipped\"",
+    "children:\"已跳过\""
+  ],
+  [
+    "?\"Skipped\"",
+    "?\"已跳过\""
+  ],
+  [
+    "loading:\"Running\"",
+    "loading:\"运行中\""
+  ],
+  [
+    "completed:\"Ran\"",
+    "completed:\"已运行\""
+  ],
+  [
+    "loading:\"Reading\"",
+    "loading:\"正在读取\""
+  ],
+  [
+    "completed:\"Read\"",
+    "completed:\"已读取\""
+  ],
+  [
+    "loading:\"Writing\"",
+    "loading:\"正在写入\""
+  ],
+  [
+    "completed:\"Wrote\"",
+    "completed:\"已写入\""
+  ],
+  [
+    "loading:\"Searching\"",
+    "loading:\"正在搜索\""
+  ],
+  [
+    "completed:\"Searched\"",
+    "completed:\"已搜索\""
+  ],
+  [
+    "loading:\"Processing\"",
+    "loading:\"正在处理\""
+  ],
+  [
+    "completed:\"Processed\"",
+    "completed:\"已处理\""
+  ],
+  [
+    "loading:\"Executing\"",
+    "loading:\"正在执行\""
+  ],
+  [
+    "completed:\"Executed\"",
+    "completed:\"已执行\""
+  ],
+  [
+    "loading:\"Fetching\"",
+    "loading:\"正在获取\""
+  ],
+  [
+    "completed:\"Fetched\"",
+    "completed:\"已获取\""
+  ],
+  [
+    "loading:\"Editing\"",
+    "loading:\"正在编辑\""
+  ],
+  [
+    "completed:\"Edited\"",
+    "completed:\"已编辑\""
+  ],
+  [
+    "loading:\"Planning\"",
+    "loading:\"正在规划\""
+  ],
+  [
+    "completed:\"Planned\"",
+    "completed:\"已规划\""
+  ],
+  [
+    "loading:\"Reflecting\"",
+    "loading:\"正在反思\""
+  ],
+  [
+    "completed:\"Reflected\"",
+    "completed:\"已反思\""
+  ],
+  [
+    "loading:\"Updating todos\"",
+    "loading:\"正在更新待办\""
+  ],
+  [
+    "completed:\"Updated todos\"",
+    "completed:\"已更新待办\""
+  ],
+  [
+    "loading:\"Reading todos\"",
+    "loading:\"正在读取待办\""
+  ],
+  [
+    "completed:\"Read todos\"",
+    "completed:\"已读取待办\""
+  ],
+  [
+    "loading:\"Reading lints\"",
+    "loading:\"正在读取 Lints\""
+  ],
+  [
+    "completed:\"Read lints\"",
+    "completed:\"已读取 Lints\""
+  ],
+  [
+    "loading:\"Exploring tools\"",
+    "loading:\"正在探索工具\""
+  ],
+  [
+    "completed:\"Explored tools\"",
+    "completed:\"已探索工具\""
+  ],
+  [
+    "loading:\"Writing plan\"",
+    "loading:\"正在编写计划\""
+  ],
+  [
+    "completed:\"Wrote plan\"",
+    "completed:\"已编写计划\""
+  ],
+  [
+    "loading:\"Searching web\"",
+    "loading:\"正在搜索网页\""
+  ],
+  [
+    "completed:\"Searched web\"",
+    "completed:\"已搜索网页\""
+  ],
+  [
+    "loading:\"Working on task\"",
+    "loading:\"正在处理任务\""
+  ],
+  [
+    "completed:\"Completed task\"",
+    "completed:\"已完成任务\""
+  ],
+  [
+    "loading:\"Listing resources\"",
+    "loading:\"正在列出资源\""
+  ],
+  [
+    "completed:\"Listed resources\"",
+    "completed:\"已列出资源\""
+  ],
+  [
+    "loading:\"Reading resource\"",
+    "loading:\"正在读取资源\""
+  ],
+  [
+    "completed:\"Read resource\"",
+    "completed:\"已读取资源\""
+  ],
+  [
+    "loading:\"Applying diff\"",
+    "loading:\"正在应用差异\""
+  ],
+  [
+    "completed:\"Applied diff\"",
+    "completed:\"已应用差异\""
+  ],
+  [
+    "loading:\"Asking questions\"",
+    "loading:\"正在提问\""
+  ],
+  [
+    "completed:\"Asked questions\"",
+    "completed:\"已提问\""
+  ],
+  [
+    "loading:\"Looking up blame\"",
+    "loading:\"正在查看 Blame\""
+  ],
+  [
+    "completed:\"Looked up blame\"",
+    "completed:\"已查看 Blame\""
+  ],
+  [
+    "loading:\"Switching mode\"",
+    "loading:\"正在切换模式\""
+  ],
+  [
+    "completed:\"Switched mode\"",
+    "completed:\"已切换模式\""
+  ],
+  [
+    "loading:\"Generating image\"",
+    "loading:\"正在生成图片\""
+  ],
+  [
+    "completed:\"Generated image\"",
+    "completed:\"已生成图片\""
+  ],
+  [
+    "loading:\"Recording screen\"",
+    "loading:\"正在录制屏幕\""
+  ],
+  [
+    "completed:\"Recorded screen\"",
+    "completed:\"已录制屏幕\""
+  ],
+  [
+    "loading:\"Using computer\"",
+    "loading:\"正在使用电脑\""
+  ],
+  [
+    "completed:\"Used computer\"",
+    "completed:\"已使用电脑\""
+  ],
+  [
+    "loading:\"Writing to shell\"",
+    "loading:\"正在写入 Shell\""
+  ],
+  [
+    "completed:\"Wrote to shell\"",
+    "completed:\"已写入 Shell\""
+  ],
+  [
+    "loading:\"Setting up VM\"",
+    "loading:\"正在配置虚拟机\""
+  ],
+  [
+    "completed:\"Set up VM\"",
+    "completed:\"已配置虚拟机\""
+  ],
+  [
+    "loading:\"Replacing environment\"",
+    "loading:\"正在替换环境\""
+  ],
+  [
+    "completed:\"Replaced environment\"",
+    "completed:\"已替换环境\""
+  ],
+  [
+    "loading:\"Searching conversations\"",
+    "loading:\"正在搜索对话\""
+  ],
+  [
+    "completed:\"Searched conversations\"",
+    "completed:\"已搜索对话\""
+  ],
+  [
+    "loading:\"Creating goal\"",
+    "loading:\"正在创建目标\""
+  ],
+  [
+    "completed:\"Created goal\"",
+    "completed:\"已创建目标\""
+  ],
+  [
+    "loading:\"Updating goal\"",
+    "loading:\"正在更新目标\""
+  ],
+  [
+    "completed:\"Updated goal\"",
+    "completed:\"已更新目标\""
+  ],
+  [
+    "loading:\"Fetching page\"",
+    "loading:\"正在获取页面\""
+  ],
+  [
+    "completed:\"Fetched page\"",
+    "completed:\"已获取页面\""
+  ],
+  [
+    "loading:\"Reporting results\"",
+    "loading:\"正在报告结果\""
+  ],
+  [
+    "completed:\"Reported results\"",
+    "completed:\"已报告结果\""
+  ],
+  [
+    "loading:\"Learning from Cursor Blame\"",
+    "loading:\"正在从 Cursor Blame 学习\""
+  ],
+  [
+    "completed:\"Learned from Cursor Blame\"",
+    "completed:\"已从 Cursor Blame 学习\""
+  ],
+  [
+    "loading:\"Updating progress\"",
+    "loading:\"正在更新进度\""
+  ],
+  [
+    "completed:\"Updated progress\"",
+    "completed:\"已更新进度\""
+  ],
+  [
+    "loading:\"Managing PR\"",
+    "loading:\"正在管理 PR\""
+  ],
+  [
+    "completed:\"Managed PR\"",
+    "completed:\"已管理 PR\""
+  ],
+  [
+    "loading:\"Editing PR labels\"",
+    "loading:\"正在编辑 PR 标签\""
+  ],
+  [
+    "completed:\"Edited PR labels\"",
+    "completed:\"已编辑 PR 标签\""
+  ],
+  [
+    "loading:\"Fetching cloud agent data\"",
+    "loading:\"正在获取云智能体数据\""
+  ],
+  [
+    "completed:\"Fetched cloud agent data\"",
+    "completed:\"已获取云智能体数据\""
+  ],
+  [
+    "loading:\"Authenticating MCP server\"",
+    "loading:\"正在认证 MCP 服务器\""
+  ],
+  [
+    "completed:\"Authenticated MCP server\"",
+    "completed:\"已认证 MCP 服务器\""
+  ],
+  [
+    "loading:\"Connecting GitHub\"",
+    "loading:\"正在连接 GitHub\""
+  ],
+  [
+    "completed:\"Connected GitHub\"",
+    "completed:\"已连接 GitHub\""
+  ],
+  [
+    "loading:\"Reporting bug\"",
+    "loading:\"正在报告 Bug\""
+  ],
+  [
+    "completed:\"Reported bug\"",
+    "completed:\"已报告 Bug\""
+  ],
+  [
+    "loading:\"Recording final summary\"",
+    "loading:\"正在记录最终总结\""
+  ],
+  [
+    "completed:\"Recorded final summary\"",
+    "completed:\"已记录最终总结\""
+  ],
+  [
+    "loading:\"Sending message\"",
+    "loading:\"正在发送消息\""
+  ],
+  [
+    "completed:\"Sent message\"",
+    "completed:\"已发送消息\""
+  ],
+  [
+    "loading:\"Updating metadata\"",
+    "loading:\"正在更新元数据\""
+  ],
+  [
+    "completed:\"Updated metadata\"",
+    "completed:\"已更新元数据\""
+  ],
+  [
+    "loading:\"Updating code tour\"",
+    "loading:\"正在更新代码导览\""
+  ],
+  [
+    "completed:\"Updated code tour\"",
+    "completed:\"已更新代码导览\""
+  ],
+  [
+    "loading:\"Recording CI findings\"",
+    "loading:\"正在记录 CI 结果\""
+  ],
+  [
+    "completed:\"Recorded CI findings\"",
+    "completed:\"已记录 CI 结果\""
+  ],
+  [
+    "general:\"General\"",
+    "general:\"通用\""
+  ],
+  [
+    "profile:\"Profile\"",
+    "profile:\"个人资料\""
+  ],
+  [
+    "appearance:\"Appearance\"",
+    "appearance:\"外观\""
+  ],
+  [
+    "fun:\"Fun\"",
+    "fun:\"趣味\""
+  ],
+  [
+    "\"vscode-settings\":\"VS Code Settings\"",
+    "\"vscode-settings\":\"VS Code 设置\""
+  ],
+  [
+    "\"plan-usage\":\"Plan & Usage\"",
+    "\"plan-usage\":\"套餐与用量\""
+  ],
+  [
+    "Open VS Code Settings",
+    "打开 VS Code 设置"
+  ],
+  [
+    "children:\"Manage View\"",
+    "children:\"管理视图\""
+  ],
+  [
+    "children:\"Group By\"",
+    "children:\"分组方式\""
+  ],
+  [
+    "chat:\"Agents\"",
+    "chat:\"智能体\""
+  ],
+  [
+    "browser:\"Browser & Network\"",
+    "browser:\"浏览器与网络\""
+  ],
+  [
+    "tab:\"Tab\"",
+    "tab:\"Tab 补全\""
+  ],
+  [
+    "models:\"Models\"",
+    "models:\"模型\""
+  ],
+  [
+    "\"git-prs\":\"Git & PRs\"",
+    "\"git-prs\":\"Git 与 PR\""
+  ],
+  [
+    "mcp:\"Tools & MCPs\"",
+    "mcp:\"工具与 MCP\""
+  ],
+  [
+    "hooks:\"Hooks\"",
+    "hooks:\"钩子\""
+  ],
+  [
+    "beta:\"Beta\"",
+    "beta:\"测试功能\""
+  ],
+  [
+    "network:\"Network\"",
+    "network:\"网络\""
+  ],
+  [
+    "customize:\"Customize\"",
+    "customize:\"自定义\""
+  ],
+  [
+    "\"self-driving\":\"Self-driving PRs\"",
+    "\"self-driving\":\"自动 PR\""
+  ],
+  [
+    "developer:\"Developer\"",
+    "developer:\"开发者\""
+  ],
+  [
+    "worktrees:\"Worktrees\"",
+    "worktrees:\"工作树\""
+  ],
+  [
+    "docs:\"Docs\"",
+    "docs:\"官方文档\""
+  ],
+  [
+    "`Search settings ${ne()}`",
+    "`搜索设置 ${ne()}`"
+  ],
+  [
+    "n.isGlass?\"Indexing\":\"索引与文档\"",
+    "n.isGlass?\"索引\":\"索引与文档\""
+  ],
+  [
+    "title:\"Conversation\"",
+    "title:\"对话\""
+  ],
+  [
+    "s===void 0?\"Automations\":s",
+    "s===void 0?\"自动化\":s"
+  ],
+  [
+    "label:\"Conversation\"",
+    "label:\"对话\""
+  ],
+  [
+    "\"<div>Web Search Tool\"",
+    "\"<div>网络搜索工具\""
+  ],
+  [
+    ">Resets on ",
+    ">重置于 "
+  ],
+  [
+    "title:\"Authentication\"",
+    "title:\"身份验证\""
+  ],
+  [
+    "\"Authentication error\"",
+    "\"身份验证错误\""
+  ],
+  [
+    "'Authentication error'",
+    "'身份验证错误'"
+  ],
+  [
+    "`Authentication error`",
+    "`身份验证错误`"
+  ],
+  [
+    "title:\"Authentication error\"",
+    "title:\"身份验证错误\""
+  ],
+  [
+    "children:\"Authentication error\"",
+    "children:\"身份验证错误\""
+  ],
+  [
+    "\"If you are logged in, try logging out and back in.\"",
+    "\"如果您已登录，请尝试退出后重新登录。\""
+  ],
+  [
+    "'If you are logged in, try logging out and back in.'",
+    "'如果您已登录，请尝试退出后重新登录。'"
+  ],
+  [
+    "`If you are logged in, try logging out and back in.`",
+    "`如果您已登录，请尝试退出后重新登录。`"
+  ],
+  [
+    "children:\"If you are logged in, try logging out and back in.\"",
+    "children:\"如果您已登录，请尝试退出后重新登录。\""
+  ],
+  [
+    "\"Copy Request\"",
+    "\"复制请求\""
+  ],
+  [
+    "'Copy Request'",
+    "'复制请求'"
+  ],
+  [
+    "`Copy Request`",
+    "`复制请求`"
+  ],
+  [
+    "\"Copy Request (",
+    "\"复制请求 ("
+  ],
+  [
+    "'Copy Request (",
+    "'复制请求 ("
+  ],
+  [
+    "`Copy Request (${",
+    "`复制请求 (${"
+  ],
+  [
+    "label:\"Copy Request\"",
+    "label:\"复制请求\""
+  ],
+  [
+    "children:\"Copy Request\"",
+    "children:\"复制请求\""
+  ],
+  [
+    "label:\"Wait for MCP Authentication\"",
+    "label:\"等待 MCP 身份验证\""
+  ],
+  [
+    "description:\"Wait indefinitely to authenticate when prompted. When off, skip authentication prompts after 30 seconds.\"",
+    "description:\"出现身份验证提示时会一直等待。关闭后，30 秒后跳过身份验证提示。\""
+  ],
+  [
+    "<div>Browser Automation</div>",
+    "<div>浏览器自动化</div>"
+  ],
+  [
+    "\"Connected to Browser Tab\"",
+    "\"已连接到浏览器标签页\""
+  ],
+  [
+    "\"Checking status...\"",
+    "\"正在检查状态...\""
+  ],
+  [
+    "<div class=mcp-server-item-main-content-name>New MCP Server</div>",
+    "<div class=mcp-server-item-main-content-name>新建 MCP 服务器</div>"
+  ],
+  [
+    "return n.isBlocked?n.blockedMessage??\"Blocked by admin\":\"Disabled\"",
+    "return n.isBlocked?n.blockedMessage??\"被管理员阻止\":\"已禁用\""
+  ],
+  [
+    "return\"Needs authentication\"",
+    "return\"需要身份验证\""
+  ],
+  [
+    "return n.error===M0w?n.error:\"Error - Show Output\"",
+    "return n.error===M0w?n.error:\"错误 - 显示输出\""
+  ],
+  [
+    "return\"Loading tools\"",
+    "return\"正在加载工具\""
+  ],
+  [
+    "return\"Disabled\"",
+    "return\"已禁用\""
+  ],
+  [
+    "hSE=et(\"<div class=mcp-tools-toggle-message>Show less\")",
+    "hSE=et(\"<div class=mcp-tools-toggle-message>收起\")"
+  ],
+  [
+    "\"Exchanging token...\"",
+    "\"正在交换令牌...\""
+  ],
+  [
+    "\"Waiting for callback...\"",
+    "\"正在等待回调...\""
+  ],
+  [
+    "\"Authenticating...\"",
+    "\"正在验证...\""
+  ],
+  [
+    "\"Authenticate\"",
+    "\"身份验证\""
+  ],
+  [
+    "label:\"Edit MCP configuration\"",
+    "label:\"编辑 MCP 配置\""
+  ],
+  [
+    "label:\"Delete MCP server\"",
+    "label:\"删除 MCP 服务器\""
+  ],
+  [
+    "\"Reloading MCP server...\"",
+    "\"正在重新加载 MCP 服务器...\""
+  ],
+  [
+    "\"Reload MCP server\"",
+    "\"重新加载 MCP 服务器\""
+  ],
+  [
+    "\"API Keys\"",
+    "\"API 密钥\""
+  ],
+  [
+    "<div class=settings-menu-hoverable><div></div><div>API Keys",
+    "<div class=settings-menu-hoverable><div></div><div>API 密钥"
+  ],
+  [
+    "\"OpenAI API Key\"",
+    "\"OpenAI API 密钥\""
+  ],
+  [
+    "\"Enter your OpenAI API Key\"",
+    "\"请输入 OpenAI API 密钥\""
+  ],
+  [
+    "placeholder:\"Enter your Azure OpenAI API Key\"",
+    "placeholder:\"请输入 Azure OpenAI API 密钥\""
+  ],
+  [
+    "\"Override OpenAI Base URL\"",
+    "\"覆盖 OpenAI 基础 URL\""
+  ],
+  [
+    "\"Change the base URL for OpenAI API requests.\"",
+    "\"修改 OpenAI API 请求的基础 URL。\""
+  ],
+  [
+    "\"Anthropic API Key\"",
+    "\"Anthropic API 密钥\""
+  ],
+  [
+    "\"Enter your Anthropic API Key\"",
+    "\"请输入 Anthropic API 密钥\""
+  ],
+  [
+    "\"Google API Key\"",
+    "\"Google API 密钥\""
+  ],
+  [
+    "\"Enter your Google AI Studio API Key\"",
+    "\"请输入 Google AI Studio API 密钥\""
+  ],
+  [
+    "\"Configure Azure OpenAI to use OpenAI models through your Azure account.\"",
+    "\"配置 Azure OpenAI，通过你的 Azure 账号使用 OpenAI 模型。\""
+  ],
+  [
+    "\"Base URL\"",
+    "\"基础 URL\""
+  ],
+  [
+    "label:\"API Key\"",
+    "label:\"API 密钥\""
+  ],
+  [
+    "\"You can put in \"",
+    "\"你可以填写 \""
+  ],
+  [
+    "\"You can put in\"",
+    "\"你可以填写\""
+  ],
+  [
+    "\"your OpenAI key\"",
+    "\"你的 OpenAI 密钥\""
+  ],
+  [
+    "<span>your OpenAI key",
+    "<span>你的 OpenAI 密钥"
+  ],
+  [
+    "\"to use OpenAI models at cost.\"",
+    "\"以按成本使用 OpenAI 模型。\""
+  ],
+  [
+    "\" to use OpenAI models at cost.\"",
+    "\"，以按成本使用 OpenAI 模型。\""
+  ],
+  [
+    "\"your Anthropic key\"",
+    "\"你的 Anthropic 密钥\""
+  ],
+  [
+    "<span>your Anthropic key",
+    "<span>你的 Anthropic 密钥"
+  ],
+  [
+    "'to use Claude at cost. When enabled, this key will be used for all models beginning with \"claude-\".'",
+    "'以按成本使用 Claude。启用后，此密钥将用于所有以 \"claude-\" 开头的模型。'"
+  ],
+  [
+    "\"to use Claude at cost. When enabled, this key will be used for all models beginning with \\\"claude-\\\".\"",
+    "\"以按成本使用 Claude。启用后，此密钥将用于所有以 \\\"claude-\\\" 开头的模型。\""
+  ],
+  [
+    "\" to use Claude at cost. When enabled, this key will be used for all models beginning with \\\"claude-\\\".\"",
+    "\"，以按成本使用 Claude。启用后，此密钥将用于所有以 \\\"claude-\\\" 开头的模型。\""
+  ],
+  [
+    "\"your Google AI Studio key\"",
+    "\"你的 Google AI Studio 密钥\""
+  ],
+  [
+    "<span>your Google AI Studio key",
+    "<span>你的 Google AI Studio 密钥"
+  ],
+  [
+    "\"to use Google models at-cost.\"",
+    "\"以按成本使用 Google 模型。\""
+  ],
+  [
+    "\" to use Google models at-cost.\"",
+    "\"，以按成本使用 Google 模型。\""
+  ],
+  [
+    "\"Cloud Agents Unavailable\"",
+    "\"云端智能体不可用\""
+  ],
+  [
+    "title:\"Loading\"",
+    "title:\"加载中\""
+  ],
+  [
+    "description:\"Loading Cloud Agents settings...\"",
+    "description:\"正在加载云端智能体设置...\""
+  ],
+  [
+    "\"Cloud Agents require data storage to function.\"",
+    "\"云端智能体需要数据存储才能运行。\""
+  ],
+  [
+    "\"Privacy Mode Enabled\"",
+    "\"隐私模式已启用\""
+  ],
+  [
+    "\"Cloud Agents are not available when your privacy mode is set to disable data storage. To use Cloud Agents, please update your privacy settings to allow data storage.\"",
+    "\"当隐私模式设置为禁用数据存储时，云端智能体不可用。要使用云端智能体，请更新隐私设置以允许数据存储。\""
+  ],
+  [
+    "\"Open Privacy Settings\"",
+    "\"打开隐私设置\""
+  ],
+  [
+    "title:\"Get Started\"",
+    "title:\"开始使用\""
+  ],
+  [
+    "title:\"Open a Git repository\"",
+    "title:\"打开 Git 仓库\""
+  ],
+  [
+    "\"Open a folder that contains a Git repository to configure Cloud Agents.\"",
+    "\"打开包含 Git 仓库的文件夹以配置云端智能体。\""
+  ],
+  [
+    "actionTitle:\"Open Folder\"",
+    "actionTitle:\"打开文件夹\""
+  ],
+  [
+    "label:\"Manage Settings\"",
+    "label:\"管理设置\""
+  ],
+  [
+    "\"No Plugins\"",
+    "\"暂无插件\""
+  ],
+  [
+    "\"Browse the marketplace or import custom plugins to extend Cursor with Skills, Rules, Agents, Hooks, and MCPs.\"",
+    "\"浏览插件市场或导入自定义插件，用技能、规则、智能体、钩子和 MCP 扩展 Cursor。\""
+  ],
+  [
+    "children:\"Browse the marketplace or import custom plugins to extend\"",
+    "children:\"浏览插件市场或导入自定义插件来扩展\""
+  ],
+  [
+    "children:\"Cursor with Skills, Rules, Agents, Hooks, and MCPs.\"",
+    "children:\"Cursor 的技能、规则、智能体、钩子和 MCP。\""
+  ],
+  [
+    "\"Add Plugin\"",
+    "\"添加插件\""
+  ],
+  [
+    "\"Add Plugins\"",
+    "\"添加插件\""
+  ],
+  [
+    "\"aria-label\":\"Add Plugins\"",
+    "\"aria-label\":\"添加插件\""
+  ],
+  [
+    "\"Search the marketplace\"",
+    "\"搜索插件市场\""
+  ],
+  [
+    "placeholder:\"Search the marketplace\"",
+    "placeholder:\"搜索插件市场\""
+  ],
+  [
+    "\"Loading plugins...\"",
+    "\"正在加载插件...\""
+  ],
+  [
+    "<span>Loading plugins...",
+    "<span>正在加载插件..."
+  ],
+  [
+    "\"No result\"",
+    "\"无结果\""
+  ],
+  [
+    "\"No Result\"",
+    "\"无结果\""
+  ],
+  [
+    "children:\"No results\"",
+    "children:\"无结果\""
+  ],
+  [
+    "children:\"No results found\"",
+    "children:\"未找到结果\""
+  ],
+  [
+    "children:\"No Results\"",
+    "children:\"无结果\""
+  ],
+  [
+    "children:\"No Results Found\"",
+    "children:\"未找到结果\""
+  ],
+  [
+    "children:\"No files found\"",
+    "children:\"未找到文件\""
+  ],
+  [
+    "children:\"No matches found\"",
+    "children:\"未找到匹配项\""
+  ],
+  [
+    "children:\"No plugins found\"",
+    "children:\"未找到插件\""
+  ],
+  [
+    "children:\"No plugins found in this repository.\"",
+    "children:\"此仓库中未找到插件。\""
+  ],
+  [
+    "children:\"No plugins match your search.\"",
+    "children:\"没有插件匹配你的搜索。\""
+  ],
+  [
+    "children:\"All plugins have been added.\"",
+    "children:\"所有插件均已添加。\""
+  ],
+  [
+    "children:\"All plugins from this repository have already been added.\"",
+    "children:\"此仓库中的所有插件均已添加。\""
+  ],
+  [
+    "children:\"Add plugins or import from GitHub to make them available for your team.\"",
+    "children:\"添加插件或从 GitHub 导入，使团队可以使用它们。\""
+  ],
+  [
+    "\"Try changing your search query\"",
+    "\"请尝试修改搜索条件\""
+  ],
+  [
+    "children:\"Try a different search term or browse by category\"",
+    "children:\"请尝试其他搜索词或按分类浏览\""
+  ],
+  [
+    "children:\"Try different filters\"",
+    "children:\"请尝试不同筛选条件\""
+  ],
+  [
+    "\"Import Marketplace...\"",
+    "\"导入插件市场...\""
+  ],
+  [
+    "\"Manage plugins\"",
+    "\"管理插件\""
+  ],
+  [
+    "children:\"Browse Marketplace\"",
+    "children:\"浏览插件市场\""
+  ],
+  [
+    "title:\"Results\"",
+    "title:\"结果\""
+  ],
+  [
+    "title:\"Suggested\"",
+    "title:\"推荐\""
+  ],
+  [
+    "title:It?\"Results\":\"Suggested\"",
+    "title:It?\"结果\":\"推荐\""
+  ],
+  [
+    "children:\"Suggested\"",
+    "children:\"推荐\""
+  ],
+  [
+    "<h3 class=cloud-mcp-marketplace-title>Browse MCPs</h3>",
+    "<h3 class=cloud-mcp-marketplace-title>浏览 MCP</h3>"
+  ],
+  [
+    "placeholder=\"Search anything\"",
+    "placeholder=\"搜索任何内容\""
+  ],
+  [
+    "placeholder:\"Search\"",
+    "placeholder:\"搜索\""
+  ],
+  [
+    "placeholder:\"Search or Paste Link\"",
+    "placeholder:\"搜索或粘贴链接\""
+  ],
+  [
+    "\"Agent Execution Timed Out\"",
+    "\"智能体执行超时\""
+  ],
+  [
+    "\"The agent execution provider did not respond in time. This may indicate the extension host is not running or is unresponsive.\"",
+    "\"智能体执行提供程序未及时响应。这可能表示扩展主机未运行或无响应。\""
+  ],
+  [
+    "\"Reload Window\"",
+    "\"重新加载窗口\""
+  ],
+  [
+    "label:\"Reload Window\"",
+    "label:\"重新加载窗口\""
+  ],
+  [
+    "children:\"Reload Window\"",
+    "children:\"重新加载窗口\""
+  ],
+  [
+    "children:\"An unexpected error occurred. Reload the window to try again.\"",
+    "children:\"发生意外错误。请重新加载窗口后重试。\""
+  ],
+  [
+    "children:\"Copy Error\"",
+    "children:\"复制错误\""
+  ],
+  [
+    "children:\"Rendering diagram...\"",
+    "children:\"正在渲染图表...\""
+  ],
+  [
+    "children:\"Mermaid Syntax Error\"",
+    "children:\"Mermaid 语法错误\""
+  ],
+  [
+    "children:\"View diagram source\"",
+    "children:\"查看图表源码\""
+  ],
+  [
+    "children:\"Open in Terminal Pane\"",
+    "children:\"在终端面板中打开\""
+  ],
+  [
+    "children:\"Copy Command\"",
+    "children:\"复制命令\""
+  ],
+  [
+    "children:\"Add to Allowlist and Run\"",
+    "children:\"添加到白名单并运行\""
+  ],
+  [
+    "children:\"Empty directory\"",
+    "children:\"空目录\""
+  ],
+  [
+    "children:\"No diagnostics found\"",
+    "children:\"未发现诊断信息\""
+  ],
+  [
+    "children:\"No MCP resources available\"",
+    "children:\"暂无可用 MCP 资源\""
+  ],
+  [
+    "children:\"Waiting for upload...\"",
+    "children:\"正在等待上传...\""
+  ],
+  [
+    "children:\"This agent was working on \"",
+    "children:\"此智能体正在处理 \""
+  ],
+  [
+    "children:\"Don't ask again\"",
+    "children:\"不再询问\""
+  ],
+  [
+    "children:\"Stay on Current Branch\"",
+    "children:\"留在当前分支\""
+  ],
+  [
+    "children:\"Checkout\"",
+    "children:\"检出\""
+  ],
+  [
+    "children:\"Agent disconnected\"",
+    "children:\"智能体已断开连接\""
+  ],
+  [
+    "children:\"View Report\"",
+    "children:\"查看报告\""
+  ],
+  [
+    "label:\"Context Usage\"",
+    "label:\"上下文用量\""
+  ],
+  [
+    "children:\"Pasted Link\"",
+    "children:\"已粘贴链接\""
+  ],
+  [
+    "children:\"Remote HTTPS\"",
+    "children:\"远程 HTTPS\""
+  ],
+  [
+    "label:\"Command\"",
+    "label:\"命令\""
+  ],
+  [
+    "label:\"Arguments\"",
+    "label:\"参数\""
+  ],
+  [
+    "label:\"Secrets\"",
+    "label:\"密钥\""
+  ],
+  [
+    "label:\"Server URL\"",
+    "label:\"服务器 URL\""
+  ],
+  [
+    "label:\"HTTP headers\"",
+    "label:\"HTTP 请求头\""
+  ],
+  [
+    "label:\"Client ID\"",
+    "label:\"客户端 ID\""
+  ],
+  [
+    "label:\"Client Secret\"",
+    "label:\"客户端密钥\""
+  ],
+  [
+    "placeholder:\"OAuth Client ID (optional)\"",
+    "placeholder:\"OAuth 客户端 ID（可选）\""
+  ],
+  [
+    "placeholder:\"OAuth Client Secret (optional)\"",
+    "placeholder:\"OAuth 客户端密钥（可选）\""
+  ],
+  [
+    "children:\"Add MCP Server\"",
+    "children:\"添加 MCP 服务器\""
+  ],
+  [
+    "children:\"Clear variables\"",
+    "children:\"清除变量\""
+  ],
+  [
+    "title:\"Team Access\"",
+    "title:\"团队访问权限\""
+  ],
+  [
+    "title:\"Plugin Settings\"",
+    "title:\"插件设置\""
+  ],
+  [
+    "children:\"All Members\"",
+    "children:\"所有成员\""
+  ],
+  [
+    "children:\"Marketplace Settings\"",
+    "children:\"插件市场设置\""
+  ],
+  [
+    "label:\"Marketplace Access\"",
+    "label:\"插件市场访问权限\""
+  ],
+  [
+    "description:\"Select who can see and use plugins from this team marketplace\"",
+    "description:\"选择谁可以查看和使用此团队插件市场中的插件\""
+  ],
+  [
+    "label:\"Enable Auto Refresh\"",
+    "label:\"启用自动刷新\""
+  ],
+  [
+    "description:\"Automatically update plugins when changes are pushed to the repository\"",
+    "description:\"当变更推送到仓库时自动更新插件\""
+  ],
+  [
+    "label:\"Plugin Repository\"",
+    "label:\"插件仓库\""
+  ],
+  [
+    "description:\"Fetch marketplace plugins from the GitHub repository\"",
+    "description:\"从 GitHub 仓库获取插件市场插件\""
+  ],
+  [
+    "label:\"Remove Marketplace\"",
+    "label:\"移除插件市场\""
+  ],
+  [
+    "title:\"Remove marketplace?\"",
+    "title:\"移除插件市场？\""
+  ],
+  [
+    "children:\"Delete Marketplace\"",
+    "children:\"删除插件市场\""
+  ],
+  [
+    "title:\"Delete marketplace?\"",
+    "title:\"删除插件市场？\""
+  ],
+  [
+    "description:\"This marketplace and its access settings will be removed. The source repository won't be affected.\"",
+    "description:\"将移除此插件市场及其访问设置。源仓库不会受到影响。\""
+  ],
+  [
+    "description:\"This marketplace and its access settings will be removed. The repository won't be affected.\"",
+    "description:\"将移除此插件市场及其访问设置。仓库不会受到影响。\""
+  ],
+  [
+    "description:\"This marketplace will be removed from your account. The source repository won't be affected.\"",
+    "description:\"将从你的账号中移除此插件市场。源仓库不会受到影响。\""
+  ],
+  [
+    "children:\"Configure\"",
+    "children:\"配置\""
+  ],
+  [
+    "children:\"Remove\"",
+    "children:\"移除\""
+  ],
+  [
+    "children:\"Plugin\"",
+    "children:\"插件\""
+  ],
+  [
+    "children:\"MCP Server\"",
+    "children:\"MCP 服务器\""
+  ],
+  [
+    "children:\"Available Marketplaces\"",
+    "children:\"可用插件市场\""
+  ],
+  [
+    "children:\"Access Settings\"",
+    "children:\"访问设置\""
+  ],
+  [
+    "children:\"Plugin Installation\"",
+    "children:\"插件安装\""
+  ],
+  [
+    "children:\"Default Off\"",
+    "children:\"默认关闭\""
+  ],
+  [
+    "children:\"Default On\"",
+    "children:\"默认开启\""
+  ],
+  [
+    "children:\"Required\"",
+    "children:\"必需\""
+  ],
+  [
+    "children:\"Uninstall\"",
+    "children:\"卸载\""
+  ],
+  [
+    "children:\"Add for Myself\"",
+    "children:\"为自己添加\""
+  ],
+  [
+    "children:\"Add to Project\"",
+    "children:\"添加到项目\""
+  ],
+  [
+    "children:\"Add to Team\"",
+    "children:\"添加到团队\""
+  ],
+  [
+    "children:\"Finishing setup\\u2026\"",
+    "children:\"正在完成设置...\""
+  ],
+  [
+    "children:\"Imported\"",
+    "children:\"已导入\""
+  ],
+  [
+    "children:\"Local\"",
+    "children:\"本地\""
+  ],
+  [
+    "children:\"Extension\"",
+    "children:\"扩展\""
+  ],
+  [
+    "title:\"Verified\"",
+    "title:\"已验证\""
+  ],
+  [
+    "title:\"Open in Editor\"",
+    "title:\"在编辑器中打开\""
+  ],
+  [
+    "title:\"Pinned\"",
+    "title:\"已固定\""
+  ],
+  [
+    "title:\"Open debug logs\"",
+    "title:\"打开调试日志\""
+  ],
+  [
+    "title:\"Previous\"",
+    "title:\"上一个\""
+  ],
+  [
+    "title:\"Next\"",
+    "title:\"下一个\""
+  ],
+  [
+    "title:\"Scopes\"",
+    "title:\"作用域\""
+  ],
+  [
+    "title:\"Restore default parameters\"",
+    "title:\"恢复默认参数\""
+  ],
+  [
+    "title:\"Options\"",
+    "title:\"选项\""
+  ],
+  [
+    "title:\"Uncommitted Changes\"",
+    "title:\"未提交变更\""
+  ],
+  [
+    "title:\"Moving...\"",
+    "title:\"正在移动...\""
+  ],
+  [
+    "title:\"Complete\"",
+    "title:\"完成\""
+  ],
+  [
+    "title:\"Failed\"",
+    "title:\"失败\""
+  ],
+  [
+    "title:\"View plan\"",
+    "title:\"查看计划\""
+  ],
+  [
+    "title:\"Mine\"",
+    "title:\"我的\""
+  ],
+  [
+    "title:\"Shared\"",
+    "title:\"共享\""
+  ],
+  [
+    "title:\"Modes, skills, MCPs and more\"",
+    "title:\"模式、技能、MCP 等\""
+  ],
+  [
+    "title:\"Copy Code\"",
+    "title:\"复制代码\""
+  ],
+  [
+    "title:\"Download file\"",
+    "title:\"下载文件\""
+  ],
+  [
+    "title:\"Download image\"",
+    "title:\"下载图片\""
+  ],
+  [
+    "children:\"Open external link?\"",
+    "children:\"打开外部链接？\""
+  ],
+  [
+    "children:\"You're about to visit an external website.\"",
+    "children:\"你即将访问外部网站。\""
+  ],
+  [
+    "children:\"Copy link\"",
+    "children:\"复制链接\""
+  ],
+  [
+    "children:\"Open link\"",
+    "children:\"打开链接\""
+  ],
+  [
+    "title:\"Download diagram\"",
+    "title:\"下载图表\""
+  ],
+  [
+    "title:\"Download diagram as SVG\"",
+    "title:\"下载 SVG 图表\""
+  ],
+  [
+    "title:\"Download diagram as PNG\"",
+    "title:\"下载 PNG 图表\""
+  ],
+  [
+    "title:\"Download diagram as MMD\"",
+    "title:\"下载 MMD 图表\""
+  ],
+  [
+    "title:\"View fullscreen\"",
+    "title:\"全屏查看\""
+  ],
+  [
+    "title:\"Exit fullscreen\"",
+    "title:\"退出全屏\""
+  ],
+  [
+    "title:\"Copy table\"",
+    "title:\"复制表格\""
+  ],
+  [
+    "title:\"Copy table as CSV\"",
+    "title:\"复制为 CSV 表格\""
+  ],
+  [
+    "title:\"Copy table as TSV\"",
+    "title:\"复制为 TSV 表格\""
+  ],
+  [
+    "title:\"Download table\"",
+    "title:\"下载表格\""
+  ],
+  [
+    "title:\"Download table as CSV\"",
+    "title:\"下载 CSV 表格\""
+  ],
+  [
+    "title:\"Download table as Markdown\"",
+    "title:\"下载 Markdown 表格\""
+  ],
+  [
+    "title:\"Zoom in\"",
+    "title:\"放大\""
+  ],
+  [
+    "title:\"Zoom out\"",
+    "title:\"缩小\""
+  ],
+  [
+    "title:\"Reset zoom and pan\"",
+    "title:\"重置缩放和平移\""
+  ],
+  [
+    "children:\"Loading diagram...\"",
+    "children:\"正在加载图表...\""
+  ],
+  [
+    "children:\"Show Code\"",
+    "children:\"显示代码\""
+  ],
+  [
+    "currentLabel:\"Run History\"",
+    "currentLabel:\"运行历史\""
+  ],
+  [
+    "breadcrumbLabel:\"Run History\"",
+    "breadcrumbLabel:\"运行历史\""
+  ],
+  [
+    "title:\"Run History\"",
+    "title:\"运行历史\""
+  ],
+  [
+    "children:[\"Run History\",\" \"",
+    "children:[\"运行历史\",\" \""
+  ],
+  [
+    "children:\"No Runs Yet\"",
+    "children:\"暂无运行记录\""
+  ],
+  [
+    "children:\"No Automations Yet\"",
+    "children:\"暂无自动化\""
+  ],
+  [
+    "children:\"New Automation\"",
+    "children:\"新建自动化\""
+  ],
+  [
+    "children:\"Run agents on a schedule or automatically in response to events. Billed at plan rates.\"",
+    "children:\"按计划运行智能体，或响应事件自动运行。按套餐费率计费。\""
+  ],
+  [
+    "<div>No results found.",
+    "<div>未找到结果。"
+  ],
+  [
+    "emptyStateText:\"No results found\"",
+    "emptyStateText:\"未找到结果\""
+  ],
+  [
+    "children:\"No results found.\"",
+    "children:\"未找到结果。\""
+  ],
+  [
+    "placeholder:\"Search channels or paste channel ID...\"",
+    "placeholder:\"搜索频道或粘贴频道 ID...\""
+  ],
+  [
+    "children:\"Loading channels...\"",
+    "children:\"正在加载频道...\""
+  ],
+  [
+    "\"No channels available\"",
+    "\"暂无可用频道\""
+  ],
+  [
+    "\"No results for \\\"\"",
+    "\"没有结果匹配 \\\"\""
+  ],
+  [
+    "children:[\"Add channel ID \"",
+    "children:[\"添加频道 ID \""
+  ],
+  [
+    "\"Any channel\"",
+    "\"任意频道\""
+  ],
+  [
+    "title:\"Selected\"",
+    "title:\"已选择\""
+  ],
+  [
+    "title:\"Manage Marketplace\"",
+    "title:\"管理插件市场\""
+  ],
+  [
+    "title:\"Date range\"",
+    "title:\"日期范围\""
+  ],
+  [
+    "title:\"Rows per page\"",
+    "title:\"每页行数\""
+  ],
+  [
+    "placeholder:\"Search Plugins, Skills, Tools, Subagents, Commands...\"",
+    "placeholder:\"搜索插件、技能、工具、子智能体、命令...\""
+  ],
+  [
+    "title:\"All Marketplaces\"",
+    "title:\"所有插件市场\""
+  ],
+  [
+    "title:\"Debug Logs\"",
+    "title:\"调试日志\""
+  ],
+  [
+    "children:\"Waiting for log entries...\"",
+    "children:\"正在等待日志条目...\""
+  ],
+  [
+    "children:\"Clear Logs\"",
+    "children:\"清空日志\""
+  ],
+  [
+    "label:\"Reproduction Steps\"",
+    "label:\"复现步骤\""
+  ],
+  [
+    "children:\"Mark Fixed\"",
+    "children:\"标记为已修复\""
+  ],
+  [
+    "children:\"Load Diff\"",
+    "children:\"加载差异\""
+  ],
+  [
+    "children:\"Generated files are not rendered by default.\"",
+    "children:\"默认不渲染生成文件。\""
+  ],
+  [
+    "children:\"Large diffs are hidden by default.\"",
+    "children:\"默认隐藏大型差异。\""
+  ],
+  [
+    "children:\"Diff content not available\"",
+    "children:\"差异内容不可用\""
+  ],
+  [
+    "children:\"This file changed, but a text diff could not be rendered.\"",
+    "children:\"此文件已更改，但无法渲染文本差异。\""
+  ],
+  [
+    "label:\"Agent blocked\"",
+    "label:\"智能体已被阻止\""
+  ],
+  [
+    "label:\"Up to date\"",
+    "label:\"已是最新\""
+  ],
+  [
+    "label:\"Ready to save\"",
+    "label:\"准备保存\""
+  ],
+  [
+    "label:\"Setting up\"",
+    "label:\"正在设置\""
+  ],
+  [
+    "placeholder:\"Anything else?\"",
+    "placeholder:\"还有其他问题吗？\""
+  ],
+  [
+    "children:\"Add Models\"",
+    "children:\"添加模型\""
+  ],
+  [
+    "children:\"Your admin has disabled this option.\"",
+    "children:\"你的管理员已禁用此选项。\""
+  ],
+  [
+    "children:\"Show all models...\"",
+    "children:\"显示所有模型...\""
+  ],
+  [
+    "label:\"MAX Mode\"",
+    "label:\"MAX 模式\""
+  ],
+  [
+    "children:\"MAX MODE\"",
+    "children:\"MAX 模式\""
+  ],
+  [
+    "label:\"Use Multiple Models\"",
+    "label:\"使用多个模型\""
+  ],
+  [
+    "children:\"Enable MAX Mode\"",
+    "children:\"启用 MAX 模式\""
+  ],
+  [
+    "placeholder:\"Search models\"",
+    "placeholder:\"搜索模型\""
+  ],
+  [
+    "children:\"No models found\"",
+    "children:\"未找到模型\""
+  ],
+  [
+    "label:\"Move to Local\"",
+    "label:\"移动到本地\""
+  ],
+  [
+    "children:\"Move to Local\"",
+    "children:\"移动到本地\""
+  ],
+  [
+    "label:\"Checkout branch locally\"",
+    "label:\"在本地检出分支\""
+  ],
+  [
+    "label:\"Checkout & Move to Local\"",
+    "label:\"检出并移动到本地\""
+  ],
+  [
+    "tooltip:\"Checkout branch and convert agent to local mode\"",
+    "tooltip:\"检出分支并将智能体转换为本地模式\""
+  ],
+  [
+    "description:\"You have uncommitted changes in your working tree. Choose an option, then continue.\"",
+    "description:\"你的工作树中有未提交的更改。请选择一个选项，然后继续。\""
+  ],
+  [
+    "children:\"Do not ask me again\"",
+    "children:\"不再询问我\""
+  ],
+  [
+    "children:\"Paste as one line\"",
+    "children:\"粘贴为一行\""
+  ],
+  [
+    "children:\"Add an agent to get started\"",
+    "children:\"添加一个智能体以开始使用\""
+  ],
+  [
+    "placeholder:\"Todo description...\"",
+    "placeholder:\"待办描述...\""
+  ],
+  [
+    "children:\"Build in New Agent\"",
+    "children:\"在新智能体中构建\""
+  ],
+  [
+    "children:\"Add a to-do to get started\"",
+    "children:\"添加一个待办以开始使用\""
+  ],
+  [
+    "label:\"Add to Chat\"",
+    "label:\"添加到聊天\""
+  ],
+  [
+    "placeholder:\"Plan body...\"",
+    "placeholder:\"计划正文...\""
+  ],
+  [
+    "children:\"Save to workspace\"",
+    "children:\"保存到工作区\""
+  ],
+  [
+    "children:\"Build in Parallel\"",
+    "children:\"并行构建\""
+  ],
+  [
+    "children:\"Copy as Markdown\"",
+    "children:\"复制为 Markdown\""
+  ],
+  [
+    "children:\"Find in Plan\"",
+    "children:\"在计划中查找\""
+  ],
+  [
+    "children:\"Save to Workspace\"",
+    "children:\"保存到工作区\""
+  ],
+  [
+    "children:\"View Plan\"",
+    "children:\"查看计划\""
+  ],
+  [
+    "children:\"Error loading plugin\"",
+    "children:\"加载插件出错\""
+  ],
+  [
+    "children:\"Try in Chat\"",
+    "children:\"在聊天中试用\""
+  ],
+  [
+    "children:\"Import from GitHub\"",
+    "children:\"从 GitHub 导入\""
+  ],
+  [
+    "placeholder:\"Enter a GitHub repository URL containing a plugin marketplace\"",
+    "placeholder:\"输入包含插件市场的 GitHub 仓库 URL\""
+  ],
+  [
+    "label:\"GitHub Repository URL\"",
+    "label:\"GitHub 仓库 URL\""
+  ],
+  [
+    "children:\"Open in Chat\"",
+    "children:\"在聊天中打开\""
+  ],
+  [
+    "children:\"View Details\"",
+    "children:\"查看详情\""
+  ],
+  [
+    "children:\"Remove from Cursor\"",
+    "children:\"从 Cursor 中移除\""
+  ],
+  [
+    "label:\"All files and folders\"",
+    "label:\"所有文件和文件夹\""
+  ],
+  [
+    "children:\"Add Skills\"",
+    "children:\"添加技能\""
+  ],
+  [
+    "placeholder:\"Search MCP servers...\"",
+    "placeholder:\"搜索 MCP 服务器...\""
+  ],
+  [
+    "children:\"Loading MCP servers...\"",
+    "children:\"正在加载 MCP 服务器...\""
+  ],
+  [
+    "label:\"No MCP servers\"",
+    "label:\"暂无 MCP 服务器\""
+  ],
+  [
+    "children:\"No MCP servers available\"",
+    "children:\"暂无可用 MCP 服务器\""
+  ],
+  [
+    "children:\"No MCP servers configured\"",
+    "children:\"未配置 MCP 服务器\""
+  ],
+  [
+    "\"No servers match your search\"",
+    "\"没有服务器匹配你的搜索\""
+  ],
+  [
+    "children:\"Open MCP Settings\"",
+    "children:\"打开 MCP 设置\""
+  ],
+  [
+    "placeholder:\"Add agents, context, tools...\"",
+    "placeholder:\"添加智能体、上下文、工具...\""
+  ],
+  [
+    "children:\"Loading skills...\"",
+    "children:\"正在加载技能...\""
+  ],
+  [
+    "children:\"No skills available\"",
+    "children:\"暂无可用技能\""
+  ],
+  [
+    "children:\"Waiting for logs\"",
+    "children:\"正在等待日志\""
+  ],
+  [
+    "placeholder:\"SSH Hostname\"",
+    "placeholder:\"SSH 主机名\""
+  ],
+  [
+    "children:\"Type in a host like user@host or select from SSH config\"",
+    "children:\"输入 user@host 形式的主机，或从 SSH 配置中选择\""
+  ],
+  [
+    "children:\"Rename tab\"",
+    "children:\"重命名标签页\""
+  ],
+  [
+    "children:\"Close Others\"",
+    "children:\"关闭其他标签页\""
+  ],
+  [
+    "children:\"Close to the Right\"",
+    "children:\"关闭右侧标签页\""
+  ],
+  [
+    "children:\"Close All\"",
+    "children:\"全部关闭\""
+  ],
+  [
+    "label:\"Commit changes\"",
+    "label:\"提交更改\""
+  ],
+  [
+    "description:\"Create a checkpoint commit with your current changes\"",
+    "description:\"使用当前更改创建检查点提交\""
+  ],
+  [
+    "label:\"Stash changes\"",
+    "label:\"暂存更改\""
+  ],
+  [
+    "description:\"Save your changes to a stash and restore them later\"",
+    "description:\"将更改保存到 stash，稍后可恢复\""
+  ],
+  [
+    "label:\"Discard changes\"",
+    "label:\"放弃更改\""
+  ],
+  [
+    "description:\"Delete your current uncommitted changes before switching\"",
+    "description:\"切换前删除当前未提交的更改\""
+  ],
+  [
+    "description:\"Temporarily save uncommitted work, then check out the cloud agent branch.\"",
+    "description:\"临时保存未提交的工作，然后检出云端智能体分支。\""
+  ],
+  [
+    "description:\"Create a checkpoint commit of your changes, then check out the branch.\"",
+    "description:\"为你的更改创建检查点提交，然后检出该分支。\""
+  ],
+  [
+    "label:\"Hidden from agent\"",
+    "label:\"对智能体隐藏\""
+  ],
+  [
+    "label:\"Leak scanned before commit\"",
+    "label:\"提交前已扫描泄漏\""
+  ],
+  [
+    "label:\"Available at runtime\"",
+    "label:\"运行时可用\""
+  ],
+  [
+    "label:\"Available at build\"",
+    "label:\"构建时可用\""
+  ],
+  [
+    "children:\"No files\"",
+    "children:\"无文件\""
+  ],
+  [
+    "label:\"Most Used\"",
+    "label:\"最常用\""
+  ],
+  [
+    "\"glass.agentMigrationService.failed.title\",\"Failed to migrate agent\"",
+    "\"glass.agentMigrationService.failed.title\",\"迁移智能体失败\""
+  ],
+  [
+    "\"glass.agentMigrationService.failed.copyError\",\"Copy Error\"",
+    "\"glass.agentMigrationService.failed.copyError\",\"复制错误\""
+  ],
+  [
+    "label:\"Change run mode\"",
+    "label:\"更改运行模式\""
+  ],
+  [
+    "label:\"Add to allowlist\"",
+    "label:\"添加到白名单\""
+  ],
+  [
+    "label:\"MCP Servers\"",
+    "label:\"MCP 服务器\""
+  ],
+  [
+    "children:\"MCP Servers\"",
+    "children:\"MCP 服务器\""
+  ],
+  [
+    "\"aria-label\":\"MCP Servers\"",
+    "\"aria-label\":\"MCP 服务器\""
+  ],
+  [
+    "title:\"Cloud MCP Servers\"",
+    "title:\"云端 MCP 服务器\""
+  ],
+  [
+    "title:\"User MCP Servers\"",
+    "title:\"用户 MCP 服务器\""
+  ],
+  [
+    "title:\"Team MCP Servers\"",
+    "title:\"团队 MCP 服务器\""
+  ],
+  [
+    "title:\"Home MCP Servers\"",
+    "title:\"Home MCP 服务器\""
+  ],
+  [
+    "title:\"Sign In to View Cloud MCP Servers\"",
+    "title:\"登录以查看云端 MCP 服务器\""
+  ],
+  [
+    "title:\"Could Not Load Cloud MCP Servers\"",
+    "title:\"无法加载云端 MCP 服务器\""
+  ],
+  [
+    "title:\"No User MCP Servers\"",
+    "title:\"暂无用户 MCP 服务器\""
+  ],
+  [
+    "title:\"No Team MCP Servers\"",
+    "title:\"暂无团队 MCP 服务器\""
+  ],
+  [
+    "description:\"Servers available to cloud agents.\"",
+    "description:\"可供云端智能体使用的服务器。\""
+  ],
+  [
+    "description:\"Servers available in this workspace.\"",
+    "description:\"此工作区可用的服务器。\""
+  ],
+  [
+    "description:\"Servers available from Home.\"",
+    "description:\"Home 中可用的服务器。\""
+  ],
+  [
+    "description:\"Your personal cloud MCP servers.\"",
+    "description:\"你的个人云端 MCP 服务器。\""
+  ],
+  [
+    "description:\"Cloud MCP servers shared by your team.\"",
+    "description:\"团队共享的云端 MCP 服务器。\""
+  ],
+  [
+    "description:\"Add a personal cloud MCP server to make it available to your cloud agents.\"",
+    "description:\"添加个人云端 MCP 服务器，使云端智能体可以使用它。\""
+  ],
+  [
+    "description:\"Team admins can configure shared MCP servers in the dashboard.\"",
+    "description:\"团队管理员可在控制台配置共享 MCP 服务器。\""
+  ],
+  [
+    "message:\"Loading cloud MCP servers...\"",
+    "message:\"正在加载云端 MCP 服务器...\""
+  ],
+  [
+    "message:\"Loading user MCP servers...\"",
+    "message:\"正在加载用户 MCP 服务器...\""
+  ],
+  [
+    "message:\"Loading team MCP servers...\"",
+    "message:\"正在加载团队 MCP 服务器...\""
+  ],
+  [
+    "message:\"Loading workspace MCP servers...\"",
+    "message:\"正在加载工作区 MCP 服务器...\""
+  ],
+  [
+    "\"Failed to load cloud MCP servers.\"",
+    "\"加载云端 MCP 服务器失败。\""
+  ],
+  [
+    "\"Failed to load workspace MCP servers.\"",
+    "\"加载工作区 MCP 服务器失败。\""
+  ],
+  [
+    "children:\"Open Dashboard\"",
+    "children:\"打开控制台\""
+  ],
+  [
+    "actionTitle:\"Add MCP\"",
+    "actionTitle:\"添加 MCP\""
+  ],
+  [
+    "children:\"Add MCP\"",
+    "children:\"添加 MCP\""
+  ],
+  [
+    "`Workspace\"} MCP Servers`",
+    "`Workspace\"} MCP 服务器`"
+  ],
+  [
+    "`Workspace\"} MCP Tools`",
+    "`Workspace\"} MCP 工具`"
+  ],
+  [
+    "\"aria-label\":\"Mermaid Diagram\"",
+    "\"aria-label\":\"Mermaid 图表\""
+  ],
+  [
+    "<span class=context-pill-warning-text>Tree outline",
+    "<span class=context-pill-warning-text>树形大纲"
+  ],
+  [
+    "children:\"Tree outline\"",
+    "children:\"树形大纲\""
+  ],
+  [
+    "title:\"Rules\"",
+    "title:\"规则\""
+  ],
+  [
+    "helpTooltipLabel:\"Learn about Rules\"",
+    "helpTooltipLabel:\"了解规则\""
+  ],
+  [
+    "description:\"Use Rules to guide agent behavior, like enforcing best practices or coding standards. Rules can be applied always, by file path, or manually.\"",
+    "description:\"使用规则引导智能体行为，例如强制执行最佳实践或编码标准。规则可以始终应用、按文件路径应用或手动应用。\""
+  ],
+  [
+    "title:\"No Rules Yet\"",
+    "title:\"暂无规则\""
+  ],
+  [
+    "description:\"Create rules to guide Agent behavior\"",
+    "description:\"创建规则来引导智能体行为\""
+  ],
+  [
+    "actionTitle:\"New User Rule\"",
+    "actionTitle:\"新建用户规则\""
+  ],
+  [
+    "actionTitle:\"New Project Rule\"",
+    "actionTitle:\"新建项目规则\""
+  ],
+  [
+    "title:\"Could Not Load Rules\"",
+    "title:\"无法加载规则\""
+  ],
+  [
+    "\"Failed to load workspace rules.\"",
+    "\"加载工作区规则失败。\""
+  ],
+  [
+    "<div>Loading Rules...",
+    "<div>正在加载规则..."
+  ],
+  [
+    "placeholder=\"Rule content...\"",
+    "placeholder=\"规则内容...\""
+  ],
+  [
+    "placeholder=\"Style request, response language, tone...\"",
+    "placeholder=\"风格要求、回复语言、语气...\""
+  ],
+  [
+    "\"[Untitled]\"",
+    "\"[未命名]\""
+  ],
+  [
+    "\"User Generated Memory\"",
+    "\"用户生成记忆\""
+  ],
+  [
+    "\"Applied intelligently\"",
+    "\"智能应用\""
+  ],
+  [
+    "\"Content is required.\"",
+    "\"内容不能为空。\""
+  ],
+  [
+    "\"File pattern is required when applying to specific files.\"",
+    "\"应用到指定文件时必须填写文件模式。\""
+  ],
+  [
+    "\"Failed to save changes. Please try again.\"",
+    "\"保存失败，请重试。\""
+  ],
+  [
+    "\"Incorrect format, <span>fix with agent\"",
+    "\"格式不正确，<span>使用智能体修复\""
+  ],
+  [
+    "title:\"Delete Rule\"",
+    "title:\"删除规则\""
+  ],
+  [
+    "deleteDisabledTooltip:\"Cannot delete team rules\"",
+    "deleteDisabledTooltip:\"无法删除团队规则\""
+  ],
+  [
+    "<button class=show-all-rules-button>Show all (<!> more)",
+    "<button class=show-all-rules-button>显示全部（<!> 个更多）"
+  ],
+  [
+    "<button class=show-all-rules-button>Show less",
+    "<button class=show-all-rules-button>收起"
+  ],
+  [
+    "children:\"New\"",
+    "children:\"新建\""
+  ],
+  [
+    "children:\"Done\"",
+    "children:\"完成\""
+  ],
+  [
+    "children:\"Save\"",
+    "children:\"保存\""
+  ],
+  [
+    "\"Done\"",
+    "\"完成\""
+  ],
+  [
+    "\"Save\"",
+    "\"保存\""
+  ],
+  [
+    "title:\"Could Not Load Skills\"",
+    "title:\"无法加载技能\""
+  ],
+  [
+    "\"Failed to load workspace skills.\"",
+    "\"加载工作区技能失败。\""
+  ],
+  [
+    "<div>Loading Skills...",
+    "<div>正在加载技能..."
+  ],
+  [
+    "title:\"Could Not Load Subagents\"",
+    "title:\"无法加载子智能体\""
+  ],
+  [
+    "\"Failed to load workspace subagents.\"",
+    "\"加载工作区子智能体失败。\""
+  ],
+  [
+    "<div>Loading Subagents...",
+    "<div>正在加载子智能体..."
+  ],
+  [
+    "title:\"Could Not Load Commands\"",
+    "title:\"无法加载命令\""
+  ],
+  [
+    "\"Failed to load workspace commands.\"",
+    "\"加载工作区命令失败。\""
+  ],
+  [
+    "<div>Loading Commands...",
+    "<div>正在加载命令..."
+  ],
+  [
+    "label:\"Always applied\"",
+    "label:\"始终应用\""
+  ],
+  [
+    "label:\"Agent decides when to apply\"",
+    "label:\"由智能体决定何时应用\""
+  ],
+  [
+    "label:\"Apply to Specific Files & Folders\"",
+    "label:\"应用到指定文件和文件夹\""
+  ],
+  [
+    "\"Always applied\"",
+    "\"始终应用\""
+  ],
+  [
+    "\"Agent decides when to apply\"",
+    "\"由智能体决定何时应用\""
+  ],
+  [
+    "\"Apply to Specific Files & Folders\"",
+    "\"应用到指定文件和文件夹\""
+  ],
+  [
+    "children:\"Create with Agent\"",
+    "children:\"使用智能体创建\""
+  ],
+  [
+    "\"Saving...\"",
+    "\"正在保存...\""
+  ],
+  [
+    "placeholder:\"Plan and design before coding...\"",
+    "placeholder:\"编码前先规划和设计...\""
+  ],
+  [
+    "description:\"Plan and design before coding\"",
+    "description:\"编码前先规划和设计\""
+  ],
+  [
+    "placeholder:\"Debug and troubleshoot issues...\"",
+    "placeholder:\"调试并排查问题...\""
+  ],
+  [
+    "description:\"Debug and troubleshoot issues\"",
+    "description:\"调试并排查问题\""
+  ],
+  [
+    "placeholder:\"Ask questions without making changes...\"",
+    "placeholder:\"提问但不修改...\""
+  ],
+  [
+    "description:\"Ask questions without making changes\"",
+    "description:\"提问但不修改\""
+  ],
+  [
+    "\"Ask questions without making changes...\"",
+    "\"提问但不修改...\""
+  ],
+  [
+    "'Ask questions without making changes...'",
+    "'提问但不修改...'"
+  ],
+  [
+    "`Ask questions without making changes...`",
+    "`提问但不修改...`"
+  ],
+  [
+    "title:\"Ask questions without making changes...\"",
+    "title:\"提问但不修改...\""
+  ],
+  [
+    "children:\"Ask questions without making changes...\"",
+    "children:\"提问但不修改...\""
+  ],
+  [
+    "label:\"Local\"",
+    "label:\"本地\""
+  ],
+  [
+    "title:\"Local\"",
+    "title:\"本地\""
+  ],
+  [
+    "children:\"Local\"",
+    "children:\"本地\""
+  ],
+  [
+    "currentLabel:\"Local\"",
+    "currentLabel:\"本地\""
+  ],
+  [
+    "breadcrumbLabel:\"Local\"",
+    "breadcrumbLabel:\"本地\""
+  ],
+  [
+    "\"aria-label\":\"Local\"",
+    "\"aria-label\":\"本地\""
+  ],
+  [
+    "label:\"Cursor Local\"",
+    "label:\"Cursor 本地\""
+  ],
+  [
+    "title:\"Cursor Local\"",
+    "title:\"Cursor 本地\""
+  ],
+  [
+    "children:\"Cursor Local\"",
+    "children:\"Cursor 本地\""
+  ],
+  [
+    "\"Cursor Local\"",
+    "\"Cursor 本地\""
+  ],
+  [
+    "'Cursor Local'",
+    "'Cursor 本地'"
+  ],
+  [
+    "`Cursor Local`",
+    "`Cursor 本地`"
+  ],
+  [
+    "label:\"Ultra Plan\"",
+    "label:\"Ultra 套餐\""
+  ],
+  [
+    "title:\"Ultra Plan\"",
+    "title:\"Ultra 套餐\""
+  ],
+  [
+    "children:\"Ultra Plan\"",
+    "children:\"Ultra 套餐\""
+  ],
+  [
+    "\"Ultra Plan\"",
+    "\"Ultra 套餐\""
+  ],
+  [
+    "'Ultra Plan'",
+    "'Ultra 套餐'"
+  ],
+  [
+    "`Ultra Plan`",
+    "`Ultra 套餐`"
+  ],
+  [
+    "return\"Mentions\"",
+    "return\"提及项\""
+  ],
+  [
+    "return\"Files & Folders\"",
+    "return\"文件和文件夹\""
+  ],
+  [
+    "return\"Agent Stores\"",
+    "return\"智能体存储\""
+  ],
+  [
+    "return\"Terminals\"",
+    "return\"终端\""
+  ],
+  [
+    "return\"Past Chats\"",
+    "return\"历史聊天\""
+  ],
+  [
+    "return\"Branch (Diff with Main)\"",
+    "return\"分支（与 Main 对比）\""
+  ],
+  [
+    "label:\"Grep Search\"",
+    "label:\"Grep 搜索\""
+  ],
+  [
+    "label:\"Search files\"",
+    "label:\"搜索文件\""
+  ],
+  [
+    "\"Searching files\"",
+    "\"正在搜索文件\""
+  ],
+  [
+    "\"Searched files\"",
+    "\"已搜索文件\""
+  ],
+  [
+    "\"Search files attempted\"",
+    "\"已尝试搜索文件\""
+  ],
+  [
+    "\"Search files...\"",
+    "\"搜索文件...\""
+  ],
+  [
+    "\"Search actions...\"",
+    "\"搜索操作...\""
+  ],
+  [
+    "\"Search agents...\"",
+    "\"搜索智能体...\""
+  ],
+  [
+    "\"Search files, actions, agents...\"",
+    "\"搜索文件、操作、智能体...\""
+  ],
+  [
+    "children:Q?\"Files\":Z?\"Agents\":\"Actions\"",
+    "children:Q?\"文件\":Z?\"智能体\":\"操作\""
+  ],
+  [
+    "description:\"Files in workspace\"",
+    "description:\"工作区文件\""
+  ],
+  [
+    "label:\"Edit & Reapply\"",
+    "label:\"编辑并重新应用\""
+  ],
+  [
+    "label:\"Delete file\"",
+    "label:\"删除文件\""
+  ],
+  [
+    "\"Delete file with unsaved changes?\"",
+    "\"删除包含未保存更改的文件？\""
+  ],
+  [
+    "title:\"Enable Run Everything?\"",
+    "title:\"启用“运行所有”？\""
+  ],
+  [
+    "label:\"Enable Run Everything\"",
+    "label:\"启用运行所有\""
+  ],
+  [
+    "title:\"Leave Ask Every Time?\"",
+    "title:\"离开“每次询问”？\""
+  ],
+  [
+    "label:\"Use Sandbox instead\"",
+    "label:\"改用沙盒\""
+  ],
+  [
+    "label:\"Use Allowlist instead\"",
+    "label:\"改用白名单\""
+  ],
+  [
+    "label:\"Continue\"",
+    "label:\"继续\""
+  ],
+  [
+    "title:\"Unsupported Model\"",
+    "title:\"不支持的模型\""
+  ],
+  [
+    "title:\"Connection stalled\"",
+    "title:\"连接停滞\""
+  ],
+  [
+    "title:\"Connection failed\"",
+    "title:\"连接失败\""
+  ],
+  [
+    "\"Connection stalled repeatedly\"",
+    "\"连接反复停滞\""
+  ],
+  [
+    "\"Connection failed repeatedly\"",
+    "\"连接反复失败\""
+  ],
+  [
+    "detail:\"The connection stalled. Please try again.\"",
+    "detail:\"连接停滞。请重试。\""
+  ],
+  [
+    "\"Connection failed. Please try again, or contact support if the issue persists.\"",
+    "\"连接失败。请重试；如果问题持续存在，请联系支持。\""
+  ],
+  [
+    "detail:\"Connection failed. If the problem persists, please check your internet connection or VPN\"",
+    "detail:\"连接失败。如果问题持续存在，请检查你的网络连接或 VPN\""
+  ],
+  [
+    "name:\"Reset\"",
+    "name:\"重置\""
+  ],
+  [
+    "description:\"Clear the conversation and start fresh\"",
+    "description:\"清空对话并重新开始\""
+  ],
+  [
+    "name:\"Summarize\"",
+    "name:\"总结\""
+  ],
+  [
+    "description:\"Summarize the conversation\"",
+    "description:\"总结对话\""
+  ],
+  [
+    "description:\"Request an agent to review your code\"",
+    "description:\"请求智能体审查你的代码\""
+  ],
+  [
+    "name:\"Open Browser\"",
+    "name:\"打开浏览器\""
+  ],
+  [
+    "description:\"Open a browser for web interactions\"",
+    "description:\"打开浏览器进行网页交互\""
+  ],
+  [
+    "description:\"Install a plugin from the marketplace\"",
+    "description:\"从插件市场安装插件\""
+  ],
+  [
+    "children:\"Browse and install plugins from the Cursor marketplace. Type a search query after the command to find plugins.\"",
+    "children:\"从 Cursor 插件市场浏览并安装插件。在命令后输入搜索词以查找插件。\""
+  ],
+  [
+    "description:\"Uninstall an installed plugin\"",
+    "description:\"卸载已安装插件\""
+  ],
+  [
+    "children:\"Remove an installed plugin. Type a search query after the command to find plugins to uninstall.\"",
+    "children:\"移除已安装插件。在命令后输入搜索词以查找要卸载的插件。\""
+  ],
+  [
+    "get title(){return`Configured Hooks (${D()})`}",
+    "get title(){return`已配置的钩子 (${D()})`}"
+  ],
+  [
+    "get title(){return`Configured Hooks (${I()})`}",
+    "get title(){return`已配置的钩子 (${I()})`}"
+  ],
+  [
+    "get title(){return`Configured Hooks (${A()})`}",
+    "get title(){return`已配置的钩子 (${A()})`}"
+  ],
+  [
+    "label:\"Configured Hooks\"",
+    "label:\"已配置的钩子\""
+  ],
+  [
+    "label:\"Execution Log\"",
+    "label:\"执行日志\""
+  ],
+  [
+    "description:\"Add a hooks.json file to your user, project, or enterprise config to start running custom scripts.\"",
+    "description:\"在用户、项目或企业配置中添加 hooks.json 文件，即可开始运行自定义脚本。\""
+  ],
+  [
+    "helpTooltipLabel:\"Learn about Hooks\"",
+    "helpTooltipLabel:\"了解钩子\""
+  ],
+  [
+    "title:\"Configuration Errors\"",
+    "title:\"配置错误\""
+  ],
+  [
+    "children:\"Open user config\"",
+    "children:\"打开用户配置\""
+  ],
+  [
+    "children:\"Open project config\"",
+    "children:\"打开项目配置\""
+  ],
+  [
+    "children:\"Open enterprise config\"",
+    "children:\"打开企业配置\""
+  ],
+  [
+    "children:\"Open JSON\"",
+    "children:\"打开 JSON\""
+  ],
+  [
+    "\"<span class=cursor-settings-new-badge>NEW\"",
+    "\"<span class=cursor-settings-new-badge>新\""
+  ],
+  [
+    "\"<div>New project\"",
+    "\"<div>新建项目\""
+  ],
+  [
+    "\"<div>Open project\"",
+    "\"<div>打开项目\""
+  ],
+  [
+    "\"<div>Clone repo\"",
+    "\"<div>克隆仓库\""
+  ],
+  [
+    "\"<div>Connect via SSH\"",
+    "\"<div>通过 SSH 连接\""
+  ],
+  [
+    "\"<div>New Window\"",
+    "\"<div>新窗口\""
+  ],
+  [
+    "\"<span>Recent projects\"",
+    "\"<span>最近项目\""
+  ],
+  [
+    "\"<div class=empty-screen-view-all>View all (<!>)\"",
+    "\"<div class=empty-screen-view-all>查看全部 (<!>)\""
+  ],
+  [
+    "`Open project: ${n.projectName}`",
+    "`打开项目：${n.projectName}`"
+  ],
+  [
+    "\"Connect via WSL\"",
+    "\"通过 WSL 连接\""
+  ],
+  [
+    "\"Connect via SSH\"",
+    "\"通过 SSH 连接\""
+  ],
+  [
+    "title:\"PR Preferences\"",
+    "title:\"PR 偏好设置\""
+  ],
+  [
+    "label:\"Preferred PR destination\"",
+    "label:\"首选 PR 打开位置\""
+  ],
+  [
+    "qbE=\"Choose where PR links open across web, the desktop app and IDE.\"",
+    "qbE=\"选择 PR 链接在网页、桌面应用和 IDE 中的打开位置。\""
+  ],
+  [
+    "title:\"Pull Requests\"",
+    "title:\"拉取请求\""
+  ],
+  [
+    "label:\"Review Provider\"",
+    "label:\"评审提供方\""
+  ],
+  [
+    "label:\"PR Link Destination\"",
+    "label:\"PR 链接打开位置\""
+  ],
+  [
+    "\"Open pull request links inside Cursor or in the default browser\"",
+    "\"在 Cursor 内或默认浏览器中打开拉取请求链接\""
+  ],
+  [
+    "return`Choose ${D40(n)} for pull request links on web and desktop`",
+    "return`选择 ${D40(n)} 作为网页和桌面端 PR 链接打开方式`"
+  ],
+  [
+    "`${e[0]} or ${e[1]}`",
+    "`${e[0]} 或 ${e[1]}`"
+  ],
+  [
+    "`${e.slice(0,-1).join(\", \")}, or ${e[e.length-1]}`",
+    "`${e.slice(0,-1).join(\"、\")}，或 ${e[e.length-1]}`"
+  ],
+  [
+    "return n===\"externalBrowser\"?\"Default browser\":\"Inside Cursor\"",
+    "return n===\"externalBrowser\"?\"默认浏览器\":\"Cursor 内打开\""
+  ],
+  [
+    "{id:\"inApp\",label:\"Inside Cursor\"},{id:\"externalBrowser\",label:\"Default browser\"}",
+    "{id:\"inApp\",label:\"Cursor 内打开\"},{id:\"externalBrowser\",label:\"默认浏览器\"}"
+  ],
+  [
+    "label:\"Team default\"",
+    "label:\"团队默认值\""
+  ],
+  [
+    "\"Open chat as editor tabs is unavailable while non-chat content is placed in the Secondary Side Bar.\"",
+    "\"当辅助侧边栏中放置了非聊天内容时，无法以编辑器标签页打开聊天。\""
+  ],
+  [
+    "label:\"Open chat as editor tabs\"",
+    "label:\"以编辑器标签页打开聊天\""
+  ],
+  [
+    "description:\"Show chats as editor tabs inside the chat area instead of the legacy stacked view\"",
+    "description:\"在聊天区域内以编辑器标签页显示聊天，而不是旧版堆叠视图\""
+  ],
+  [
+    "label:\"Ignored Files\"",
+    "label:\"忽略的文件\""
+  ],
+  [
+    "description:\"Glob patterns for files where Cursor Tab will not suggest\"",
+    "description:\"Cursor Tab 不提供建议的文件 Glob 匹配模式\""
+  ],
+  [
+    "placeholder:\"e.g., *.md, **/generated/**\"",
+    "placeholder:\"例如：*.md, **/generated/**\""
+  ],
+  [
+    "title:\"Configure Ignored Files\"",
+    "title:\"配置忽略文件\""
+  ],
+  [
+    "<p class=cursor-settings-cell-label>Window Layout</p>",
+    "<p class=cursor-settings-cell-label>窗口布局</p>"
+  ],
+  [
+    "<div class=cursor-settings-cell-description>Switch between Agent and Editor default layouts</div>",
+    "<div class=cursor-settings-cell-description>在智能体和编辑器默认布局之间切换</div>"
+  ],
+  [
+    "aria-label=\"Window Layout\"",
+    "aria-label=\"窗口布局\""
+  ],
+  [
+    "<span class=layout-picker-segmented__label>Agent</span>",
+    "<span class=layout-picker-segmented__label>智能体</span>"
+  ],
+  [
+    "<span class=layout-picker-segmented__label>Editor</span>",
+    "<span class=layout-picker-segmented__label>编辑器</span>"
+  ],
+  [
+    "{id:\"agent\",label:\"Agent\"},{id:\"editor\",label:\"Editor\"}",
+    "{id:\"agent\",label:\"智能体\"},{id:\"editor\",label:\"编辑器\"}"
+  ],
+  [
+    "label:\"Open Agents Window on startup\"",
+    "label:\"启动时打开 Agents Window\""
+  ],
+  [
+    "description:\"When launching Cursor, open Agents Window by default\"",
+    "description:\"启动 Cursor 时默认打开 Agents Window\""
+  ],
+  [
+    "label:\"Open Agents Window on Startup\"",
+    "label:\"启动时打开 Agents Window\""
+  ],
+  [
+    "description:\"Open the Agents Window by default when Cursor launches\"",
+    "description:\"Cursor 启动时默认打开 Agents Window\""
+  ],
+  [
+    "label:\"Code Block Word Wrap\"",
+    "label:\"代码块自动换行\""
+  ],
+  [
+    "description:\"Wrap long lines in Agent conversation code blocks\"",
+    "description:\"在智能体对话代码块中自动换行长行\""
+  ],
+  [
+    "label:\"Voice Submit Keywords\"",
+    "label:\"语音提交关键词\""
+  ],
+  [
+    "description:\"Custom words that submit a voice prompt. Spaces and punctuation are ignored.\"",
+    "description:\"用于提交语音提示的自定义词。会忽略空格和标点。\""
+  ],
+  [
+    "label:\"Explore Subagent Model\"",
+    "label:\"探索子智能体模型\""
+  ],
+  [
+    "children:\"Import from Claude Code\"",
+    "children:\"从 Claude Code 导入\""
+  ],
+  [
+    "children:\"Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.\"",
+    "children:\"带过来您的聊天记录，发送一条后续消息即可分叉继续。插件与技能默认已同步。\""
+  ],
+  [
+    "fja(\"Plugins & skills\"",
+    "fja(\"插件与技能\""
+  ],
+  [
+    "fja(\"Chats\"",
+    "fja(\"聊天\""
+  ],
+  [
+    "children:\"Your plugins and skills are synced by default.\"",
+    "children:\"您的插件与技能默认已同步。\""
+  ],
+  [
+    "children:\"Sync your chats and continue them in Cursor\"",
+    "children:\"同步您的聊天记录并在 Cursor 中继续\""
+  ],
+  [
+    "children:\"Import your Claude Code conversations\"",
+    "children:\"导入您的 Claude Code 对话\""
+  ],
+  [
+    "case yc.Unauthenticated:return\"We couldn't verify your session. Sign in again and retry.\";",
+    "case yc.Unauthenticated:return\"无法验证您的会话。请重新登录后重试。\";"
+  ],
+  [
+    "children:\"Sync\"",
+    "children:\"同步\""
+  ],
+  [
+    "children:\"Retry\"",
+    "children:\"重试\""
+  ],
+  [
+    "description:\"Choose the model used by the Explore subagent for initial research\"",
+    "description:\"选择探索子智能体进行初始研究时使用的模型\""
+  ],
+  [
+    "description:\"Choose the model used by Explore subagent for initial research\"",
+    "description:\"选择探索子智能体进行初始研究时使用的模型\""
+  ],
+  [
+    "label:\"Deployment Name\"",
+    "label:\"部署名称\""
+  ],
+  [
+    "placeholder:\"AWS Access Key ID\"",
+    "placeholder:\"AWS 访问密钥 ID\""
+  ],
+  [
+    "placeholder:\"AWS Secret Access Key\"",
+    "placeholder:\"AWS 秘密访问密钥\""
+  ],
+  [
+    "label:\"Access Key ID\"",
+    "label:\"访问密钥 ID\""
+  ],
+  [
+    "label:\"Secret Access Key\"",
+    "label:\"秘密访问密钥\""
+  ],
+  [
+    "label:\"Region\"",
+    "label:\"区域\""
+  ],
+  [
+    "label:\"Test Model\"",
+    "label:\"测试模型\""
+  ],
+  [
+    "\"Configure AWS Bedrock to use Anthropic Claude models through your AWS account.\"",
+    "\"配置 AWS Bedrock，通过你的 AWS 账号使用 Anthropic Claude 模型。\""
+  ],
+  [
+    "\"Cursor Enterprise teams can configure IAM roles to access Bedrock without any Access Keys.\"",
+    "\"Cursor 企业团队可以配置 IAM 角色，无需访问密钥即可访问 Bedrock。\""
+  ],
+  [
+    "\"Your team has configured AWS Bedrock access. You can use your teams Bedrock instance without any additional configuration.\"",
+    "\"你的团队已配置 AWS Bedrock 访问权限。无需额外配置即可使用团队的 Bedrock 实例。\""
+  ],
+  [
+    "title:\"Ignore Files\"",
+    "title:\"忽略文件\""
+  ],
+  [
+    "label:\"Hierarchical Cursor Ignore\"",
+    "label:\"分层 Cursor 忽略\""
+  ],
+  [
+    "label:\"Ignore Symlinks in Cursor Ignore Search\"",
+    "label:\"在 Cursor 忽略搜索中忽略符号链接\""
+  ],
+  [
+    "return`Apply .cursorignore files to all subdirectories${n()?\" (controlled by admin)\":\"\"}. Changing this setting requires restarting Cursor.`",
+    "return`将 .cursorignore 文件应用到所有子目录${n()?\"（由管理员控制）\":\"\"}。更改此设置需要重启 Cursor。`"
+  ],
+  [
+    "return`Use with caution. Skip symlinks during .cursorignore file discovery. Enable only when all .cursorignore files are reachable without symlinks${i()?\" (controlled by admin)\":\"\"}. Changing this setting requires restarting Cursor.`",
+    "return`谨慎使用。在查找 .cursorignore 文件时跳过符号链接。仅当无需符号链接即可访问所有 .cursorignore 文件时才启用${i()?\"（由管理员控制）\":\"\"}。更改此设置需要重启 Cursor。`"
+  ],
+  [
+    "label:\"Title Bar\"",
+    "label:\"标题栏\""
+  ],
+  [
+    "description:\"Show title bar in agent layout\"",
+    "description:\"在智能体布局中显示标题栏\""
+  ],
+  [
+    "description:\"Show status bar at the bottom of the window\"",
+    "description:\"在窗口底部显示状态栏\""
+  ],
+  [
+    "label:\"Review Control Location\"",
+    "label:\"审查控件位置\""
+  ],
+  [
+    "description:\"Show inline diff review controls in top level breadcrumbs or floating island\"",
+    "description:\"在顶部面包屑或浮动面板中显示内联差异审查控件\""
+  ],
+  [
+    "{id:\"breadcrumb\",label:\"Breadcrumb\"},{id:\"island\",label:\"Island\"}",
+    "{id:\"breadcrumb\",label:\"面包屑\"},{id:\"island\",label:\"浮动面板\"}"
+  ],
+  [
+    "<div><div>Share Data</div>",
+    "<div><div>共享数据</div>"
+  ],
+  [
+    "<div><div>Improve Cursor for everyone",
+    "<div><div>帮助所有人改进 Cursor"
+  ],
+  [
+    "<div><div>Privacy Mode</div>",
+    "<div><div>隐私模式</div>"
+  ],
+  [
+    "<div><div>No training. Code may be stored for Background Agent and other features.",
+    "<div><div>不用于训练。代码可能会被存储，以支持后台智能体和其他功能。"
+  ],
+  [
+    "<div><div>隐私模式（旧版）</div><div>No training and no storage. Background Agent and other features that require code storage will be disabled.",
+    "<div><div>隐私模式（旧版）</div><div>不用于训练，也不存储。后台智能体和其他需要代码存储的功能将被禁用。"
+  ],
+  [
+    "<span>More Options</span>",
+    "<span>更多选项</span>"
+  ],
+  [
+    "n.server.enabled?i()&&!s()?\"Connecting...\":s()&&J?.phase===\"needsAuth\"?\"正在等待回调...\":J?.phase===\"checking\"?s()?\"正在交换令牌...\":\"Checking server status\":J?.phase===\"needsAuth\"?\"Needs authentication\":J?.phase===\"error\"?d():\"Connected\":\"Disabled\"",
+    "n.server.enabled?i()&&!s()?\"正在连接...\":s()&&J?.phase===\"needsAuth\"?\"正在等待回调...\":J?.phase===\"checking\"?s()?\"正在交换令牌...\":\"正在检查服务器状态\":J?.phase===\"needsAuth\"?\"需要身份验证\":J?.phase===\"error\"?d():\"已连接\":\"已禁用\""
+  ],
+  [
+    "name:\"Agent\",actionId:\"composerMode.agent\"",
+    "name:\"智能体\",actionId:\"composerMode.agent\""
+  ],
+  [
+    "name:\"Triage\",actionId:\"composerMode.triage\"",
+    "name:\"分诊\",actionId:\"composerMode.triage\""
+  ],
+  [
+    "name:\"Spec\",actionId:\"composerMode.spec\"",
+    "name:\"规格\",actionId:\"composerMode.spec\""
+  ],
+  [
+    "name:\"Project\",actionId:\"composerMode.project\"",
+    "name:\"项目\",actionId:\"composerMode.project\""
+  ],
+  [
+    "<span>On-Demand Usage",
+    "<span>按需用量"
+  ],
+  [
+    "\"undo\",\"Undo\"",
+    "\"undo\",\"撤销\""
+  ],
+  [
+    "\"redo\",\"Redo\"",
+    "\"redo\",\"重做\""
+  ],
+  [
+    "\"cut\",\"Cut\"",
+    "\"cut\",\"剪切\""
+  ],
+  [
+    "\"copy\",\"Copy\"",
+    "\"copy\",\"复制\""
+  ],
+  [
+    "\"paste\",\"Paste\"",
+    "\"paste\",\"粘贴\""
+  ],
+  [
+    "\"selectAll\",\"Select All\"",
+    "\"selectAll\",\"全选\""
+  ],
+  [
+    "?\"Undo Cell\":\"Undo\"",
+    "?\"撤销单元格\":\"撤销\""
+  ],
+  [
+    "?\"Undo Apply\":\"Undo\"",
+    "?\"撤销应用\":\"撤销\""
+  ],
+  [
+    "?\"Undo\":\"Undo All\"",
+    "?\"撤销\":\"全部撤销\""
+  ],
+  [
+    "?\"Undo All\":\"Undo\"",
+    "?\"全部撤销\":\"撤销\""
+  ],
+  [
+    "?\"Undo\":\"Accept\"",
+    "?\"撤销\":\"接受\""
+  ],
+  [
+    "?\"Copy Message\":\"Copy\"",
+    "?\"复制消息\":\"复制\""
+  ],
+  [
+    "?\"Copied\":\"Copy\"",
+    "?\"已复制\":\"复制\""
+  ],
+  [
+    "reject:\"Undo\"",
+    "reject:\"撤销\""
+  ],
+  [
+    "??\"Undo\"",
+    "??\"撤销\""
+  ],
+  [
+    "return\"Undo All\"",
+    "return\"全部撤销\""
+  ],
+  [
+    "\"glass.agentMetadataTooltip.copy\",\"Copy\"",
+    "\"glass.agentMetadataTooltip.copy\",\"复制\""
+  ],
+  [
+    "\"glassFileTreeCopyOp\",\"Copy\"",
+    "\"glassFileTreeCopyOp\",\"复制\""
+  ],
+  [
+    "\"glassFileTreeMove\",\"Move\"",
+    "\"glassFileTreeMove\",\"移动\""
+  ],
+  [
+    "marketplace:\"Marketplace\"",
+    "marketplace:\"插件市场\""
+  ],
+  [
+    "?\"自定义\":\"Marketplace\"",
+    "?\"自定义\":\"插件市场\""
+  ],
+  [
+    "% Auto used",
+    "% 自动用量"
+  ],
+  [
+    "% Auto and",
+    "% 自动用量，"
+  ],
+  [
+    "% API used",
+    "% API 用量"
+  ],
+  [
+    "return()=>Ze()?`$${fe(ue()?.used??0)}`:\"Disabled\"",
+    "return()=>Ze()?`$${fe(ue()?.used??0)}`:\"已禁用\""
+  ],
+  [
+    "?\"Fixed\":Q()===\"unlimited\"?\"Unlimited\":\"Disabled\"",
+    "?\"固定\":Q()===\"unlimited\"?\"无限制\":\"已禁用\""
+  ],
+  [
+    "<div><span>Subagents",
+    "<div><span>子智能体"
+  ],
+  [
+    "<div><div title=\"Choose Explore subagent model\"",
+    "<div><div title=\"选择探索子智能体模型\""
+  ],
+  [
+    "<div><div title=\"Choose 探索子智能体模型\"",
+    "<div><div title=\"选择探索子智能体模型\""
+  ],
+  [
+    "aria-label=\"Max Mode required\"",
+    "aria-label=\"需要 Max 模式\""
+  ],
+  [
+    "SAS=\"Subagent model overrides will only be used in Max Mode\"",
+    "SAS=\"子智能体模型覆盖仅会在 Max 模式中使用\""
+  ],
+  [
+    "label:\"Reset to default\"",
+    "label:\"重置为默认值\""
+  ],
+  [
+    "label:\"Disable\",labelOutsidePicker:\"Disabled\"",
+    "label:\"禁用\",labelOutsidePicker:\"已禁用\""
+  ],
+  [
+    "label:\"Inherit from parent\"",
+    "label:\"继承父级设置\""
+  ],
+  [
+    "label:\"Auto-Run in Sandbox\"",
+    "label:\"在沙盒中自动运行\""
+  ],
+  [
+    "label:\"Run Everything (Unsandboxed)\"",
+    "label:\"运行所有（非沙盒）\""
+  ],
+  [
+    "title:\"Approvals & Execution for commands, MCP and more\"",
+    "title:\"命令、MCP 等审批与执行\""
+  ],
+  [
+    "children:\"Approvals & Execution for commands, MCP and more\"",
+    "children:\"命令、MCP 等审批与执行\""
+  ],
+  [
+    "label:\"Run Mode\"",
+    "label:\"运行模式\""
+  ],
+  [
+    "title:\"Run Mode\"",
+    "title:\"运行模式\""
+  ],
+  [
+    "children:\"Run Mode\"",
+    "children:\"运行模式\""
+  ],
+  [
+    "description:\"Choose how Agents run tools like command execution, MCP, and file writes.\"",
+    "description:\"选择智能体如何运行命令执行、MCP 和文件写入等工具。\""
+  ],
+  [
+    "children:\"Commands that are allowlisted will run automatically.\"",
+    "children:\"列入白名单的命令将自动运行。\""
+  ],
+  [
+    "label:\"Allowlist\"",
+    "label:\"白名单\""
+  ],
+  [
+    "children:\"Allowlist\"",
+    "children:\"白名单\""
+  ],
+  [
+    "title:\"Learn more\"",
+    "title:\"了解更多\""
+  ],
+  [
+    "children:\"Learn more\"",
+    "children:\"了解更多\""
+  ],
+  [
+    "return\"Auto-Run in Sandbox\"",
+    "return\"在沙盒中自动运行\""
+  ],
+  [
+    "return\"Run Everything (Unsandboxed)\"",
+    "return\"运行所有（非沙盒）\""
+  ],
+  [
+    "return\"Ask for permission before running each operation\"",
+    "return\"每次操作前请求许可\""
+  ],
+  [
+    "return\"Automatically run operations after you approve them once\"",
+    "return\"在您批准一次后自动运行操作\""
+  ],
+  [
+    "return\"Automatically run all operations without asking for permission\"",
+    "return\"无需请求许可，自动运行所有操作\""
+  ],
+  [
+    "return e?\"Tools will auto-run in a sandbox if possible, otherwise respect the allowlist or ask for approval\"",
+    "return e?\"工具会尽可能在沙盒中自动运行，否则遵循白名单或请求批准\""
+  ],
+  [
+    "label:\"sandbox.json Only\"",
+    "label:\"仅 sandbox.json\""
+  ],
+  [
+    "label:\"sandbox.json + Defaults\"",
+    "label:\"sandbox.json + 默认值\""
+  ],
+  [
+    "label:\"Allow All\"",
+    "label:\"全部允许\""
+  ],
+  [
+    "return\"sandbox.json + Defaults\"",
+    "return\"sandbox.json + 默认值\""
+  ],
+  [
+    "?\"Sandboxed network access is disabled by your admin.\":\"Sandboxed network access is controlled by your admin. You can still edit allowed/denied domains in sandbox.json in your workspace, but admin policy takes precedence.\"",
+    "?\"沙盒网络访问已被管理员禁用。\":\"沙盒网络访问由管理员控制。您仍可在工作区的 sandbox.json 中编辑允许或拒绝的域名，但管理员策略优先。\""
+  ],
+  [
+    "label:\"Smart Allowlist\"",
+    "label:\"智能白名单\""
+  ],
+  [
+    "description:\"Use AI-powered command classification to intelligently match commands against allowlist patterns and suggest sandbox modes\"",
+    "description:\"使用 AI 命令分类智能匹配白名单模式并建议沙盒模式\""
+  ],
+  [
+    "<strong>Deprecated Feature:</strong> The command denylist is often bypassable, providing a false sense of security. Consider using the allowlist approach instead for better security.",
+    "<strong>已弃用功能：</strong>命令拒绝列表经常可被绕过，会造成虚假的安全感。建议改用白名单方式以获得更好的安全性。"
+  ],
+  [
+    "\"aria-label\":\"Select model count\"",
+    "\"aria-label\":\"选择模型数量\""
+  ],
+  [
+    "\"Thought for \"",
+    "\"思考了 \""
+  ],
+  [
+    "'Thought for '",
+    "'思考了 '"
+  ],
+  [
+    "`Thought for ${",
+    "`思考了 ${"
+  ],
+  [
+    "\"Ran\"",
+    "\"已运行\""
+  ],
+  [
+    "'Ran'",
+    "'已运行'"
+  ],
+  [
+    "`Ran`",
+    "`已运行`"
+  ],
+  [
+    "\"Ran \"",
+    "\"已运行 \""
+  ],
+  [
+    "'Ran '",
+    "'已运行 '"
+  ],
+  [
+    "`Ran ${",
+    "`已运行 ${"
+  ],
+  [
+    "label:\"Ran\"",
+    "label:\"已运行\""
+  ],
+  [
+    "children:\"Ran\"",
+    "children:\"已运行\""
+  ],
+  [
+    "\"Check recent git history\"",
+    "\"检查最近 Git 历史\""
+  ],
+  [
+    "'Check recent git history'",
+    "'检查最近 Git 历史'"
+  ],
+  [
+    "`Check recent git history`",
+    "`检查最近 Git 历史`"
+  ],
+  [
+    "label:\"Check recent git history\"",
+    "label:\"检查最近 Git 历史\""
+  ],
+  [
+    "children:\"Check recent git history\"",
+    "children:\"检查最近 Git 历史\""
+  ],
+  [
+    "\"Check current git status\"",
+    "\"检查当前 Git 状态\""
+  ],
+  [
+    "'Check current git status'",
+    "'检查当前 Git 状态'"
+  ],
+  [
+    "`Check current git status`",
+    "`检查当前 Git 状态`"
+  ],
+  [
+    "label:\"Check current git status\"",
+    "label:\"检查当前 Git 状态\""
+  ],
+  [
+    "children:\"Check current git status\"",
+    "children:\"检查当前 Git 状态\""
+  ],
+  [
+    "\"New Agent\"",
+    "\"新建智能体\""
+  ],
+  [
+    "'New Agent'",
+    "'新建智能体'"
+  ],
+  [
+    "`New Agent`",
+    "`新建智能体`"
+  ],
+  [
+    "name:\"New Agent\"",
+    "name:\"新建智能体\""
+  ],
+  [
+    "label:\"New Agent\"",
+    "label:\"新建智能体\""
+  ],
+  [
+    "title:\"New Agent\"",
+    "title:\"新建智能体\""
+  ],
+  [
+    "children:\"New Agent\"",
+    "children:\"新建智能体\""
+  ],
+  [
+    "\"aria-label\":\"New Agent\"",
+    "\"aria-label\":\"新建智能体\""
+  ],
+  [
+    "value:\"New Agent\"",
+    "value:\"新建智能体\""
+  ],
+  [
+    "original:\"New Agent\"",
+    "original:\"新建智能体\""
+  ],
+  [
+    "title:{value:\"New Agent\",original:\"New Agent\"}",
+    "title:{value:\"新建智能体\",original:\"新建智能体\"}"
+  ],
+  [
+    "\"Open New Agent Chat\"",
+    "\"打开新智能体聊天\""
+  ],
+  [
+    "original:\"Open New Agent Chat\"",
+    "original:\"打开新智能体聊天\""
+  ],
+  [
+    "name:\"New Agent\",get icon(){return ie(NTe,{name:\"agent\"",
+    "name:\"新建智能体\",get icon(){return ie(NTe,{name:\"agent\""
+  ],
+  [
+    "name:\"Automations\",get icon(){return ie(NTe,{name:\"robot\"",
+    "name:\"自动化\",get icon(){return ie(NTe,{name:\"robot\""
+  ],
+  [
+    "name:\"Customize\",get icon(){return ie(NTe,{name:\"extensions\"",
+    "name:\"插件市场\",get icon(){return ie(NTe,{name:\"extensions\""
+  ],
+  [
+    "children:\"Open Agents Window\"",
+    "children:\"打开 Agents Window\""
+  ],
+  [
+    "label:\"Fork\"",
+    "label:\"分叉\""
+  ],
+  [
+    "label:\"Copy\"",
+    "label:\"复制\""
+  ],
+  [
+    "label:\"Share\"",
+    "label:\"分享\""
+  ],
+  [
+    "label:\"Export\"",
+    "label:\"导出\""
+  ],
+  [
+    "label:\"Open in Web\"",
+    "label:\"在网页中打开\""
+  ],
+  [
+    "label:\"Open in New Window\"",
+    "label:\"在新窗口中打开\""
+  ],
+  [
+    "label:\"Rename\"",
+    "label:\"重命名\""
+  ],
+  [
+    "label:s?\"Unpin\":\"Pin\"",
+    "label:s?\"取消固定\":\"固定\""
+  ],
+  [
+    "label:ge?\"Discard\":\"Archive\"",
+    "label:ge?\"丢弃\":\"归档\""
+  ],
+  [
+    "label:\"Copy Transcript\"",
+    "label:\"复制对话记录\""
+  ],
+  [
+    "label:\"Copy Web Link\"",
+    "label:\"复制网页链接\""
+  ],
+  [
+    "label:\"Copy Deep Link\"",
+    "label:\"复制深层链接\""
+  ],
+  [
+    "label:\"Copy Branch\"",
+    "label:\"复制分支\""
+  ],
+  [
+    "children:\"Open in New Window\"",
+    "children:\"在新窗口中打开\""
+  ],
+  [
+    "children:\"Fork\"",
+    "children:\"分叉\""
+  ],
+  [
+    "children:\"Copy\"",
+    "children:\"复制\""
+  ],
+  [
+    "children:\"Export\"",
+    "children:\"导出\""
+  ],
+  [
+    "children:\"Pin\"",
+    "children:\"固定\""
+  ],
+  [
+    "children:\"Rename\"",
+    "children:\"重命名\""
+  ],
+  [
+    "children:\"Archive\"",
+    "children:\"归档\""
+  ],
+  [
+    "title:Je(4823,\"New Agents Window\")",
+    "title:Je(4823,\"新建 Agents Window\")"
+  ],
+  [
+    "title:Je(4824,\"Developer: New Additional Agents Window\")",
+    "title:Je(4824,\"开发者：新建额外 Agents Window\")"
+  ],
+  [
+    "title:Je(4825,\"Switch to {0}\",xNc)",
+    "title:Je(4825,\"切换到 {0}\",xNc)"
+  ],
+  [
+    "title:Je(4826,\"Open or Focus {0}\",xNc)",
+    "title:Je(4826,\"打开或聚焦 {0}\",xNc)"
+  ],
+  [
+    "title:Je(4827,\"Open or Focus Editor Window\")",
+    "title:Je(4827,\"打开或聚焦编辑器窗口\")"
+  ],
+  [
+    "title:Je(4829,\"Open Glass and Change to Multitask\")",
+    "title:Je(4829,\"打开 Agents Window 并切换到多任务\")"
+  ],
+  [
+    "xNc=\"Agents Window\"",
+    "xNc=\"Agents Window\""
+  ],
+  [
+    "title:{...Je(3659,\"New Empty Editor Window\")",
+    "title:{...Je(3659,\"新建空编辑器窗口\")"
+  ],
+  [
+    "description:\"New Agents Window (Glass)\"",
+    "description:\"新建 Agents Window\""
+  ],
+  [
+    "description:\"Switch to Agents Window (Glass)\"",
+    "description:\"切换到 Agents Window\""
+  ],
+  [
+    "description:\"Open or Focus Agents Window (Glass)\"",
+    "description:\"打开或聚焦 Agents Window\""
+  ],
+  [
+    "description:\"Open or focus the editor (IDE) window from the Agents window.\"",
+    "description:\"从 Agents Window 打开或聚焦编辑器（IDE）窗口。\""
+  ],
+  [
+    "description:\"Opens or focuses the Glass window, then selects Multitask mode there.\"",
+    "description:\"打开或聚焦 Agents Window，并在其中选择多任务模式。\""
+  ],
+  [
+    "\"Plan, search, build anything\"",
+    "\"规划、搜索、构建任何内容\""
+  ],
+  [
+    "'Plan, search, build anything'",
+    "'规划、搜索、构建任何内容'"
+  ],
+  [
+    "`Plan, search, build anything`",
+    "`规划、搜索、构建任何内容`"
+  ],
+  [
+    "placeholder:\"Plan, search, build anything\"",
+    "placeholder:\"规划、搜索、构建任何内容\""
+  ],
+  [
+    "title:\"Plan, search, build anything\"",
+    "title:\"规划、搜索、构建任何内容\""
+  ],
+  [
+    "\"Search Agents...\"",
+    "\"搜索智能体...\""
+  ],
+  [
+    "'Search Agents...'",
+    "'搜索智能体...'"
+  ],
+  [
+    "`Search Agents...`",
+    "`搜索智能体...`"
+  ],
+  [
+    "\"Search Agents\\u2026\"",
+    "\"搜索智能体\\u2026\""
+  ],
+  [
+    "\"Search Agents…\"",
+    "\"搜索智能体…\""
+  ],
+  [
+    "placeholder:\"Search Agents...\"",
+    "placeholder:\"搜索智能体...\""
+  ],
+  [
+    "placeholder:\"Search Agents\\u2026\"",
+    "placeholder:\"搜索智能体\\u2026\""
+  ],
+  [
+    "placeholder:\"Search Agents…\"",
+    "placeholder:\"搜索智能体…\""
+  ],
+  [
+    "\"No matching agents\"",
+    "\"未找到匹配的智能体\""
+  ],
+  [
+    "'No matching agents'",
+    "'未找到匹配的智能体'"
+  ],
+  [
+    "`No matching agents`",
+    "`未找到匹配的智能体`"
+  ],
+  [
+    "children:\"No matching agents\"",
+    "children:\"未找到匹配的智能体\""
+  ],
+  [
+    "\"Archived\"",
+    "\"已归档\""
+  ],
+  [
+    "'Archived'",
+    "'已归档'"
+  ],
+  [
+    "`Archived`",
+    "`已归档`"
+  ],
+  [
+    "label:\"Archived\"",
+    "label:\"已归档\""
+  ],
+  [
+    "children:\"Archived\"",
+    "children:\"已归档\""
+  ],
+  [
+    "title:\"Archived\"",
+    "title:\"已归档\""
+  ],
+  [
+    "\"aria-label\":\"Archived\"",
+    "\"aria-label\":\"已归档\""
+  ],
+  [
+    "\"Toggle Chat Pane\"",
+    "\"切换聊天面板\""
+  ],
+  [
+    "\"Maximize Chat\"",
+    "\"最大化聊天\""
+  ],
+  [
+    "\"Close Tab\"",
+    "\"关闭标签页\""
+  ],
+  [
+    "\"Close Other Tabs\"",
+    "\"关闭其他标签页\""
+  ],
+  [
+    "\"Close All Tabs\"",
+    "\"关闭所有标签页\""
+  ],
+  [
+    "\"Open Tab as Editor\"",
+    "\"在编辑器中打开标签页\""
+  ],
+  [
+    "\"Export Transcript\"",
+    "\"导出对话记录\""
+  ],
+  [
+    "\"Copy Request ID\"",
+    "\"复制请求 ID\""
+  ],
+  [
+    "\"Agent Settings\"",
+    "\"智能体设置\""
+  ],
+  [
+    "label:\"Toggle Chat Pane\"",
+    "label:\"切换聊天面板\""
+  ],
+  [
+    "label:\"Maximize Chat\"",
+    "label:\"最大化聊天\""
+  ],
+  [
+    "label:\"Close Tab\"",
+    "label:\"关闭标签页\""
+  ],
+  [
+    "label:\"Close Other Tabs\"",
+    "label:\"关闭其他标签页\""
+  ],
+  [
+    "label:\"Close All Tabs\"",
+    "label:\"关闭所有标签页\""
+  ],
+  [
+    "label:\"Open Tab as Editor\"",
+    "label:\"在编辑器中打开标签页\""
+  ],
+  [
+    "label:\"Export Transcript\"",
+    "label:\"导出对话记录\""
+  ],
+  [
+    "label:\"Copy Request ID\"",
+    "label:\"复制请求 ID\""
+  ],
+  [
+    "label:\"Agent Settings\"",
+    "label:\"智能体设置\""
+  ],
+  [
+    "name:\"Search\"",
+    "name:\"搜索\""
+  ],
+  [
+    "label:\"Search\"",
+    "label:\"搜索\""
+  ],
+  [
+    "title:\"Search\"",
+    "title:\"搜索\""
+  ],
+  [
+    "children:\"Search\"",
+    "children:\"搜索\""
+  ],
+  [
+    "\"aria-label\":\"Search\"",
+    "\"aria-label\":\"搜索\""
+  ],
+  [
+    "label:\"Automations\"",
+    "label:\"自动化\""
+  ],
+  [
+    "title:\"Automations\"",
+    "title:\"自动化\""
+  ],
+  [
+    "children:\"Automations\"",
+    "children:\"自动化\""
+  ],
+  [
+    "title=\"Navigate back\"",
+    "title=\"后退\""
+  ],
+  [
+    "title=\"Navigate forward\"",
+    "title=\"前进\""
+  ],
+  [
+    "?\"Remove bookmark\":\"Bookmark this page\"",
+    "?\"移除书签\":\"收藏此页\""
+  ],
+  [
+    "\"bookmark.rename\",\"Rename Bookmark\"",
+    "\"bookmark.rename\",\"重命名书签\""
+  ],
+  [
+    "\"bookmark.remove\",\"Remove Bookmark\"",
+    "\"bookmark.remove\",\"移除书签\""
+  ],
+  [
+    "prompt:\"Enter new bookmark name\"",
+    "prompt:\"输入新的书签名称\""
+  ],
+  [
+    "\"Bookmark name cannot be empty\"",
+    "\"书签名称不能为空\""
+  ],
+  [
+    "browser-cert-reject\">Reject</button>",
+    "browser-cert-reject\">拒绝</button>"
+  ],
+  [
+    "<span>Recording ",
+    "<span>正在录制 "
+  ],
+  [
+    "\"aria-label\":\"Forward\",disabled",
+    "\"aria-label\":\"前进\",disabled"
+  ],
+  [
+    "title:\"Forward\"",
+    "title:\"前进\""
+  ],
+  [
+    "\"spin\":void 0,\"aria-hidden\":!0}),\"Reload\"]",
+    "\"spin\":void 0,\"aria-hidden\":!0}),\"重新加载\"]"
+  ],
+  [
+    "title:\"Reload\"",
+    "title:\"重新加载\""
+  ],
+  [
+    "\"aria-label\":\"Reload\",disabled",
+    "\"aria-label\":\"重新加载\",disabled"
+  ],
+  [
+    "children:\"Close\"",
+    "children:\"关闭\""
+  ],
+  [
+    "title:\"Close\"",
+    "title:\"关闭\""
+  ],
+  [
+    "label:\"Close\"",
+    "label:\"关闭\""
+  ],
+  [
+    "tooltip:\"Close\"",
+    "tooltip:\"关闭\""
+  ],
+  [
+    "\"aria-label\":\"Close\"",
+    "\"aria-label\":\"关闭\""
+  ],
+  [
+    "rootLabel:s,rootHref:o,onRootClick:a,LinkComponent:l}=n;let c;e[0]!==i?(c=i===void 0?[]:i,e[0]=i,e[1]=c):c=e[1];const d=c,m=s===void 0?\"Automations\"",
+    "rootLabel:s,rootHref:o,onRootClick:a,LinkComponent:l}=n;let c;e[0]!==i?(c=i===void 0?[]:i,e[0]=i,e[1]=c):c=e[1];const d=c,m=s===void 0?\"自动化\""
+  ],
+  [
+    "label:\"Marketplace\"",
+    "label:\"插件市场\""
+  ],
+  [
+    "title:\"Marketplace\"",
+    "title:\"插件市场\""
+  ],
+  [
+    "children:\"Marketplace\"",
+    "children:\"插件市场\""
+  ],
+  [
+    "\"aria-label\":\"Marketplace\"",
+    "\"aria-label\":\"插件市场\""
+  ],
+  [
+    "\"aria-label\":\"Marketplace scope\"",
+    "\"aria-label\":\"插件市场范围\""
+  ],
+  [
+    "name:Je(9469,\"Repositories\")",
+    "name:Je(9469,\"代码库\")"
+  ],
+  [
+    "name:ot(9469,\"Repositories\")",
+    "name:ot(9469,\"代码库\")"
+  ],
+  [
+    "collectionLabel:\"Repositories\"",
+    "collectionLabel:\"代码库\""
+  ],
+  [
+    "children:\"Repositories\"",
+    "children:\"代码库\""
+  ],
+  [
+    "label:\"Repositories\"",
+    "label:\"代码库\""
+  ],
+  [
+    "title:\"Repositories\"",
+    "title:\"代码库\""
+  ],
+  [
+    "name:\"Repositories\"",
+    "name:\"代码库\""
+  ],
+  [
+    "\"aria-label\":\"Repositories\"",
+    "\"aria-label\":\"代码库\""
+  ],
+  [
+    "children:\"Editor Window\"",
+    "children:\"编辑器窗口\""
+  ],
+  [
+    "label:\"Editor Window\"",
+    "label:\"编辑器窗口\""
+  ],
+  [
+    "title:\"Editor Window\"",
+    "title:\"编辑器窗口\""
+  ],
+  [
+    "name:\"Editor Window\"",
+    "name:\"编辑器窗口\""
+  ],
+  [
+    "\"aria-label\":\"Editor Window\"",
+    "\"aria-label\":\"编辑器窗口\""
+  ],
+  [
+    "label:\"Open Editor Window\"",
+    "label:\"打开编辑器窗口\""
+  ],
+  [
+    "label:\"Split Up\"",
+    "label:\"向上拆分\""
+  ],
+  [
+    "label:\"Split Right\"",
+    "label:\"向右拆分\""
+  ],
+  [
+    "label:\"Split Down\"",
+    "label:\"向下拆分\""
+  ],
+  [
+    "label:\"Split Left\"",
+    "label:\"向左拆分\""
+  ],
+  [
+    "Je(3511,\"Split Up\")",
+    "Je(3511,\"向上拆分\")"
+  ],
+  [
+    "Je(3512,\"Split Down\")",
+    "Je(3512,\"向下拆分\")"
+  ],
+  [
+    "Je(3513,\"Split Left\")",
+    "Je(3513,\"向左拆分\")"
+  ],
+  [
+    "Je(3514,\"Split Right\")",
+    "Je(3514,\"向右拆分\")"
+  ],
+  [
+    "Je(3515,\"Split in Group\")",
+    "Je(3515,\"在组内拆分\")"
+  ],
+  [
+    "ot(3511,\"Split Up\")",
+    "ot(3511,\"向上拆分\")"
+  ],
+  [
+    "ot(3512,\"Split Down\")",
+    "ot(3512,\"向下拆分\")"
+  ],
+  [
+    "ot(3513,\"Split Left\")",
+    "ot(3513,\"向左拆分\")"
+  ],
+  [
+    "ot(3514,\"Split Right\")",
+    "ot(3514,\"向右拆分\")"
+  ],
+  [
+    "ot(3515,\"Split in Group\")",
+    "ot(3515,\"在组内拆分\")"
+  ],
+  [
+    "label:\"Close\",onSelect:r,disabled:s",
+    "label:\"关闭\",onSelect:r,disabled:s"
+  ],
+  [
+    "label:\"Plan New Idea\"",
+    "label:\"规划新想法\""
+  ],
+  [
+    "title:\"Plan New Idea\"",
+    "title:\"规划新想法\""
+  ],
+  [
+    "children:\"Plan New Idea\"",
+    "children:\"规划新想法\""
+  ],
+  [
+    "\"Plan New Idea\"",
+    "\"规划新想法\""
+  ],
+  [
+    "'Plan New Idea'",
+    "'规划新想法'"
+  ],
+  [
+    "`Plan New Idea`",
+    "`规划新想法`"
+  ],
+  [
+    "label:\"Run in Cloud\"",
+    "label:\"在云端运行\""
+  ],
+  [
+    "\"Parallelize Build with Multitask Mode.\"",
+    "\"使用多任务模式并行构建。\""
+  ],
+  [
+    "\"Coordinate parallel tasks...\"",
+    "\"协调并行任务...\""
+  ],
+  [
+    "hint:\"\\u21E7Tab\"",
+    "hint:\"\\u21E7Tab\""
+  ],
+  [
+    "\"aria-label\":\"Group by options\"",
+    "\"aria-label\":\"分组选项\""
+  ],
+  [
+    "\"aria-label\":\"Sidebar filters\"",
+    "\"aria-label\":\"侧边栏筛选器\""
+  ],
+  [
+    "label:\"Group by\",rightSection:ue,children:\"Group by\"",
+    "label:\"分组方式\",rightSection:ue,children:\"分组方式\""
+  ],
+  [
+    "\"aria-label\":\"Group by\",maxWidth:uE",
+    "\"aria-label\":\"分组方式\",maxWidth:uE"
+  ],
+  [
+    "label:\"Display\",children:\"Display\"",
+    "label:\"显示\",children:\"显示\""
+  ],
+  [
+    "className:\"automations-run-filter__heading\",children:\"Filter by\"",
+    "className:\"automations-run-filter__heading\",children:\"筛选条件\""
+  ],
+  [
+    "title:\"Filter by\",children:[ff,Bh,Dp]",
+    "title:\"筛选条件\",children:[ff,Bh,Dp]"
+  ],
+  [
+    "label:\"Status\",children:\"Status\"",
+    "label:\"状态\",children:\"状态\""
+  ],
+  [
+    "\"aria-label\":\"Show status filters\"",
+    "\"aria-label\":\"显示状态筛选器\""
+  ],
+  [
+    "children:\"Environment\"}):null",
+    "children:\"环境\"}):null"
+  ],
+  [
+    "label:\"Environment\",children:\"Environment\"",
+    "label:\"环境\",children:\"环境\""
+  ],
+  [
+    "\"aria-label\":\"Show environment filters\"",
+    "\"aria-label\":\"显示环境筛选器\""
+  ],
+  [
+    "label:\"Source\",children:\"Source\"",
+    "label:\"来源\",children:\"来源\""
+  ],
+  [
+    "children:\"Mark All as Read\"",
+    "children:\"全部标为已读\""
+  ],
+  [
+    "children:\"Archive All\"",
+    "children:\"全部归档\""
+  ],
+  [
+    "?\"Confirm\":\"Archive All\"",
+    "?\"确认\":\"全部归档\""
+  ],
+  [
+    "children:\"Remove from Sidebar\"",
+    "children:\"从侧边栏移除\""
+  ],
+  [
+    "\"aria-label\":\"More actions\"",
+    "\"aria-label\":\"更多操作\""
+  ],
+  [
+    "hintText:\"More actions\"",
+    "hintText:\"更多操作\""
+  ],
+  [
+    "children:[\"Click or hold \"",
+    "children:[\"点击或按住 \""
+  ],
+  [
+    "\" to dictate\"",
+    "\" 听写\""
+  ],
+  [
+    "a?.label??\"Expand All\"",
+    "a?.label??\"全部展开\""
+  ],
+  [
+    "children:\"Expand All\"",
+    "children:\"全部展开\""
+  ],
+  [
+    "children:\"Collapse All\"",
+    "children:\"全部折叠\""
+  ],
+  [
+    "{value:\"workspace\",label:\"Workspace\",icon:\"folder\"},{value:\"repository\",label:\"Repository\",icon:\"folder-library\"},{value:\"time\",label:\"Updated\",icon:\"clock\"},{value:\"status\",label:\"Status\",icon:\"circle-dashed\"},{value:\"environment\",label:\"Environment\",icon:\"server\"}",
+    "{value:\"workspace\",label:\"工作区\",icon:\"folder\"},{value:\"repository\",label:\"代码库\",icon:\"folder-library\"},{value:\"time\",label:\"更新时间\",icon:\"clock\"},{value:\"status\",label:\"状态\",icon:\"circle-dashed\"},{value:\"environment\",label:\"环境\",icon:\"server\"}"
+  ],
+  [
+    "{value:\"needs_attention\",label:\"Needs Attention\",icon:\"exclamation-circle\"},{value:\"unread_only\",label:\"Unread\",icon:\"bell\"},{value:\"running\",label:\"Working\",icon:\"loading\"},{value:\"draft\",label:\"Draft\",icon:\"circle-dashed\"},{value:\"done\",label:\"Done\",icon:\"check-circle\"}",
+    "{value:\"needs_attention\",label:\"需要处理\",icon:\"exclamation-circle\"},{value:\"unread_only\",label:\"未读\",icon:\"bell\"},{value:\"running\",label:\"进行中\",icon:\"loading\"},{value:\"draft\",label:\"草稿\",icon:\"circle-dashed\"},{value:\"done\",label:\"已完成\",icon:\"check-circle\"}"
+  ],
+  [
+    "{value:\"git:draft\",label:\"PR Draft\",icon:\"git-pull-request-draft\"},{value:\"git:open\",label:\"PR Open\",icon:\"git-pull-request\"},{value:\"git:merged\",label:\"PR Merged\",icon:\"git-merge\"},{value:\"git:closed\",label:\"PR Closed\",icon:\"git-pull-request-closed\"},{value:\"git:none\",label:\"No PR\",icon:\"slash-circle\"}",
+    "{value:\"git:draft\",label:\"PR 草稿\",icon:\"git-pull-request-draft\"},{value:\"git:open\",label:\"PR 已打开\",icon:\"git-pull-request\"},{value:\"git:merged\",label:\"PR 已合并\",icon:\"git-merge\"},{value:\"git:closed\",label:\"PR 已关闭\",icon:\"git-pull-request-closed\"},{value:\"git:none\",label:\"无 PR\",icon:\"slash-circle\"}"
+  ],
+  [
+    "{value:\"workspace\",label:\"Workspace\",icon:\"folder\"},{value:\"branch\",label:\"Branch\",icon:\"git-branch\"},{value:\"updatedAt\",label:\"Updated\",icon:\"clock\"},{value:\"source\",label:\"Source\",icon:\"arrow-bracket-to-right\"}",
+    "{value:\"workspace\",label:\"工作区\",icon:\"folder\"},{value:\"branch\",label:\"分支\",icon:\"git-branch\"},{value:\"updatedAt\",label:\"更新时间\",icon:\"clock\"},{value:\"source\",label:\"来源\",icon:\"arrow-bracket-to-right\"}"
+  ],
+  [
+    "\"source:desktop\":{label:\"Desktop\",icon:\"laptop\"}",
+    "\"source:desktop\":{label:\"桌面端\",icon:\"laptop\"}"
+  ],
+  [
+    "\"source:web\":{label:\"Web\",icon:\"window\"}",
+    "\"source:web\":{label:\"网页端\",icon:\"window\"}"
+  ],
+  [
+    "\"source:mobile\":{label:\"Mobile\",icon:\"device-mobile\"}",
+    "\"source:mobile\":{label:\"移动端\",icon:\"device-mobile\"}"
+  ],
+  [
+    "\"source:slack\":{label:\"Slack\"}",
+    "\"source:slack\":{label:\"Slack\"}"
+  ],
+  [
+    "\"source:linear\":{label:\"Linear\"}",
+    "\"source:linear\":{label:\"Linear\"}"
+  ],
+  [
+    "\"source:scm\":{label:\"GitHub / GitLab\",icon:\"github\"}",
+    "\"source:scm\":{label:\"GitHub / GitLab\",icon:\"github\"}"
+  ],
+  [
+    "\"source:cli\":{label:\"CLI\",icon:\"terminal\"}",
+    "\"source:cli\":{label:\"命令行\",icon:\"terminal\"}"
+  ],
+  [
+    "\"source:setup\":{label:\"Setup\",icon:\"cog\"}",
+    "\"source:setup\":{label:\"设置\",icon:\"cog\"}"
+  ],
+  [
+    "\"source:sdk\":{label:\"SDK\",icon:\"brackets-curly\"}",
+    "\"source:sdk\":{label:\"SDK\",icon:\"brackets-curly\"}"
+  ],
+  [
+    "\"source:automations\":{label:\"Automations\",icon:\"robot\"}",
+    "\"source:automations\":{label:\"自动化\",icon:\"robot\"}"
+  ],
+  [
+    "\"source:api\":{label:\"API\",icon:\"code\"}",
+    "\"source:api\":{label:\"API\",icon:\"code\"}"
+  ],
+  [
+    "\"source:bugbot_autofix\":{label:\"Bugbot\",icon:\"bugbot\"}",
+    "\"source:bugbot_autofix\":{label:\"Bugbot\",icon:\"bugbot\"}"
+  ],
+  [
+    "\"source:qabot_frontend\":{label:\"Frontend QA\",icon:\"robot\"}",
+    "\"source:qabot_frontend\":{label:\"前端 QA\",icon:\"robot\"}"
+  ],
+  [
+    "\"source:local\":{label:\"Local\",icon:\"laptop\"}",
+    "\"source:local\":{label:\"本地\",icon:\"laptop\"}"
+  ],
+  [
+    "{value:\"workspace\",label:\"Group by Workspace\",icon:\"folder\"}",
+    "{value:\"workspace\",label:\"按工作区分组\",icon:\"folder\"}"
+  ],
+  [
+    "{value:\"repository\",label:\"Group by Repository\",icon:\"folder-library\"}",
+    "{value:\"repository\",label:\"按代码库分组\",icon:\"folder-library\"}"
+  ],
+  [
+    "{value:\"time\",label:\"Group by Updated\",icon:\"clock\"}",
+    "{value:\"time\",label:\"按更新时间分组\",icon:\"clock\"}"
+  ],
+  [
+    "{value:\"status\",label:\"Group by Status\",icon:\"circle-dashed\"}",
+    "{value:\"status\",label:\"按状态分组\",icon:\"circle-dashed\"}"
+  ],
+  [
+    "{value:\"environment\",label:\"Group by Environment\",icon:\"server\"}",
+    "{value:\"environment\",label:\"按环境分组\",icon:\"server\"}"
+  ],
+  [
+    "t??\"Planning next moves\"",
+    "t??\"正在规划下一步\""
+  ],
+  [
+    "\"Planning next moves\"",
+    "\"正在规划下一步\""
+  ],
+  [
+    "return{action:\"Updating\",details:\"to-do list\"}",
+    "return{action:\"正在更新\",details:\"待办列表\"}"
+  ],
+  [
+    "{action:\"Cleared\",details:\"to-do list\"}",
+    "{action:\"已清空\",details:\"待办列表\"}"
+  ],
+  [
+    "{action:\"Checked\",details:\"to-do list\"}",
+    "{action:\"已检查\",details:\"待办列表\"}"
+  ],
+  [
+    "{action:\"Started to-do\",details:r[0].content}",
+    "{action:\"开始待办\",details:r[0].content}"
+  ],
+  [
+    "{action:`Started ${r.length} to-dos`,details:\"\"}",
+    "{action:`开始 ${r.length} 个待办`,details:\"\"}"
+  ],
+  [
+    "{action:`Completed ${c} of ${e.length}`,details:s[0].content}",
+    "{action:`已完成 ${c}/${e.length}`,details:s[0].content}"
+  ],
+  [
+    "{action:`Completed ${c} of ${e.length} to-dos`,details:\"\"}",
+    "{action:`已完成 ${c}/${e.length} 个待办`,details:\"\"}"
+  ],
+  [
+    "{action:\"Added to-do\",details:o[0].content}",
+    "{action:\"新增待办\",details:o[0].content}"
+  ],
+  [
+    "{action:`Added ${o.length} to-dos`,details:\"\"}",
+    "{action:`新增 ${o.length} 个待办`,details:\"\"}"
+  ],
+  [
+    "{action:\"Cancelled to-do\",details:a[0].content}",
+    "{action:\"已取消待办\",details:a[0].content}"
+  ],
+  [
+    "{action:`Cancelled ${a.length} to-dos`,details:\"\"}",
+    "{action:`已取消 ${a.length} 个待办`,details:\"\"}"
+  ],
+  [
+    "return{action:\"Read\",details:\"\"}",
+    "return{action:\"读取\",details:\"\"}"
+  ],
+  [
+    "return{action:\"Read\",details:\"tool output\"}",
+    "return{action:\"读取\",details:\"工具输出\"}"
+  ],
+  [
+    "{action:\"Read\",details:`${r} L${s.startLine}-${s.endLine}`}",
+    "{action:\"读取\",details:`${r} 第 ${s.startLine}-${s.endLine} 行`}"
+  ],
+  [
+    "{action:\"Read\",details:r}",
+    "{action:\"读取\",details:r}"
+  ],
+  [
+    "return{action:\"Read Todos\",details:\"\"}",
+    "return{action:\"读取待办\",details:\"\"}"
+  ],
+  [
+    "return{action:\"Explored\",details:\"available tools\"}",
+    "return{action:\"已探索\",details:\"可用工具\"}"
+  ],
+  [
+    "return{action:e?\"Exploring\":\"Explored\",details:\"available tools\"}",
+    "return{action:e?\"正在探索\":\"已探索\",details:\"可用工具\"}"
+  ],
+  [
+    "getMcpToolsToolCall:{loading:\"Exploring tools\",completed:\"Explored tools\",error:\"Explore tools\"}",
+    "getMcpToolsToolCall:{loading:\"正在探索工具\",completed:\"已探索工具\",error:\"探索工具\"}"
+  ],
+  [
+    "{verb:\"Started to-do\",primaryAction:\"started\",todoContent:i[0].content}",
+    "{verb:\"开始待办\",primaryAction:\"started\",todoContent:i[0].content}"
+  ],
+  [
+    "{verb:`Started ${a} to-dos`,primaryAction:\"started\"}",
+    "{verb:`开始 ${a} 个待办`,primaryAction:\"started\"}"
+  ],
+  [
+    "{verb:`Completed ${h} of ${e.length}`,primaryAction:\"completed\",todoContent:r[0].content}",
+    "{verb:`已完成 ${h}/${e.length}`,primaryAction:\"completed\",todoContent:r[0].content}"
+  ],
+  [
+    "{verb:`Completed ${h} of ${e.length} to-dos`,primaryAction:\"completed\",todoContent:\"\"}",
+    "{verb:`已完成 ${h}/${e.length} 个待办`,primaryAction:\"completed\",todoContent:\"\"}"
+  ],
+  [
+    "{verb:\"Added to-do\",primaryAction:\"created\",todoContent:o[0].content}",
+    "{verb:\"新增待办\",primaryAction:\"created\",todoContent:o[0].content}"
+  ],
+  [
+    "{verb:`Added ${m} to-dos`,primaryAction:\"created\"}",
+    "{verb:`新增 ${m} 个待办`,primaryAction:\"created\"}"
+  ],
+  [
+    "{verb:\"Cancelled to-do\",primaryAction:\"cancelled\",todoContent:s[0].content}",
+    "{verb:\"已取消待办\",primaryAction:\"cancelled\",todoContent:s[0].content}"
+  ],
+  [
+    "{verb:`Cancelled ${d} to-dos`,primaryAction:\"cancelled\"}",
+    "{verb:`已取消 ${d} 个待办`,primaryAction:\"cancelled\"}"
+  ],
+  [
+    "{verb:\"Cleared to-do list\"}",
+    "{verb:\"已清空待办列表\"}"
+  ],
+  [
+    "{verb:\"Checked to-do list\"}",
+    "{verb:\"已检查待办列表\"}"
+  ],
+  [
+    "argument:\"to-do list\"",
+    "argument:\"待办列表\""
+  ],
+  [
+    "case Kt.TODO_READ:case Kt.TODO_WRITE:return\"to-do list\"",
+    "case Kt.TODO_READ:case Kt.TODO_WRITE:return\"待办列表\""
+  ],
+  [
+    "return\"tool output\"",
+    "return\"工具输出\""
+  ],
+  [
+    "?`${r} L${t.startLineOneIndexed}-${t.endLineOneIndexedInclusive}`:r",
+    "?`${r} 第 ${t.startLineOneIndexed}-${t.endLineOneIndexedInclusive} 行`:r"
+  ],
+  [
+    "?`${r} L${t.offset}-${t.offset+t.limit}`:r",
+    "?`${r} 第 ${t.offset}-${t.offset+t.limit} 行`:r"
+  ],
+  [
+    "[Kt.READ_FILE_V2]:{label:\"Read file\",support:\"rendered\"}",
+    "[Kt.READ_FILE_V2]:{label:\"读取文件\",support:\"rendered\"}"
+  ],
+  [
+    "return{loadingAction:\"Editing\",completedAction:\"Edited\",fileCount:e+t}",
+    "return{loadingAction:\"正在编辑\",completedAction:\"已编辑\",fileCount:e+t}"
+  ],
+  [
+    "return{loadingAction:\"Deleting\",completedAction:\"Deleted\",fileCount:t}",
+    "return{loadingAction:\"正在删除\",completedAction:\"已删除\",fileCount:t}"
+  ],
+  [
+    "loadingAction:i?.loadingAction??\"Exploring\"",
+    "loadingAction:i?.loadingAction??\"正在探索\""
+  ],
+  [
+    "completedAction:i?.completedAction??\"Explored\"",
+    "completedAction:i?.completedAction??\"已探索\""
+  ],
+  [
+    "`${e} file${e===1?\"\":\"s\"}`",
+    "`${e} 个文件`"
+  ],
+  [
+    "\"<div>Web Fetch Tool\"",
+    "\"<div>网络抓取工具\""
+  ],
+  [
+    "\"<div><span>Task Models\"",
+    "\"<div><span>任务模型\""
+  ],
+  [
+    "automations:\"Automations\"",
+    "automations:\"自动化\""
+  ],
+  [
+    "themeLabel:\"Light\"",
+    "themeLabel:\"浅色\""
+  ],
+  [
+    "themeLabel:\"Dark\"",
+    "themeLabel:\"深色\""
+  ],
+  [
+    "themeLabel:\"High Contrast\"",
+    "themeLabel:\"高对比度\""
+  ],
+  [
+    "<span>On-Demand Usage",
+    "<span>按需用量"
+  ],
+  [
+    "\"undo\",\"Undo\"",
+    "\"undo\",\"撤销\""
+  ],
+  [
+    "\"redo\",\"Redo\"",
+    "\"redo\",\"重做\""
+  ],
+  [
+    "\"cut\",\"Cut\"",
+    "\"cut\",\"剪切\""
+  ],
+  [
+    "\"copy\",\"Copy\"",
+    "\"copy\",\"复制\""
+  ],
+  [
+    "\"paste\",\"Paste\"",
+    "\"paste\",\"粘贴\""
+  ],
+  [
+    "\"selectAll\",\"Select All\"",
+    "\"selectAll\",\"全选\""
+  ],
+  [
+    "marketplace:\"Marketplace\"",
+    "marketplace:\"插件市场\""
+  ],
+  [
+    "?\"自定义\":\"Marketplace\"",
+    "?\"自定义\":\"插件市场\""
+  ],
+  [
+    "rootLabel:\"Marketplace\"",
+    "rootLabel:\"插件市场\""
+  ],
+  [
+    "[\" \",\"Marketplace\"]",
+    "[\" \",\"插件市场\"]"
+  ],
+  [
+    "all:\"All\"",
+    "all:\"全部\""
+  ],
+  [
+    "return\"All\"",
+    "return\"全部\""
+  ],
+  [
+    ">Learn more'",
+    ">了解更多'"
+  ],
+  [
+    ">Learn more\"",
+    ">了解更多\""
+  ],
+  [
+    ">Learn more<",
+    ">了解更多<"
+  ],
+  [
+    "label:\"New\"",
+    "label:\"新建\""
+  ],
+  [
+    "title:\"New\"",
+    "title:\"新建\""
+  ],
+  [
+    "placeholder:\"New\"",
+    "placeholder:\"新建\""
+  ],
+  [
+    "name:\"New\"",
+    "name:\"新建\""
+  ],
+  [
+    ">\"New\"",
+    ">\"新建\""
+  ],
+  [
+    "children:\"New Worktree\"",
+    "children:\"新建工作树\""
+  ],
+  [
+    "label:\"New Worktree\"",
+    "label:\"新建工作树\""
+  ],
+  [
+    "title:\"New Worktree\"",
+    "title:\"新建工作树\""
+  ],
+  [
+    "children:\"Documentation\"",
+    "children:\"文档\""
+  ],
+  [
+    "label:\"Documentation\"",
+    "label:\"文档\""
+  ],
+  [
+    "title:\"Documentation\"",
+    "title:\"文档\""
+  ],
+  [
+    "children:\"Connected\"",
+    "children:\"已连接\""
+  ],
+  [
+    "label:\"Connected\"",
+    "label:\"已连接\""
+  ],
+  [
+    "title:\"Connected\"",
+    "title:\"已连接\""
+  ],
+  [
+    ">\"Connected\"",
+    ">\"已连接\""
+  ],
+  [
+    "children:\"Installed\"",
+    "children:\"已安装\""
+  ],
+  [
+    "label:\"Installed\"",
+    "label:\"已安装\""
+  ],
+  [
+    "title:\"Installed\"",
+    "title:\"已安装\""
+  ],
+  [
+    ">\"Installed\"",
+    ">\"已安装\""
+  ],
+  [
+    "children:\"Image\"",
+    "children:\"图片\""
+  ],
+  [
+    "label:\"Image\"",
+    "label:\"图片\""
+  ],
+  [
+    "title:\"Image\"",
+    "title:\"图片\""
+  ],
+  [
+    "QLt={image:\"Image\",attachments:\"",
+    "QLt={image:\"图片\",attachments:\""
+  ],
+  [
+    "case\"image\":return\"Image\"",
+    "case\"image\":return\"图片\""
+  ],
+  [
+    "\"Image\":\"File\"",
+    "\"图片\":\"文件\""
+  ],
+  [
+    "?\"Move to Trash\":\"Discard\"",
+    "?\"移到回收站\":\"丢弃\""
+  ],
+  [
+    "E(\"glassRecycle\",\"Move to Recycle Bin\")",
+    "E(\"glassRecycle\",\"移到回收站\")"
+  ],
+  [
+    "E(\"glassTrash\",\"Move to Trash\")",
+    "E(\"glassTrash\",\"移到回收站\")"
+  ],
+  [
+    "E(\"glassDelete\",\"Delete\")",
+    "E(\"glassDelete\",\"删除\")"
+  ],
+  [
+    "i?\"Close Settings\":\"设置\"",
+    "i?\"关闭设置\":\"设置\""
+  ],
+  [
+    "\"Close Settings\"",
+    "\"关闭设置\""
+  ],
+  [
+    "children:\"Cloud\"",
+    "children:\"云端\""
+  ],
+  [
+    "label:\"Cloud\"",
+    "label:\"云端\""
+  ],
+  [
+    "title:\"Cloud\"",
+    "title:\"云端\""
+  ],
+  [
+    ">\"Cloud\"",
+    ">\"云端\""
+  ],
+  [
+    "children:\"Recents\"",
+    "children:\"最近\""
+  ],
+  [
+    "label:\"Recents\"",
+    "label:\"最近\""
+  ],
+  [
+    "title:\"Recents\"",
+    "title:\"最近\""
+  ],
+  [
+    ">\"Recents\"",
+    ">\"最近\""
+  ],
+  [
+    "children:\"Run on\"",
+    "children:\"运行于\""
+  ],
+  [
+    "label:\"Run on\"",
+    "label:\"运行于\""
+  ],
+  [
+    "children:\"This PC\"",
+    "children:\"此电脑\""
+  ],
+  [
+    "label:\"This PC\"",
+    "label:\"此电脑\""
+  ],
+  [
+    "\"Run on This PC\"",
+    "\"在此电脑上运行\""
+  ],
+  [
+    "\"Run on Cloud\"",
+    "\"在云端运行\""
+  ],
+  [
+    "children:\"+ Add\"",
+    "children:\"+ 添加\""
+  ],
+  [
+    "label:\"+ Add\"",
+    "label:\"+ 添加\""
+  ],
+  [
+    ">\"+ Add\"",
+    ">\"+ 添加\""
+  ],
+  [
+    "children:\"User Config\"",
+    "children:\"用户配置\""
+  ],
+  [
+    "label:\"User Config\"",
+    "label:\"用户配置\""
+  ],
+  [
+    "title:\"User Config\"",
+    "title:\"用户配置\""
+  ],
+  [
+    "children:\"From Marketplace\"",
+    "children:\"从插件市场\""
+  ],
+  [
+    "children:\"From Local Repo\"",
+    "children:\"从本地仓库\""
+  ],
+  [
+    "\"Give Feedback...\"",
+    "\"提供反馈...\""
+  ],
+  [
+    "children:\"Give Feedback...\"",
+    "children:\"提供反馈...\""
+  ],
+  [
+    "label:\"Give Feedback...\"",
+    "label:\"提供反馈...\""
+  ],
+  [
+    "`Toggle Agents Side Bar (${",
+    "`切换智能体侧边栏 (${"
+  ],
+  [
+    "`Toggle Agents (${",
+    "`切换智能体 (${"
+  ],
+  [
+    "`Toggle Primary Side Bar (${",
+    "`切换主侧边栏 (${"
+  ],
+  [
+    "`Show Agents Side Bar (${",
+    "`显示智能体侧边栏 (${"
+  ],
+  [
+    "title:\"Show Terminal\"",
+    "title:\"显示终端\""
+  ],
+  [
+    "title:\"Toggle Developer Tools\"",
+    "title:\"切换开发者工具\""
+  ],
+  [
+    "title:\"Open Process Explorer\"",
+    "title:\"打开进程浏览器\""
+  ],
+  [
+    "title:\"Report Issue\"",
+    "title:\"报告问题\""
+  ],
+  [
+    ".LABEL=\"Report Issue\"",
+    ".LABEL=\"报告问题\""
+  ],
+  [
+    "case .85:return\"Small\";case 1:return\"Default\";case 1.15:return\"Large\";case 1.3:return\"超大\"",
+    "case .85:return\"小\";case 1:return\"默认\";case 1.15:return\"大\";case 1.3:return\"超大\""
+  ],
+  [
+    "?\"Hide\":\"Show\"",
+    "?\"隐藏\":\"显示\""
+  ],
+  [
+    "?\"Importing…\":\"Import\"",
+    "?\"正在导入…\":\"导入\""
+  ],
+  [
+    "?\"Importing...\":\"Import\"",
+    "?\"正在导入...\":\"导入\""
+  ],
+  [
+    "case\"claude-code-import-indicator\":return\"Import\"",
+    "case\"claude-code-import-indicator\":return\"导入\""
+  ],
+  [
+    "?\"Refreshing...\":\"Refresh model list\"",
+    "?\"正在刷新...\":\"刷新模型列表\""
+  ],
+  [
+    "title:ft?\"Results\":\"Suggested\"",
+    "title:ft?\"结果\":\"推荐\""
+  ],
+  [
+    "placeholder:\"Add or search model\"",
+    "placeholder:\"添加或搜索模型\""
+  ],
+  [
+    "case\"prerelease\":return\"Early Access\"",
+    "case\"prerelease\":return\"抢先体验\""
+  ],
+  [
+    "case\"dev\":return\"Nightly\"",
+    "case\"dev\":return\"每夜构建\""
+  ],
+  [
+    "case\"dogfood\":return\"Dogfood\"",
+    "case\"dogfood\":return\"内部测试\""
+  ],
+  [
+    "case\"candidate\":return\"Candidate\"",
+    "case\"candidate\":return\"候选版\""
+  ],
+  [
+    "case\"9\":return\"Nightly\"",
+    "case\"9\":return\"每夜构建\""
+  ],
+  [
+    "label:\"Dogfood\",id:\"dogfood\"",
+    "label:\"内部测试\",id:\"dogfood\""
+  ],
+  [
+    "label:\"Candidate\",id:\"candidate\"",
+    "label:\"候选版\",id:\"candidate\""
+  ],
+  [
+    "heading:\"Suggested\"",
+    "heading:\"推荐\""
+  ],
+  [
+    "title:\"Adjust Plan\"",
+    "title:\"调整套餐\""
+  ],
+  [
+    "title:\"Open SSH Configuration File\"",
+    "title:\"打开 SSH 配置文件\""
+  ],
+  [
+    "title:\"Open Folder in Container\"",
+    "title:\"在容器中打开文件夹\""
+  ],
+  [
+    "title:\"Attach to Running Container\"",
+    "title:\"附加到正在运行的容器\""
+  ],
+  [
+    "title:\"Connect to Host...\"",
+    "title:\"连接到主机...\""
+  ],
+  [
+    "title:\"Connect Current Window to Host...\"",
+    "title:\"将当前窗口连接到主机...\""
+  ],
+  [
+    "title:\"Connect to Host in New Window\"",
+    "title:\"在新窗口中连接到主机\""
+  ],
+  [
+    "title:\"Connect to Host in Current Window\"",
+    "title:\"在当前窗口中连接到主机\""
+  ],
+  [
+    "title:\"Connect to WSL\"",
+    "title:\"连接到 WSL\""
+  ],
+  [
+    "title:\"Connect to WSL using Distro...\"",
+    "title:\"使用指定发行版连接到 WSL...\""
+  ],
+  [
+    "title:\"Connect to WSL in New Window\"",
+    "title:\"在新窗口中连接到 WSL\""
+  ],
+  [
+    "title:\"Connect to WSL using Distro in New Window...\"",
+    "title:\"在新窗口中使用指定发行版连接到 WSL...\""
+  ],
+  [
+    "title:\"Open Folder in WSL\"",
+    "title:\"在 WSL 中打开文件夹\""
+  ],
+  [
+    "title:\"Show Dev Containers Log\"",
+    "title:\"显示 Dev Containers 日志\""
+  ],
+  [
+    "title:\"Attach to Running Kubernetes Container...\"",
+    "title:\"附加到正在运行的 Kubernetes 容器...\""
+  ],
+  [
+    "title:\"Open Container Configuration File\"",
+    "title:\"打开容器配置文件\""
+  ],
+  [
+    "label:\"Dev Containers\"",
+    "label:\"开发容器\""
+  ],
+  [
+    "glassCategory:\"Workspace\"",
+    "glassCategory:\"工作区\""
+  ],
+  [
+    "title:\"Clone Repository\"",
+    "title:\"克隆仓库\""
+  ],
+  [
+    "\"aria-label\":\"Clone Repository\"",
+    "\"aria-label\":\"克隆仓库\""
+  ],
+  [
+    "children:\"Connect SSH\"",
+    "children:\"连接 SSH\""
+  ],
+  [
+    "children:\"Connect WSL\"",
+    "children:\"连接 WSL\""
+  ],
+  [
+    "primaryButton:{id:\"import\",label:\"Import\"}",
+    "primaryButton:{id:\"import\",label:\"导入\"}"
+  ],
+  [
+    "primaryButton:{label:\"Import\",id:\"import\"}",
+    "primaryButton:{label:\"导入\",id:\"import\"}"
+  ],
+  [
+    "label:\"Import without extensions\"",
+    "label:\"导入（不含扩展）\""
+  ],
+  [
+    "label:\"Cancel\",id:\"cancel\"",
+    "label:\"取消\",id:\"cancel\""
+  ],
+  [
+    "n.textContent=\"Model\"",
+    "n.textContent=\"模型\""
+  ],
+  [
+    "o.textContent=n?\"Unsnooze\":\"Snooze\"",
+    "o.textContent=n?\"取消暂停\":\"暂停\""
+  ],
+  [
+    "Sqn=\"auto (default)\"",
+    "Sqn=\"自动（默认）\""
+  ],
+  [
+    "auto (default)",
+    "自动（默认）"
+  ],
+  [
+    "?\"Results\":\"Suggested\"",
+    "?\"结果\":\"推荐\""
+  ],
+  [
+    "\"Disable globally\"",
+    "\"全局禁用\""
+  ],
+  [
+    "\"No commit has been scored yet\"",
+    "\"暂无已评分的提交\""
+  ],
+  [
+    "\"$(git-commit) No commit scored\"",
+    "\"$(git-commit) 无提交评分\""
+  ],
+  [
+    "\"Select Cursor Tab snooze duration\"",
+    "\"选择 Cursor Tab 暂停时长\""
+  ],
+  [
+    "\"Temporarily disable Cursor Tab suggestions for a specified duration. You can unsnooze at any time.\"",
+    "\"临时禁用 Cursor Tab 建议一段指定时间，可随时取消暂停。\""
+  ],
+  [
+    ".LABEL=\"Snooze Cursor Tab\"",
+    ".LABEL=\"暂停 Cursor Tab\""
+  ],
+  [
+    ".LABEL=\"Unsnooze Cursor Tab\"",
+    ".LABEL=\"取消暂停 Cursor Tab\""
+  ],
+  [
+    "description:\"Quick access\"",
+    "description:\"快速访问\""
+  ],
+  [
+    "label:\"Grouping\"",
+    "label:\"分组\""
+  ],
+  [
+    "children:\"Grouping\"",
+    "children:\"分组\""
+  ],
+  [
+    "label:\"Ordering\"",
+    "label:\"排序\""
+  ],
+  [
+    "children:\"Ordering\"",
+    "children:\"排序\""
+  ],
+  [
+    "title:\"Filters\"",
+    "title:\"筛选器\""
+  ],
+  [
+    "value:\"repository\",label:\"Repository\"",
+    "value:\"repository\",label:\"仓库\""
+  ],
+  [
+    "value:\"workspace\",label:\"Workspace\"",
+    "value:\"workspace\",label:\"工作区\""
+  ],
+  [
+    "value:\"time\",label:\"Updated\"",
+    "value:\"time\",label:\"更新时间\""
+  ],
+  [
+    "value:\"status\",label:\"Status\"",
+    "value:\"status\",label:\"状态\""
+  ],
+  [
+    "value:\"environment\",label:\"Environment\"",
+    "value:\"environment\",label:\"环境\""
+  ],
+  [
+    "value:\"updated\",label:\"Updated\"",
+    "value:\"updated\",label:\"更新时间\""
+  ],
+  [
+    "value:\"created\",label:\"Created\"",
+    "value:\"created\",label:\"创建时间\""
+  ],
+  [
+    "value:\"needs_attention\",label:\"Needs Attention\"",
+    "value:\"needs_attention\",label:\"需要关注\""
+  ],
+  [
+    "value:\"unread_only\",label:\"Unread\"",
+    "value:\"unread_only\",label:\"未读\""
+  ],
+  [
+    "value:\"running\",label:\"Working\"",
+    "value:\"running\",label:\"进行中\""
+  ],
+  [
+    "value:\"draft\",label:\"Draft\"",
+    "value:\"draft\",label:\"草稿\""
+  ],
+  [
+    "value:\"done\",label:\"Done\"",
+    "value:\"done\",label:\"已完成\""
+  ],
+  [
+    "value:\"git:draft\",label:\"PR Draft\"",
+    "value:\"git:draft\",label:\"PR 草稿\""
+  ],
+  [
+    "value:\"git:open\",label:\"PR Open\"",
+    "value:\"git:open\",label:\"PR 开放\""
+  ],
+  [
+    "value:\"git:merged\",label:\"PR Merged\"",
+    "value:\"git:merged\",label:\"PR 已合并\""
+  ],
+  [
+    "value:\"git:closed\",label:\"PR Closed\"",
+    "value:\"git:closed\",label:\"PR 已关闭\""
+  ],
+  [
+    "value:\"git:none\",label:\"No PR\"",
+    "value:\"git:none\",label:\"无 PR\""
+  ],
+  [
+    "label:\"Any time\"",
+    "label:\"任意时间\""
+  ],
+  [
+    "label:\"Past day\"",
+    "label:\"过去一天\""
+  ],
+  [
+    "label:\"Past week\"",
+    "label:\"过去一周\""
+  ],
+  [
+    "label:\"Past month\"",
+    "label:\"过去一个月\""
+  ],
+  [
+    "value:\"branch\",label:\"Branch\"",
+    "value:\"branch\",label:\"分支\""
+  ],
+  [
+    "value:\"timestamp\",label:\"Updated\"",
+    "value:\"timestamp\",label:\"更新时间\""
+  ],
+  [
+    "value:\"source\",label:\"Source\"",
+    "value:\"source\",label:\"来源\""
+  ],
+  [
+    "value:\"cloud\",label:\"Cloud\"",
+    "value:\"cloud\",label:\"云端\""
+  ],
+  [
+    "value:\"local\",label:\"Local\"",
+    "value:\"local\",label:\"本地\""
+  ],
+  [
+    "label:\"Group by Workspace\"",
+    "label:\"按工作区分组\""
+  ],
+  [
+    "label:\"Group by Repository\"",
+    "label:\"按仓库分组\""
+  ],
+  [
+    "label:\"Group by Updated\"",
+    "label:\"按更新时间分组\""
+  ],
+  [
+    "label:\"Group by Status\"",
+    "label:\"按状态分组\""
+  ],
+  [
+    "label:\"Group by Environment\"",
+    "label:\"按环境分组\""
+  ],
+  [
+    "children:\"Machine\"",
+    "children:\"机器\""
+  ],
+  [
+    "\"collapse-all\",\"Collapse All\"",
+    "\"collapse-all\",\"全部折叠\""
+  ],
+  [
+    "children:\"Mark All as Read\"",
+    "children:\"全部标记为已读\""
+  ],
+  [
+    "lastTurn:\"Last Turn\",uncommitted:\"Uncommitted\",allChanges:\"All\",unstaged:\"Unstaged\",staged:\"Staged\",branch:\"Branch\"",
+    "lastTurn:\"最近一轮\",uncommitted:\"未提交\",allChanges:\"全部\",unstaged:\"未暂存\",staged:\"已暂存\",branch:\"分支\""
+  ],
+  [
+    "?\"Branch Commits\"",
+    "?\"分支提交\""
+  ],
+  [
+    "?\"All Changes\"",
+    "?\"所有更改\""
+  ],
+  [
+    "\"Unstage All\"",
+    "\"全部取消暂存\""
+  ],
+  [
+    "\"Stage All Remaining Changes\"",
+    "\"暂存所有剩余更改\""
+  ],
+  [
+    "\"Stage All\"",
+    "\"全部暂存\""
+  ],
+  [
+    "\"Stage Remaining Changes\"",
+    "\"暂存剩余更改\""
+  ],
+  [
+    "\"Unstage File\"",
+    "\"取消暂存文件\""
+  ],
+  [
+    "\"Stage File\"",
+    "\"暂存文件\""
+  ],
+  [
+    "children:\"Find in Changes\"",
+    "children:\"在更改中查找\""
+  ],
+  [
+    "children:\"Refresh Changes\"",
+    "children:\"刷新更改\""
+  ],
+  [
+    "content:\"Discard All Changes\"",
+    "content:\"放弃所有更改\""
+  ],
+  [
+    "{value:\"unified\",label:\"Unified\"}",
+    "{value:\"unified\",label:\"统一视图\"}"
+  ],
+  [
+    "{value:\"split\",label:\"Split\"}",
+    "{value:\"split\",label:\"拆分视图\"}"
+  ],
+  [
+    "children:\"Ignore Whitespace\"",
+    "children:\"忽略空白字符\""
+  ],
+  [
+    "children:\"Word Wrap\"",
+    "children:\"自动换行\""
+  ],
+  [
+    "children:\"Line Numbers\"",
+    "children:\"行号\""
+  ],
+  [
+    "children:\"Auto Save\"",
+    "children:\"自动保存\""
+  ],
+  [
+    "children:\"Format on Save\"",
+    "children:\"保存时格式化\""
+  ],
+  [
+    "?\"Exit Full Screen\":\"Enter Full Screen\"",
+    "?\"退出全屏\":\"进入全屏\""
+  ],
+  [
+    "?\"Hide Terminal List\":\"Show Terminal List\"",
+    "?\"隐藏终端列表\":\"显示终端列表\""
+  ],
+  [
+    "\"aria-label\":\"Search or enter URL\"",
+    "\"aria-label\":\"搜索或输入 URL\""
+  ],
+  [
+    "children:\"Show Bookmark Bar\"",
+    "children:\"显示书签栏\""
+  ],
+  [
+    "\"Create a Canvas from chat\"",
+    "\"从聊天创建画布\""
+  ],
+  [
+    "?\"Hide Canvas List\":\"Show Canvas List\"",
+    "?\"隐藏画布列表\":\"显示画布列表\""
+  ],
+  [
+    "\"Open a file to get started\"",
+    "\"打开一个文件即可开始\""
+  ],
+  [
+    "label:\"New File\"",
+    "label:\"新建文件\""
+  ],
+  [
+    "children:\"No workspace folder open\"",
+    "children:\"没有打开的工作区文件夹\""
+  ],
+  [
+    "children:\"Save File\"",
+    "children:\"保存文件\""
+  ],
+  [
+    "label:\"Discard Changes\"",
+    "label:\"放弃更改\""
+  ],
+  [
+    "title:\"Search Files\"",
+    "title:\"搜索文件\""
+  ],
+  [
+    "title:\"Browse Files\"",
+    "title:\"浏览文件\""
+  ],
+  [
+    ".LABEL=\"New Tab\"",
+    ".LABEL=\"新建标签页\""
+  ],
+  [
+    "title:\"Toggle Git Blame\"",
+    "title:\"切换 Git Blame\""
+  ],
+  [
+    "label:\"Open Customize\"",
+    "label:\"打开自定义\""
+  ],
+  [
+    "label:\"Open Skills\"",
+    "label:\"打开技能\""
+  ],
+  [
+    "label:\"Open Subagents\"",
+    "label:\"打开子智能体\""
+  ],
+  [
+    "label:\"Open Commands\"",
+    "label:\"打开命令\""
+  ],
+  [
+    "title:\"Switch Theme\"",
+    "title:\"切换主题\""
+  ],
+  [
+    "title:\"Switch to Cursor Light\"",
+    "title:\"切换到 Cursor 浅色\""
+  ],
+  [
+    "title:\"Switch to Cursor Dark\"",
+    "title:\"切换到 Cursor 深色\""
+  ],
+  [
+    "title:\"Switch to Cursor High Contrast\"",
+    "title:\"切换到 Cursor 高对比度\""
+  ],
+  [
+    "\"Reset In-App Ad Views\"",
+    "\"重置应用内广告视图\""
+  ],
+  [
+    "title:\"Developer: Open Logs Folder\"",
+    "title:\"开发者：打开日志文件夹\""
+  ],
+  [
+    "title:\"About Cursor\"",
+    "title:\"关于 Cursor\""
+  ],
+  [
+    "desktop:\"Desktop\",sand:\"Sand\",web:\"Web\",mobile:\"Mobile\"",
+    "desktop:\"桌面\",sand:\"沙盒\",web:\"网页\",mobile:\"移动端\""
+  ],
+  [
+    "scm:\"Source Control\"",
+    "scm:\"源代码管理\""
+  ],
+  [
+    "setup:\"Setup\"",
+    "setup:\"设置\""
+  ],
+  [
+    "automations:\"Automations\"",
+    "automations:\"自动化\""
+  ],
+  [
+    "qabot_frontend:\"Frontend QA\"",
+    "qabot_frontend:\"前端 QA\""
+  ],
+  [
+    "local:\"Local\",internal:\"Subagent\"",
+    "local:\"本地\",internal:\"子智能体\""
+  ],
+  [
+    "text:\"Desktop\",title:\"Open Desktop\"",
+    "text:\"桌面\",title:\"打开桌面\""
+  ],
+  [
+    "void 0?\"Automations\"",
+    "void 0?\"自动化\""
+  ],
+  [
+    "\"glass.canvasActivationEmptyState.descriptionPrefix\",\"Type\"",
+    "\"glass.canvasActivationEmptyState.descriptionPrefix\",\"输入\""
+  ],
+  [
+    "\"glass.canvasActivationEmptyState.descriptionSuffix\",\"to create or open a Canvas.\"",
+    "\"glass.canvasActivationEmptyState.descriptionSuffix\",\"来创建或打开画布。\""
+  ],
+  [
+    "title:\"Open Customize\"",
+    "title:\"打开自定义\""
+  ],
+  [
+    "title:\"Appearance\"",
+    "title:\"外观\""
+  ],
+  [
+    "action:\"Create Branch\"",
+    "action:\"创建分支\""
+  ],
+  [
+    "action:\"Commit\"",
+    "action:\"提交\""
+  ],
+  [
+    "action:\"Push\"",
+    "action:\"推送\""
+  ],
+  [
+    "children:\"Commit\"",
+    "children:\"提交\""
+  ],
+  [
+    "children:\"Push\"",
+    "children:\"推送\""
+  ],
+  [
+    "description:\"Systematically diagnose and fix bugs using runtime traces\"",
+    "description:\"使用运行时跟踪系统性地诊断和修复 Bug\""
+  ],
+  [
+    "key:\"today\",label:\"Today\"",
+    "key:\"today\",label:\"今天\""
+  ],
+  [
+    "key:\"yesterday\",label:\"Yesterday\"",
+    "key:\"yesterday\",label:\"昨天\""
+  ],
+  [
+    "key:\"last_7_days\",label:\"Last 7 Days\"",
+    "key:\"last_7_days\",label:\"过去 7 天\""
+  ],
+  [
+    "key:\"last_30_days\",label:\"Last 30 Days\"",
+    "key:\"last_30_days\",label:\"过去 30 天\""
+  ],
+  [
+    "key:\"older\",label:\"Older\"",
+    "key:\"older\",label:\"更早\""
+  ],
+  [
+    "[\"Today\",\"Yesterday\",\"This week\",\"Older\"]",
+    "[\"今天\",\"昨天\",\"本周\",\"更早\"]"
+  ],
+  [
+    "?\"Today\":",
+    "?\"今天\":"
+  ],
+  [
+    "?\"Yesterday\":",
+    "?\"昨天\":"
+  ],
+  [
+    "?\"This week\":\"Older\"",
+    "?\"本周\":\"更早\""
+  ],
+  [
+    "\"Previous 7 days\"",
+    "\"过去 7 天\""
+  ],
+  [
+    "label:\"Changes\"",
+    "label:\"更改\""
+  ],
+  [
+    "?\"Change\":\"Changes\"",
+    "?\"处更改\":\"处更改\""
+  ],
+  [
+    "children:\"Create new canvas\"",
+    "children:\"创建新画布\""
+  ],
+  [
+    "children:\"Create New\"",
+    "children:\"新建\""
+  ],
+  [
+    "description:\"Set up a team marketplace\"",
+    "description:\"设置团队市场\""
+  ],
+  [
+    "description:\"Add a marketplace from a repository\"",
+    "description:\"从仓库添加市场\""
+  ],
+  [
+    "description:\"Add a marketplace from your local computer\"",
+    "description:\"从本地计算机添加市场\""
+  ],
+  [
+    "children:\"Import from Github\"",
+    "children:\"从 Github 导入\""
+  ],
+  [
+    "children:\"Import from Disk\"",
+    "children:\"从磁盘导入\""
+  ],
+  [
+    "children:\"Actions\"",
+    "children:\"操作\""
+  ],
+  [
+    "label:\"On\"",
+    "label:\"开\""
+  ],
+  [
+    "label:\"Off\"",
+    "label:\"关\""
+  ],
+  [
+    "open_browser:\"Open Browser\"",
+    "open_browser:\"打开浏览器\""
+  ],
+  [
+    "title:\"Previous\",shortcut:",
+    "title:\"上一个\",shortcut:"
+  ],
+  [
+    "title:\"Build\"",
+    "title:\"构建\""
+  ],
+  [
+    "title:\"Open\",type:\"tertiary\"",
+    "title:\"打开\",type:\"tertiary\""
+  ],
+  [
+    "children:\"Proceed\"",
+    "children:\"继续\""
+  ],
+  [
+    "label:\"Proceed\"",
+    "label:\"继续\""
+  ],
+  [
+    "label:\"Discard Changes\"",
+    "label:\"放弃更改\""
+  ],
+  [
+    "label:\"Review Changes\"",
+    "label:\"审查更改\""
+  ],
+  [
+    "title:\"Close Settings\"",
+    "title:\"关闭设置\""
+  ],
+  [
+    "e[e.Expand=1]=\"Expand\"",
+    "e[e.Expand=1]=\"展开\""
+  ],
+  [
+    "?\"Expand\":\"Collapse\"",
+    "?\"展开\":\"折叠\""
+  ],
+  [
+    "?\"Collapse\":\"Expand\"",
+    "?\"折叠\":\"展开\""
+  ],
+  [
+    "title:\"Open Settings\"",
+    "title:\"打开设置\""
+  ],
+  [
+    "title:\"Open Composer Settings\"",
+    "title:\"打开编写器设置\""
+  ],
+  [
+    "title:\"Agent Settings\"",
+    "title:\"智能体设置\""
+  ],
+  [
+    "title:\"Open Documentation\"",
+    "title:\"打开文档\""
+  ],
+  [
+    "title:\"Open Source Control\"",
+    "title:\"打开源代码管理\""
+  ],
+  [
+    "title:\"Open Usage Based Pricing\"",
+    "title:\"打开基于用量的定价\""
+  ],
+  [
+    "title:\"Open Hooks\"",
+    "title:\"打开钩子\""
+  ],
+  [
+    "title:\"Open Rules\"",
+    "title:\"打开规则\""
+  ],
+  [
+    "title:\"Open Rule\"",
+    "title:\"打开规则\""
+  ],
+  [
+    "title:\"Open Plugins\"",
+    "title:\"打开插件\""
+  ],
+  [
+    "title:\"Open MCPs\"",
+    "title:\"打开 MCP\""
+  ],
+  [
+    "title:\"Open Skills\"",
+    "title:\"打开技能\""
+  ],
+  [
+    "title:\"Open Automations\"",
+    "title:\"打开自动化\""
+  ],
+  [
+    "title:\"Open Build Menu\"",
+    "title:\"打开构建菜单\""
+  ],
+  [
+    "title:\"Open Canvas\"",
+    "title:\"打开画布\""
+  ],
+  [
+    "title:\"Open Gallery\"",
+    "title:\"打开画廊\""
+  ],
+  [
+    "title:\"Open PR\"",
+    "title:\"打开 PR\""
+  ],
+  [
+    "title:\"Open Plan\"",
+    "title:\"打开计划\""
+  ],
+  [
+    "title:\"Open File\"",
+    "title:\"打开文件\""
+  ],
+  [
+    "title:\"Open Link\"",
+    "title:\"打开链接\""
+  ],
+  [
+    "title:\"About Cursor\"",
+    "title:\"关于 Cursor\""
+  ],
+  [
+    "title:\"Access Settings\"",
+    "title:\"访问设置\""
+  ],
+  [
+    "title:\"Agent Layout\"",
+    "title:\"智能体布局\""
+  ],
+  [
+    "title:\"Agent Window\"",
+    "title:\"智能体窗口\""
+  ],
+  [
+    "title:\"Agent Stores\"",
+    "title:\"智能体商店\""
+  ],
+  [
+    "title:\"Agent Instructions\"",
+    "title:\"智能体指令\""
+  ],
+  [
+    "title:\"Add Doc\"",
+    "title:\"添加文档\""
+  ],
+  [
+    "title:\"Add MCP\"",
+    "title:\"添加 MCP\""
+  ],
+  [
+    "title:\"Add Models\"",
+    "title:\"添加模型\""
+  ],
+  [
+    "title:\"Add Skills\"",
+    "title:\"添加技能\""
+  ],
+  [
+    "title:\"Add Folder\"",
+    "title:\"添加文件夹\""
+  ],
+  [
+    "title:\"Add Link\"",
+    "title:\"添加链接\""
+  ],
+  [
+    "title:\"Add Marketplace\"",
+    "title:\"添加市场\""
+  ],
+  [
+    "title:\"Add to Chat\"",
+    "title:\"添加到聊天\""
+  ],
+  [
+    "title:\"Add to Team\"",
+    "title:\"添加到团队\""
+  ],
+  [
+    "title:\"Adjust Plan\"",
+    "title:\"调整套餐\""
+  ],
+  [
+    "title:\"Archive All\"",
+    "title:\"全部归档\""
+  ],
+  [
+    "title:\"Archive Prior Chats\"",
+    "title:\"归档之前的聊天\""
+  ],
+  [
+    "title:\"Ask Agent\"",
+    "title:\"询问智能体\""
+  ],
+  [
+    "title:\"Accept All\"",
+    "title:\"全部接受\""
+  ],
+  [
+    "title:\"Accept Edits\"",
+    "title:\"接受编辑\""
+  ],
+  [
+    "title:\"Apply Changes\"",
+    "title:\"应用更改\""
+  ],
+  [
+    "title:\"Apply Manually\"",
+    "title:\"手动应用\""
+  ],
+  [
+    "title:\"Abort Chat\"",
+    "title:\"中止聊天\""
+  ],
+  [
+    "title:\"Browse Files\"",
+    "title:\"浏览文件\""
+  ],
+  [
+    "title:\"Build Locally\"",
+    "title:\"本地构建\""
+  ],
+  [
+    "title:\"Build in Cloud\"",
+    "title:\"在云端构建\""
+  ],
+  [
+    "title:\"Build Plan\"",
+    "title:\"构建计划\""
+  ],
+  [
+    "title:\"Discard Changes\"",
+    "title:\"放弃更改\""
+  ],
+  [
+    "title:\"Discard All Changes\"",
+    "title:\"放弃所有更改\""
+  ],
+  [
+    "title:\"Reject All Edits\"",
+    "title:\"拒绝所有编辑\""
+  ],
+  [
+    "title:\"Undo Edits\"",
+    "title:\"撤销编辑\""
+  ],
+  [
+    "title:\"Undo All\"",
+    "title:\"全部撤销\""
+  ],
+  [
+    "title:\"Rename Chat\"",
+    "title:\"重命名聊天\""
+  ],
+  [
+    "title:\"Reset All\"",
+    "title:\"全部重置\""
+  ],
+  [
+    "title:\"Reset Position\"",
+    "title:\"重置位置\""
+  ],
+  [
+    "title:\"Reset zoom\"",
+    "title:\"重置缩放\""
+  ],
+  [
+    "title:\"Restore defaults\"",
+    "title:\"恢复默认值\""
+  ],
+  [
+    "title:\"Run Now\"",
+    "title:\"立即运行\""
+  ],
+  [
+    "title:\"Run Task\"",
+    "title:\"运行任务\""
+  ],
+  [
+    "title:\"Run in Background\"",
+    "title:\"在后台运行\""
+  ],
+  [
+    "title:\"Reopen PR\"",
+    "title:\"重新打开 PR\""
+  ],
+  [
+    "title:\"Reopen conversation\"",
+    "title:\"重新打开对话\""
+  ],
+  [
+    "title:\"Review Again\"",
+    "title:\"再次审查\""
+  ],
+  [
+    "title:\"Review Code with Bugbot\"",
+    "title:\"用 Bugbot 审查代码\""
+  ],
+  [
+    "title:\"Review Next File\"",
+    "title:\"审查下一个文件\""
+  ],
+  [
+    "title:\"Review Plan\"",
+    "title:\"审查计划\""
+  ],
+  [
+    "title:\"Review changes\"",
+    "title:\"审查更改\""
+  ],
+  [
+    "title:\"Save Automation\"",
+    "title:\"保存自动化\""
+  ],
+  [
+    "title:\"Save Image As...\"",
+    "title:\"另存图片为...\""
+  ],
+  [
+    "title:\"Search Agents\"",
+    "title:\"搜索智能体\""
+  ],
+  [
+    "title:\"Search Cursor Settings\"",
+    "title:\"搜索 Cursor 设置\""
+  ],
+  [
+    "title:\"Search Extensions\"",
+    "title:\"搜索扩展\""
+  ],
+  [
+    "title:\"Select Backend\"",
+    "title:\"选择后端\""
+  ],
+  [
+    "title:\"Select Environment\"",
+    "title:\"选择环境\""
+  ],
+  [
+    "title:\"Select Workspace\"",
+    "title:\"选择工作区\""
+  ],
+  [
+    "title:\"Select Multiple\"",
+    "title:\"多选\""
+  ],
+  [
+    "title:\"Send to Chat\"",
+    "title:\"发送到聊天\""
+  ],
+  [
+    "title:\"Send to Cloud\"",
+    "title:\"发送到云端\""
+  ],
+  [
+    "title:\"Send invite\"",
+    "title:\"发送邀请\""
+  ],
+  [
+    "title:\"Share Transcript\"",
+    "title:\"分享记录\""
+  ],
+  [
+    "title:\"Sign In\"",
+    "title:\"登录\""
+  ],
+  [
+    "title:\"Sign Up\"",
+    "title:\"注册\""
+  ],
+  [
+    "title:\"Skip For Now\"",
+    "title:\"暂时跳过\""
+  ],
+  [
+    "title:\"Start New Chat\"",
+    "title:\"开始新聊天\""
+  ],
+  [
+    "title:\"Stash Changes\"",
+    "title:\"暂存更改\""
+  ],
+  [
+    "title:\"Suggest Changes\"",
+    "title:\"建议更改\""
+  ],
+  [
+    "title:\"Switch mode\"",
+    "title:\"切换模式\""
+  ],
+  [
+    "title:\"Take Control\"",
+    "title:\"接管控制\""
+  ],
+  [
+    "title:\"Try Again\"",
+    "title:\"重试\""
+  ],
+  [
+    "title:\"Try Cloud Agent\"",
+    "title:\"试试云智能体\""
+  ],
+  [
+    "title:\"Trust & Continue\"",
+    "title:\"信任并继续\""
+  ],
+  [
+    "title:\"Unfold All\"",
+    "title:\"全部展开\""
+  ],
+  [
+    "title:\"Unlink PR\"",
+    "title:\"取消关联 PR\""
+  ],
+  [
+    "title:\"Update Cursor\"",
+    "title:\"更新 Cursor\""
+  ],
+  [
+    "title:\"Upgrade to Pro\"",
+    "title:\"升级到 Pro\""
+  ],
+  [
+    "title:\"Upgrade to Pro+\"",
+    "title:\"升级到 Pro+\""
+  ],
+  [
+    "title:\"Upgrade to Ultra\"",
+    "title:\"升级到 Ultra\""
+  ],
+  [
+    "title:\"View Agent\"",
+    "title:\"查看智能体\""
+  ],
+  [
+    "title:\"View All Changes\"",
+    "title:\"查看所有更改\""
+  ],
+  [
+    "title:\"View Changes\"",
+    "title:\"查看更改\""
+  ],
+  [
+    "title:\"View PR\"",
+    "title:\"查看 PR\""
+  ],
+  [
+    "title:\"View Source\"",
+    "title:\"查看源代码\""
+  ],
+  [
+    "title:\"View changelog\"",
+    "title:\"查看更新日志\""
+  ],
+  [
+    "title:\"View on Web\"",
+    "title:\"在网页中查看\""
+  ],
+  [
+    "title:\"View docs\"",
+    "title:\"查看文档\""
+  ],
+  [
+    "title:\"Show History\"",
+    "title:\"显示历史记录\""
+  ],
+  [
+    "title:\"Show Less\"",
+    "title:\"显示更少\""
+  ],
+  [
+    "title:\"Show More\"",
+    "title:\"显示更多\""
+  ],
+  [
+    "title:\"Show Chat\"",
+    "title:\"显示聊天\""
+  ],
+  [
+    "title:\"Show Changes\"",
+    "title:\"显示更改\""
+  ],
+  [
+    "title:\"Show Output\"",
+    "title:\"显示输出\""
+  ],
+  [
+    "title:\"Show Options\"",
+    "title:\"显示选项\""
+  ],
+  [
+    "title:\"Shut down\"",
+    "title:\"关闭\""
+  ],
+  [
+    "title:\"Pause Indexing\"",
+    "title:\"暂停索引\""
+  ],
+  [
+    "title:\"Replace all\"",
+    "title:\"全部替换\""
+  ],
+  [
+    "title:\"Preserve Case\"",
+    "title:\"保留大小写\""
+  ],
+  [
+    "title:\"Use Regular Expression\"",
+    "title:\"使用正则表达式\""
+  ],
+  [
+    "title:\"Use Cursor Browser\"",
+    "title:\"使用 Cursor 浏览器\""
+  ],
+  [
+    "title:\"Use External Browser\"",
+    "title:\"使用外部浏览器\""
+  ],
+  [
+    "title:\"Use in IDE\"",
+    "title:\"在 IDE 中使用\""
+  ],
+  [
+    "title:\"Use in Agents Window\"",
+    "title:\"在智能体窗口中使用\""
+  ],
+  [
+    "title:\"Pin / Unpin Agent\"",
+    "title:\"固定/取消固定智能体\""
+  ],
+  [
+    "title:\"Pin to workspace\"",
+    "title:\"固定到工作区\""
+  ],
+  [
+    "title:\"Recent commits\"",
+    "title:\"最近提交\""
+  ],
+  [
+    "title:\"Recently changed\"",
+    "title:\"最近更改\""
+  ],
+  [
+    "title:\"Your Tasks\"",
+    "title:\"你的任务\""
+  ],
+  [
+    "title:\"Your branches\"",
+    "title:\"你的分支\""
+  ],
+  [
+    "title:\"Other Agents\"",
+    "title:\"其他智能体\""
+  ],
+  [
+    "title:\"Other Marketplaces\"",
+    "title:\"其他市场\""
+  ],
+  [
+    "title:\"Available Marketplaces\"",
+    "title:\"可用市场\""
+  ],
+  [
+    "title:\"All Plugins\"",
+    "title:\"所有插件\""
+  ],
+  [
+    "title:\"All Members\"",
+    "title:\"所有成员\""
+  ],
+  [
+    "title:\"All Tasks\"",
+    "title:\"所有任务\""
+  ],
+  [
+    "title:\"Team agents\"",
+    "title:\"团队智能体\""
+  ],
+  [
+    "title:\"Team Default\"",
+    "title:\"团队默认\""
+  ],
+  [
+    "title:\"Personal Usage\"",
+    "title:\"个人用量\""
+  ],
+  [
+    "title:\"Usage Remaining\"",
+    "title:\"剩余用量\""
+  ],
+  [
+    "title:\"Quick Question\"",
+    "title:\"快速提问\""
+  ],
+  [
+    "title:\"Side Chat\"",
+    "title:\"侧边聊天\""
+  ],
+  [
+    "title:\"Past Chat\"",
+    "title:\"历史聊天\""
+  ],
+  [
+    "title:\"Previous Agent\"",
+    "title:\"上一个智能体\""
+  ],
+  [
+    "title:\"Self-Driving Mode\"",
+    "title:\"自动驾驶模式\""
+  ],
+  [
+    "title:\"Self-Driving PRs\"",
+    "title:\"自动驾驶 PR\""
+  ],
+  [
+    "title:\"Self-driving Settings\"",
+    "title:\"自动驾驶设置\""
+  ],
+  [
+    "title:\"Remote Control\"",
+    "title:\"远程控制\""
+  ],
+  [
+    "title:\"Remote Host\"",
+    "title:\"远程主机\""
+  ],
+  [
+    "title:\"Background agent\"",
+    "title:\"后台智能体\""
+  ],
+  [
+    "title:\"Browser Menu\"",
+    "title:\"浏览器菜单\""
+  ],
+  [
+    "title:\"Browser Tab\"",
+    "title:\"浏览器标签页\""
+  ],
+  [
+    "`Browser Tab: ${gt}`",
+    "`浏览器标签页：${gt}`"
+  ],
+  [
+    "title:\"Browser Tools\"",
+    "title:\"浏览器工具\""
+  ],
+  [
+    "title:\"Source Action...\"",
+    "title:\"源代码操作...\""
+  ],
+  [
+    "title:\"Ordered list\"",
+    "title:\"有序列表\""
+  ],
+  [
+    "title:\"Bullet list\"",
+    "title:\"无序列表\""
+  ],
+  [
+    "title:\"Server Status\"",
+    "title:\"服务器状态\""
+  ],
+  [
+    "title:\"Operation Complete\"",
+    "title:\"操作完成\""
+  ],
+  [
+    "title:\"Pending approval\"",
+    "title:\"待批准\""
+  ],
+  [
+    "title:\"Action Needed\"",
+    "title:\"需要操作\""
+  ],
+  [
+    "title:\"Review required\"",
+    "title:\"需要审查\""
+  ],
+  [
+    "title:\"Sign-in restricted\"",
+    "title:\"登录受限\""
+  ],
+  [
+    "title:\"Payment failed\"",
+    "title:\"付款失败\""
+  ],
+  [
+    "title:\"Plan ending soon\"",
+    "title:\"套餐即将到期\""
+  ],
+  [
+    "title:\"Update Required\"",
+    "title:\"需要更新\""
+  ],
+  [
+    "title:\"Restart to Update\"",
+    "title:\"重启以更新\""
+  ],
+  [
+    "title:\"Refer friends, earn usage credits\"",
+    "title:\"推荐好友，赚取用量额度\""
+  ],
+  [
+    "title:\"Referral link\"",
+    "title:\"推荐链接\""
+  ],
+  [
+    "title:\"Public Profile\"",
+    "title:\"公开资料\""
+  ],
+  [
+    "title:\"Profile Image\"",
+    "title:\"头像\""
+  ],
+  [
+    "title:\"API Key\"",
+    "title:\"API 密钥\""
+  ],
+  [
+    "title:\"Base URL\"",
+    "title:\"基础 URL\""
+  ],
+  [
+    "title:\"Slack Channel\"",
+    "title:\"Slack 频道\""
+  ],
+  [
+    "title:\"Slack Token\"",
+    "title:\"Slack 令牌\""
+  ],
+  [
+    "title:\"Anthropic API Key\"",
+    "title:\"Anthropic API 密钥\""
+  ],
+  [
+    "title:\"Access Key ID\"",
+    "title:\"访问密钥 ID\""
+  ],
+  [
+    "title:\"Active Connections\"",
+    "title:\"活动连接\""
+  ],
+  [
+    "title:\"Scheduled Tasks\"",
+    "title:\"计划任务\""
+  ],
+  [
+    "title:\"Binary file not shown\"",
+    "title:\"二进制文件未显示\""
+  ],
+  [
+    "title:\"Only whitespace changes\"",
+    "title:\"仅有空白字符更改\""
+  ],
+  [
+    "title:\"Squash & Merge\"",
+    "title:\"压缩并合并\""
+  ],
+  [
+    "title:\"Rebase Merge\"",
+    "title:\"变基合并\""
+  ],
+  [
+    "title:\"Stash Changes\"",
+    "title:\"暂存更改\""
+  ],
+  [
+    "title:\"Search web\"",
+    "title:\"搜索网页\""
+  ],
+  [
+    "title:\"Search with Google\"",
+    "title:\"用 Google 搜索\""
+  ],
+  [
+    "title:\"Type to search actions\"",
+    "title:\"输入以搜索操作\""
+  ],
+  [
+    "title:\"Report Bug\"",
+    "title:\"报告 Bug\""
+  ],
+  [
+    "title:\"Report Good\"",
+    "title:\"报告良好\""
+  ],
+  [
+    "title:\"Report Bad\"",
+    "title:\"报告问题\""
+  ],
+  [
+    "title:\"Thumbs Up\"",
+    "title:\"点赞\""
+  ],
+  [
+    "title:\"Thumbs Down\"",
+    "title:\"踩\""
+  ],
+  [
+    "title:\"See Details\"",
+    "title:\"查看详情\""
+  ],
+  [
+    "title:\"Reveal in File Explorer\"",
+    "title:\"在文件资源管理器中显示\""
+  ],
+  [
+    "title:\"Select All in Diff\"",
+    "title:\"在差异中全选\""
+  ],
+  [
+    "title:\"Select All in File\"",
+    "title:\"在文件中全选\""
+  ],
+  [
+    "title:\"Select to End\"",
+    "title:\"选择到末尾\""
+  ],
+  [
+    "title:\"Screen recording\"",
+    "title:\"屏幕录制\""
+  ],
+  [
+    "title:\"Verified by Cursor\"",
+    "title:\"Cursor 已验证\""
+  ],
+  [
+    "title:\"Teach Cursor New Skills\"",
+    "title:\"教 Cursor 新技能\""
+  ],
+  [
+    "title:\"Automate with Hooks\"",
+    "title:\"用钩子自动化\""
+  ],
+  [
+    "title:\"Scan and Triage Security Vulnerabilities\"",
+    "title:\"扫描和分类安全漏洞\""
+  ],
+  [
+    "title:\"PR Routing & Approval\"",
+    "title:\"PR 路由与批准\""
+  ],
+  [
+    "title:\"Score Commit for AI Content\"",
+    "title:\"为 AI 内容评分提交\""
+  ],
+  [
+    "label:\"Close Settings\"",
+    "label:\"关闭设置\""
+  ],
+  [
+    "label:\"Open Settings\"",
+    "label:\"打开设置\""
+  ],
+  [
+    "label:\"Agent Mode\"",
+    "label:\"智能体模式\""
+  ],
+  [
+    "label:\"Review Mode\"",
+    "label:\"审查模式\""
+  ],
+  [
+    "label:\"Background Mode\"",
+    "label:\"后台模式\""
+  ],
+  [
+    "label:\"Actions Palette\"",
+    "label:\"操作面板\""
+  ],
+  [
+    "label:\"Personal Usage\"",
+    "label:\"个人用量\""
+  ],
+  [
+    "label:\"Usage Remaining\"",
+    "label:\"剩余用量\""
+  ],
+  [
+    "label:\"Quick Question\"",
+    "label:\"快速提问\""
+  ],
+  [
+    "label:\"Side Chat\"",
+    "label:\"侧边聊天\""
+  ],
+  [
+    "label:\"Other Agents\"",
+    "label:\"其他智能体\""
+  ],
+  [
+    "label:\"All Tasks\"",
+    "label:\"所有任务\""
+  ],
+  [
+    "label:\"Your Tasks\"",
+    "label:\"你的任务\""
+  ],
+  [
+    "label:\"Team agents\"",
+    "label:\"团队智能体\""
+  ],
+  [
+    "label:\"Available Marketplaces\"",
+    "label:\"可用市场\""
+  ],
+  [
+    "label:\"Other Marketplaces\"",
+    "label:\"其他市场\""
+  ],
+  [
+    "label:\"All Plugins\"",
+    "label:\"所有插件\""
+  ],
+  [
+    "label:\"All Members\"",
+    "label:\"所有成员\""
+  ],
+  [
+    "label:\"Recent commits\"",
+    "label:\"最近提交\""
+  ],
+  [
+    "label:\"Recently changed\"",
+    "label:\"最近更改\""
+  ],
+  [
+    "label:\"Your branches\"",
+    "label:\"你的分支\""
+  ],
+  [
+    "label:\"Team Default\"",
+    "label:\"团队默认\""
+  ],
+  [
+    "label:\"Remote Control\"",
+    "label:\"远程控制\""
+  ],
+  [
+    "label:\"Remote Host\"",
+    "label:\"远程主机\""
+  ],
+  [
+    "label:\"Browser Tab\"",
+    "label:\"浏览器标签页\""
+  ],
+  [
+    "label:\"Browser Tools\"",
+    "label:\"浏览器工具\""
+  ],
+  [
+    "label:\"Browser Menu\"",
+    "label:\"浏览器菜单\""
+  ],
+  [
+    "label:\"Pending approval\"",
+    "label:\"待批准\""
+  ],
+  [
+    "label:\"Action Needed\"",
+    "label:\"需要操作\""
+  ],
+  [
+    "label:\"Review required\"",
+    "label:\"需要审查\""
+  ],
+  [
+    "label:\"Sign In\"",
+    "label:\"登录\""
+  ],
+  [
+    "label:\"Sign Up\"",
+    "label:\"注册\""
+  ],
+  [
+    "label:\"Skip For Now\"",
+    "label:\"暂时跳过\""
+  ],
+  [
+    "label:\"Trust & Continue\"",
+    "label:\"信任并继续\""
+  ],
+  [
+    "label:\"Try Again\"",
+    "label:\"重试\""
+  ],
+  [
+    "label:\"Try Cloud Agent\"",
+    "label:\"试试云智能体\""
+  ],
+  [
+    "label:\"Upgrade to Pro\"",
+    "label:\"升级到 Pro\""
+  ],
+  [
+    "Entry-level plan with access to premium models, unlimited Tab completions, and more.",
+    "入门级套餐，可使用高级模型、无限 Tab 补全及更多功能。"
+  ],
+  [
+    "Data Sharing Enabled",
+    "数据共享已启用"
+  ],
+  [
+    "Your codebase, prompts, edits and other usage data will be stored and trained on by Cursor to improve the product.",
+    "您的代码库、提示词、编辑记录及其他使用数据将被 Cursor 存储并用于训练，以改进产品。"
+  ],
+  [
+    "Create your public profile",
+    "创建您的公开主页"
+  ],
+  [
+    "Claim a handle to get a profile page showing your token, model, and agent usage.",
+    "领取一个标识即可获得展示您的额度、模型和智能体使用情况的主页。"
+  ],
+  [
+    "Claim handle",
+    "领取标识"
+  ],
+  [
+    "Default Model",
+    "默认模型"
+  ],
+  [
+    "Cursor Default",
+    "Cursor 默认"
+  ],
+  [
+    "Default Browser",
+    "默认浏览器"
+  ],
+  [
+    "Upgrade to unlock premium models",
+    "升级以解锁高级模型"
+  ],
+  [
+    "Premium models are only available on paid plans.",
+    "高级模型仅限付费套餐使用。"
+  ],
+  [
+    "Steer from iOS",
+    "从 iOS 操控"
+  ],
+  [
+    "Please open a folder to use background agents.",
+    "请打开文件夹以使用后台智能体。"
+  ],
+  [
+    "label:\"Upgrade to Pro+\"",
+    "label:\"升级到 Pro+\""
+  ],
+  [
+    "label:\"Upgrade to Ultra\"",
+    "label:\"升级到 Ultra\""
+  ],
+  [
+    "label:\"Refer friends, earn usage credits\"",
+    "label:\"推荐好友，赚取用量额度\""
+  ],
+  [
+    "label:\"Referral link\"",
+    "label:\"推荐链接\""
+  ],
+  [
+    "label:\"Public Profile\"",
+    "label:\"公开资料\""
+  ],
+  [
+    "label:\"Profile Image\"",
+    "label:\"头像\""
+  ],
+  [
+    "label:\"API Key\"",
+    "label:\"API 密钥\""
+  ],
+  [
+    "label:\"Base URL\"",
+    "label:\"基础 URL\""
+  ],
+  [
+    "label:\"Slack Channel\"",
+    "label:\"Slack 频道\""
+  ],
+  [
+    "label:\"Slack Token\"",
+    "label:\"Slack 令牌\""
+  ],
+  [
+    "label:\"Anthropic API Key\"",
+    "label:\"Anthropic API 密钥\""
+  ],
+  [
+    "label:\"Access Key ID\"",
+    "label:\"访问密钥 ID\""
+  ],
+  [
+    "label:\"Active Connections\"",
+    "label:\"活动连接\""
+  ],
+  [
+    "label:\"Scheduled Tasks\"",
+    "label:\"计划任务\""
+  ],
+  [
+    "label:\"Server Status\"",
+    "label:\"服务器状态\""
+  ],
+  [
+    "label:\"Operation Complete\"",
+    "label:\"操作完成\""
+  ],
+  [
+    "label:\"Binary file not shown\"",
+    "label:\"二进制文件未显示\""
+  ],
+  [
+    "label:\"Only whitespace changes\"",
+    "label:\"仅有空白字符更改\""
+  ],
+  [
+    "label:\"Squash & Merge\"",
+    "label:\"压缩并合并\""
+  ],
+  [
+    "label:\"Rebase Merge\"",
+    "label:\"变基合并\""
+  ],
+  [
+    "label:\"Stash Changes\"",
+    "label:\"暂存更改\""
+  ],
+  [
+    "label:\"Replace all\"",
+    "label:\"全部替换\""
+  ],
+  [
+    "label:\"Preserve Case\"",
+    "label:\"保留大小写\""
+  ],
+  [
+    "label:\"Use Regular Expression\"",
+    "label:\"使用正则表达式\""
+  ],
+  [
+    "label:\"Ordered list\"",
+    "label:\"有序列表\""
+  ],
+  [
+    "label:\"Bullet list\"",
+    "label:\"无序列表\""
+  ],
+  [
+    "label:\"Select Multiple\"",
+    "label:\"多选\""
+  ],
+  [
+    "label:\"Select Workspace\"",
+    "label:\"选择工作区\""
+  ],
+  [
+    "label:\"Select Environment\"",
+    "label:\"选择环境\""
+  ],
+  [
+    "label:\"Select Backend\"",
+    "label:\"选择后端\""
+  ],
+  [
+    "label:\"Send to Chat\"",
+    "label:\"发送到聊天\""
+  ],
+  [
+    "label:\"Send to Cloud\"",
+    "label:\"发送到云端\""
+  ],
+  [
+    "label:\"Send invite\"",
+    "label:\"发送邀请\""
+  ],
+  [
+    "label:\"Share Transcript\"",
+    "label:\"分享记录\""
+  ],
+  [
+    "label:\"Pin / Unpin Agent\"",
+    "label:\"固定/取消固定智能体\""
+  ],
+  [
+    "label:\"Pin to workspace\"",
+    "label:\"固定到工作区\""
+  ],
+  [
+    "label:\"Previous Agent\"",
+    "label:\"上一个智能体\""
+  ],
+  [
+    "label:\"Add Doc\"",
+    "label:\"添加文档\""
+  ],
+  [
+    "label:\"Add MCP\"",
+    "label:\"添加 MCP\""
+  ],
+  [
+    "label:\"Add Models\"",
+    "label:\"添加模型\""
+  ],
+  [
+    "label:\"Add Skills\"",
+    "label:\"添加技能\""
+  ],
+  [
+    "label:\"Add Folder\"",
+    "label:\"添加文件夹\""
+  ],
+  [
+    "label:\"Add Link\"",
+    "label:\"添加链接\""
+  ],
+  [
+    "label:\"Add Marketplace\"",
+    "label:\"添加市场\""
+  ],
+  [
+    "label:\"Add to Chat\"",
+    "label:\"添加到聊天\""
+  ],
+  [
+    "label:\"Add to Team\"",
+    "label:\"添加到团队\""
+  ],
+  [
+    "label:\"Open Documentation\"",
+    "label:\"打开文档\""
+  ],
+  [
+    "label:\"Open Source Control\"",
+    "label:\"打开源代码管理\""
+  ],
+  [
+    "label:\"Open Plugins\"",
+    "label:\"打开插件\""
+  ],
+  [
+    "label:\"Open MCPs\"",
+    "label:\"打开 MCP\""
+  ],
+  [
+    "label:\"Open Skills\"",
+    "label:\"打开技能\""
+  ],
+  [
+    "label:\"Open Hooks\"",
+    "label:\"打开钩子\""
+  ],
+  [
+    "label:\"Open Rules\"",
+    "label:\"打开规则\""
+  ],
+  [
+    "label:\"Open Automations\"",
+    "label:\"打开自动化\""
+  ],
+  [
+    "label:\"Open Build Menu\"",
+    "label:\"打开构建菜单\""
+  ],
+  [
+    "label:\"Open Canvas\"",
+    "label:\"打开画布\""
+  ],
+  [
+    "label:\"Open Gallery\"",
+    "label:\"打开画廊\""
+  ],
+  [
+    "label:\"About Cursor\"",
+    "label:\"关于 Cursor\""
+  ],
+  [
+    "label:\"Access Settings\"",
+    "label:\"访问设置\""
+  ],
+  [
+    "label:\"Agent Settings\"",
+    "label:\"智能体设置\""
+  ],
+  [
+    "label:\"Agent Layout\"",
+    "label:\"智能体布局\""
+  ],
+  [
+    "label:\"Agent Window\"",
+    "label:\"智能体窗口\""
+  ],
+  [
+    "label:\"Agent Instructions\"",
+    "label:\"智能体指令\""
+  ],
+  [
+    "label:\"Agent Stores\"",
+    "label:\"智能体商店\""
+  ],
+  [
+    "label:\"Discard Changes\"",
+    "label:\"放弃更改\""
+  ],
+  [
+    "label:\"Discard All Changes\"",
+    "label:\"放弃所有更改\""
+  ],
+  [
+    "label:\"Reject All Edits\"",
+    "label:\"拒绝所有编辑\""
+  ],
+  [
+    "label:\"Accept All\"",
+    "label:\"全部接受\""
+  ],
+  [
+    "label:\"Accept Edits\"",
+    "label:\"接受编辑\""
+  ],
+  [
+    "label:\"Undo Edits\"",
+    "label:\"撤销编辑\""
+  ],
+  [
+    "label:\"Undo All\"",
+    "label:\"全部撤销\""
+  ],
+  [
+    "label:\"Apply Changes\"",
+    "label:\"应用更改\""
+  ],
+  [
+    "label:\"Apply Manually\"",
+    "label:\"手动应用\""
+  ],
+  [
+    "label:\"Rename Chat\"",
+    "label:\"重命名聊天\""
+  ],
+  [
+    "label:\"Remove folder\"",
+    "label:\"移除文件夹\""
+  ],
+  [
+    "label:\"Remove model\"",
+    "label:\"移除模型\""
+  ],
+  [
+    "label:\"Reset All\"",
+    "label:\"全部重置\""
+  ],
+  [
+    "label:\"Reset Position\"",
+    "label:\"重置位置\""
+  ],
+  [
+    "label:\"Reset zoom\"",
+    "label:\"重置缩放\""
+  ],
+  [
+    "label:\"Restore defaults\"",
+    "label:\"恢复默认值\""
+  ],
+  [
+    "label:\"View Agent\"",
+    "label:\"查看智能体\""
+  ],
+  [
+    "label:\"View Changes\"",
+    "label:\"查看更改\""
+  ],
+  [
+    "label:\"View All Changes\"",
+    "label:\"查看所有更改\""
+  ],
+  [
+    "label:\"View PR\"",
+    "label:\"查看 PR\""
+  ],
+  [
+    "label:\"View Source\"",
+    "label:\"查看源代码\""
+  ],
+  [
+    "label:\"View changelog\"",
+    "label:\"查看更新日志\""
+  ],
+  [
+    "label:\"View on Web\"",
+    "label:\"在网页中查看\""
+  ],
+  [
+    "label:\"View docs\"",
+    "label:\"查看文档\""
+  ],
+  [
+    "label:\"Show History\"",
+    "label:\"显示历史记录\""
+  ],
+  [
+    "label:\"Show Less\"",
+    "label:\"显示更少\""
+  ],
+  [
+    "label:\"Show More\"",
+    "label:\"显示更多\""
+  ],
+  [
+    "label:\"Show Chat\"",
+    "label:\"显示聊天\""
+  ],
+  [
+    "label:\"Show Changes\"",
+    "label:\"显示更改\""
+  ],
+  [
+    "label:\"Show files\"",
+    "label:\"显示文件\""
+  ],
+  [
+    "label:\"Show Output\"",
+    "label:\"显示输出\""
+  ],
+  [
+    "label:\"Show Options\"",
+    "label:\"显示选项\""
+  ],
+  [
+    "label:\"Shut down\"",
+    "label:\"关闭\""
+  ],
+  [
+    "label:\"Take Control\"",
+    "label:\"接管控制\""
+  ],
+  [
+    "label:\"Switch mode\"",
+    "label:\"切换模式\""
+  ],
+  [
+    "label:\"Use Cursor Browser\"",
+    "label:\"使用 Cursor 浏览器\""
+  ],
+  [
+    "label:\"Use External Browser\"",
+    "label:\"使用外部浏览器\""
+  ],
+  [
+    "label:\"Use in IDE\"",
+    "label:\"在 IDE 中使用\""
+  ],
+  [
+    "label:\"Use in Agents Window\"",
+    "label:\"在智能体窗口中使用\""
+  ],
+  [
+    "label:\"Screen recording\"",
+    "label:\"屏幕录制\""
+  ],
+  [
+    "label:\"Search web\"",
+    "label:\"搜索网页\""
+  ],
+  [
+    "label:\"Search with Google\"",
+    "label:\"用 Google 搜索\""
+  ],
+  [
+    "label:\"Type to search actions\"",
+    "label:\"输入以搜索操作\""
+  ],
+  [
+    "label:\"Report Bug\"",
+    "label:\"报告 Bug\""
+  ],
+  [
+    "label:\"Thumbs Up\"",
+    "label:\"点赞\""
+  ],
+  [
+    "label:\"Thumbs Down\"",
+    "label:\"踩\""
+  ],
+  [
+    "label:\"See Details\"",
+    "label:\"查看详情\""
+  ],
+  [
+    "label:\"Reveal in File Explorer\"",
+    "label:\"在文件资源管理器中显示\""
+  ],
+  [
+    "label:\"Select All in Diff\"",
+    "label:\"在差异中全选\""
+  ],
+  [
+    "label:\"Select All in File\"",
+    "label:\"在文件中全选\""
+  ],
+  [
+    "label:\"Source Action...\"",
+    "label:\"源代码操作...\""
+  ],
+  [
+    "label:\"Self-Driving PRs\"",
+    "label:\"自动驾驶 PR\""
+  ],
+  [
+    "label:\"Self-driving Settings\"",
+    "label:\"自动驾驶设置\""
+  ],
+  [
+    "label:\"Branch Changes\"",
+    "label:\"分支更改\""
+  ],
+  [
+    "label:\"Branch Pull Requests\"",
+    "label:\"分支拉取请求\""
+  ],
+  [
+    "label:\"Branch Prefix\"",
+    "label:\"分支前缀\""
+  ],
+  [
+    "label:\"PR Routing & Approval\"",
+    "label:\"PR 路由与批准\""
+  ],
+  [
+    "label:\"Automate with Hooks\"",
+    "label:\"用钩子自动化\""
+  ],
+  [
+    "label:\"Teach Cursor New Skills\"",
+    "label:\"教 Cursor 新技能\""
+  ],
+  [
+    "label:\"Verified by Cursor\"",
+    "label:\"Cursor 已验证\""
+  ],
+  [
+    "label:\"The best way to code with AI\"",
+    "label:\"使用 AI 编程的最佳方式\""
+  ],
+  [
+    "label:\"Ship better code, faster\"",
+    "label:\"更快地交付更好的代码\""
+  ],
+  [
+    "label:\"What should we build?\"",
+    "label:\"我们要构建什么？\""
+  ],
+  [
+    "label:\"Save Image As...\"",
+    "label:\"另存图片为...\""
+  ],
+  [
+    "label:\"Run command\"",
+    "label:\"运行命令\""
+  ],
+  [
+    "label:\"Run in\"",
+    "label:\"运行于\""
+  ],
+  [
+    "label:\"This workspace\"",
+    "label:\"此工作区\""
+  ],
+  [
+    "label:\"Add an agent to get started\"",
+    "label:\"添加智能体即可开始\""
+  ],
+  [
+    "label:\"Add a to-do to get started\"",
+    "label:\"添加待办事项即可开始\""
+  ],
+  [
+    "children:\"Close Settings\"",
+    "children:\"关闭设置\""
+  ],
+  [
+    "children:\"Open Settings\"",
+    "children:\"打开设置\""
+  ],
+  [
+    "children:\"Agent Mode\"",
+    "children:\"智能体模式\""
+  ],
+  [
+    "children:\"Review Mode\"",
+    "children:\"审查模式\""
+  ],
+  [
+    "children:\"Background Mode\"",
+    "children:\"后台模式\""
+  ],
+  [
+    "children:\"Accept All\"",
+    "children:\"全部接受\""
+  ],
+  [
+    "children:\"Accept Edits\"",
+    "children:\"接受编辑\""
+  ],
+  [
+    "children:\"Reject All Edits\"",
+    "children:\"拒绝所有编辑\""
+  ],
+  [
+    "children:\"Undo Edits\"",
+    "children:\"撤销编辑\""
+  ],
+  [
+    "children:\"Undo All\"",
+    "children:\"全部撤销\""
+  ],
+  [
+    "children:\"Apply Changes\"",
+    "children:\"应用更改\""
+  ],
+  [
+    "children:\"Apply Manually\"",
+    "children:\"手动应用\""
+  ],
+  [
+    "children:\"Discard Changes\"",
+    "children:\"放弃更改\""
+  ],
+  [
+    "children:\"Discard All Changes\"",
+    "children:\"放弃所有更改\""
+  ],
+  [
+    "children:\"Rename Chat\"",
+    "children:\"重命名聊天\""
+  ],
+  [
+    "children:\"Reset All\"",
+    "children:\"全部重置\""
+  ],
+  [
+    "children:\"Restore defaults\"",
+    "children:\"恢复默认值\""
+  ],
+  [
+    "children:\"View Agent\"",
+    "children:\"查看智能体\""
+  ],
+  [
+    "children:\"View Changes\"",
+    "children:\"查看更改\""
+  ],
+  [
+    "children:\"View All Changes\"",
+    "children:\"查看所有更改\""
+  ],
+  [
+    "children:\"View PR\"",
+    "children:\"查看 PR\""
+  ],
+  [
+    "children:\"View Source\"",
+    "children:\"查看源代码\""
+  ],
+  [
+    "children:\"View changelog\"",
+    "children:\"查看更新日志\""
+  ],
+  [
+    "children:\"View on Web\"",
+    "children:\"在网页中查看\""
+  ],
+  [
+    "children:\"View docs\"",
+    "children:\"查看文档\""
+  ],
+  [
+    "children:\"Show History\"",
+    "children:\"显示历史记录\""
+  ],
+  [
+    "children:\"Show Less\"",
+    "children:\"显示更少\""
+  ],
+  [
+    "children:\"Show More\"",
+    "children:\"显示更多\""
+  ],
+  [
+    "children:\"Show Chat\"",
+    "children:\"显示聊天\""
+  ],
+  [
+    "children:\"Show Changes\"",
+    "children:\"显示更改\""
+  ],
+  [
+    "children:\"Show files\"",
+    "children:\"显示文件\""
+  ],
+  [
+    "children:\"Show Output\"",
+    "children:\"显示输出\""
+  ],
+  [
+    "children:\"Show Options\"",
+    "children:\"显示选项\""
+  ],
+  [
+    "children:\"Shut down\"",
+    "children:\"关闭\""
+  ],
+  [
+    "children:\"Take Control\"",
+    "children:\"接管控制\""
+  ],
+  [
+    "children:\"Switch mode\"",
+    "children:\"切换模式\""
+  ],
+  [
+    "children:\"Sign In\"",
+    "children:\"登录\""
+  ],
+  [
+    "children:\"Sign Up\"",
+    "children:\"注册\""
+  ],
+  [
+    "children:\"Skip For Now\"",
+    "children:\"暂时跳过\""
+  ],
+  [
+    "children:\"Trust & Continue\"",
+    "children:\"信任并继续\""
+  ],
+  [
+    "children:\"Try Again\"",
+    "children:\"重试\""
+  ],
+  [
+    "children:\"Try Cloud Agent\"",
+    "children:\"试试云智能体\""
+  ],
+  [
+    "children:\"Upgrade to Pro\"",
+    "children:\"升级到 Pro\""
+  ],
+  [
+    "children:\"Upgrade to Pro+\"",
+    "children:\"升级到 Pro+\""
+  ],
+  [
+    "children:\"Upgrade to Ultra\"",
+    "children:\"升级到 Ultra\""
+  ],
+  [
+    "children:\"Refer friends, earn usage credits\"",
+    "children:\"推荐好友，赚取用量额度\""
+  ],
+  [
+    "children:\"Pin / Unpin Agent\"",
+    "children:\"固定/取消固定智能体\""
+  ],
+  [
+    "children:\"Pin to workspace\"",
+    "children:\"固定到工作区\""
+  ],
+  [
+    "children:\"Run Now\"",
+    "children:\"立即运行\""
+  ],
+  [
+    "children:\"Run Task\"",
+    "children:\"运行任务\""
+  ],
+  [
+    "children:\"Run in Background\"",
+    "children:\"在后台运行\""
+  ],
+  [
+    "children:\"Run command\"",
+    "children:\"运行命令\""
+  ],
+  [
+    "children:\"Stash Changes\"",
+    "children:\"暂存更改\""
+  ],
+  [
+    "children:\"Squash & Merge\"",
+    "children:\"压缩并合并\""
+  ],
+  [
+    "children:\"Rebase Merge\"",
+    "children:\"变基合并\""
+  ],
+  [
+    "children:\"Replace all\"",
+    "children:\"全部替换\""
+  ],
+  [
+    "children:\"Preserve Case\"",
+    "children:\"保留大小写\""
+  ],
+  [
+    "children:\"Use Regular Expression\"",
+    "children:\"使用正则表达式\""
+  ],
+  [
+    "children:\"Use Cursor Browser\"",
+    "children:\"使用 Cursor 浏览器\""
+  ],
+  [
+    "children:\"Use External Browser\"",
+    "children:\"使用外部浏览器\""
+  ],
+  [
+    "children:\"Use in IDE\"",
+    "children:\"在 IDE 中使用\""
+  ],
+  [
+    "children:\"Use in Agents Window\"",
+    "children:\"在智能体窗口中使用\""
+  ],
+  [
+    "children:\"Ordered list\"",
+    "children:\"有序列表\""
+  ],
+  [
+    "children:\"Bullet list\"",
+    "children:\"无序列表\""
+  ],
+  [
+    "children:\"Select Multiple\"",
+    "children:\"多选\""
+  ],
+  [
+    "children:\"Select Workspace\"",
+    "children:\"选择工作区\""
+  ],
+  [
+    "children:\"Select Environment\"",
+    "children:\"选择环境\""
+  ],
+  [
+    "children:\"Select Backend\"",
+    "children:\"选择后端\""
+  ],
+  [
+    "children:\"Send to Chat\"",
+    "children:\"发送到聊天\""
+  ],
+  [
+    "children:\"Send to Cloud\"",
+    "children:\"发送到云端\""
+  ],
+  [
+    "children:\"Send invite\"",
+    "children:\"发送邀请\""
+  ],
+  [
+    "children:\"Share Transcript\"",
+    "children:\"分享记录\""
+  ],
+  [
+    "children:\"About Cursor\"",
+    "children:\"关于 Cursor\""
+  ],
+  [
+    "children:\"Access Settings\"",
+    "children:\"访问设置\""
+  ],
+  [
+    "children:\"Add Doc\"",
+    "children:\"添加文档\""
+  ],
+  [
+    "children:\"Add MCP\"",
+    "children:\"添加 MCP\""
+  ],
+  [
+    "children:\"Add Models\"",
+    "children:\"添加模型\""
+  ],
+  [
+    "children:\"Add Skills\"",
+    "children:\"添加技能\""
+  ],
+  [
+    "children:\"Add Folder\"",
+    "children:\"添加文件夹\""
+  ],
+  [
+    "children:\"Add Link\"",
+    "children:\"添加链接\""
+  ],
+  [
+    "children:\"Add Marketplace\"",
+    "children:\"添加市场\""
+  ],
+  [
+    "children:\"Add to Chat\"",
+    "children:\"添加到聊天\""
+  ],
+  [
+    "children:\"Add to Team\"",
+    "children:\"添加到团队\""
+  ],
+  [
+    "children:\"Open Settings\"",
+    "children:\"打开设置\""
+  ],
+  [
+    "children:\"Open Source Control\"",
+    "children:\"打开源代码管理\""
+  ],
+  [
+    "children:\"Open Plugins\"",
+    "children:\"打开插件\""
+  ],
+  [
+    "children:\"Open MCPs\"",
+    "children:\"打开 MCP\""
+  ],
+  [
+    "children:\"Open Skills\"",
+    "children:\"打开技能\""
+  ],
+  [
+    "children:\"Open Hooks\"",
+    "children:\"打开钩子\""
+  ],
+  [
+    "children:\"Open Rules\"",
+    "children:\"打开规则\""
+  ],
+  [
+    "children:\"Open Automations\"",
+    "children:\"打开自动化\""
+  ],
+  [
+    "children:\"Open Build Menu\"",
+    "children:\"打开构建菜单\""
+  ],
+  [
+    "children:\"Open Canvas\"",
+    "children:\"打开画布\""
+  ],
+  [
+    "children:\"Open Gallery\"",
+    "children:\"打开画廊\""
+  ],
+  [
+    "children:\"Open Documentation\"",
+    "children:\"打开文档\""
+  ],
+  [
+    "children:\"Open File\"",
+    "children:\"打开文件\""
+  ],
+  [
+    "children:\"Open PR\"",
+    "children:\"打开 PR\""
+  ],
+  [
+    "children:\"Open Plan\"",
+    "children:\"打开计划\""
+  ],
+  [
+    "children:\"Source Action...\"",
+    "children:\"源代码操作...\""
+  ],
+  [
+    "children:\"Save Image As...\"",
+    "children:\"另存图片为...\""
+  ],
+  [
+    "children:\"Browse Files\"",
+    "children:\"浏览文件\""
+  ],
+  [
+    "children:\"Build Locally\"",
+    "children:\"本地构建\""
+  ],
+  [
+    "children:\"Build in Cloud\"",
+    "children:\"在云端构建\""
+  ],
+  [
+    "children:\"Search Agents\"",
+    "children:\"搜索智能体\""
+  ],
+  [
+    "children:\"Search Cursor Settings\"",
+    "children:\"搜索 Cursor 设置\""
+  ],
+  [
+    "children:\"Search Extensions\"",
+    "children:\"搜索扩展\""
+  ],
+  [
+    "children:\"Search web\"",
+    "children:\"搜索网页\""
+  ],
+  [
+    "children:\"Type to search actions\"",
+    "children:\"输入以搜索操作\""
+  ],
+  [
+    "children:\"Report Bug\"",
+    "children:\"报告 Bug\""
+  ],
+  [
+    "children:\"Thumbs Up\"",
+    "children:\"点赞\""
+  ],
+  [
+    "children:\"Thumbs Down\"",
+    "children:\"踩\""
+  ],
+  [
+    "children:\"See Details\"",
+    "children:\"查看详情\""
+  ],
+  [
+    "children:\"Reveal in File Explorer\"",
+    "children:\"在文件资源管理器中显示\""
+  ],
+  [
+    "children:\"Select All in Diff\"",
+    "children:\"在差异中全选\""
+  ],
+  [
+    "children:\"Select All in File\"",
+    "children:\"在文件中全选\""
+  ],
+  [
+    "children:\"Select to End\"",
+    "children:\"选择到末尾\""
+  ],
+  [
+    "children:\"Reset zoom\"",
+    "children:\"重置缩放\""
+  ],
+  [
+    "children:\"Pending approval\"",
+    "children:\"待批准\""
+  ],
+  [
+    "children:\"Action Needed\"",
+    "children:\"需要操作\""
+  ],
+  [
+    "children:\"Review required\"",
+    "children:\"需要审查\""
+  ],
+  [
+    "children:\"Operation Complete\"",
+    "children:\"操作完成\""
+  ],
+  [
+    "children:\"Binary file not shown\"",
+    "children:\"二进制文件未显示\""
+  ],
+  [
+    "children:\"Only whitespace changes\"",
+    "children:\"仅有空白字符更改\""
+  ],
+  [
+    "children:\"This workspace\"",
+    "children:\"此工作区\""
+  ],
+  [
+    "children:\"Verified by Cursor\"",
+    "children:\"Cursor 已验证\""
+  ],
+  [
+    "children:\"Teach Cursor New Skills\"",
+    "children:\"教 Cursor 新技能\""
+  ],
+  [
+    "children:\"Automate with Hooks\"",
+    "children:\"用钩子自动化\""
+  ],
+  [
+    "children:\"Scan and Triage Security Vulnerabilities\"",
+    "children:\"扫描和分类安全漏洞\""
+  ],
+  [
+    "children:\"PR Routing & Approval\"",
+    "children:\"PR 路由与批准\""
+  ],
+  [
+    "children:\"Save Automation\"",
+    "children:\"保存自动化\""
+  ],
+  [
+    "children:\"Run in\"",
+    "children:\"运行于\""
+  ],
+  [
+    "children:\"Screen recording\"",
+    "children:\"屏幕录制\""
+  ],
+  [
+    "children:\"Pause Indexing\"",
+    "children:\"暂停索引\""
+  ],
+  [
+    "children:\"Pause goal\"",
+    "children:\"暂停目标\""
+  ],
+  [
+    "children:\"Resume goal\"",
+    "children:\"恢复目标\""
+  ],
+  [
+    "original:\"Start Extension Host CPU Profiler\"",
+    "original:\"启动扩展宿主 CPU 分析器\""
+  ],
+  [
+    "original:\"Start Extension Host Heap Allocation Profiler\"",
+    "original:\"启动扩展宿主堆分配分析器\""
+  ],
+  [
+    "original:\"Delete Old Chats...\"",
+    "original:\"删除旧聊天...\""
+  ],
+  [
+    "value:\"Delete Old Chats...\"",
+    "value:\"删除旧聊天...\""
+  ],
+  [
+    "children:\"Workspace Diagnostics\"",
+    "children:\"工作区诊断\""
+  ],
+  [
+    "new gr(\"selectAll\",\"Select All\"",
+    "new gr(\"selectAll\",\"全选\""
+  ],
+  [
+    "new gr(\"collapse-all\",\"Collapse All\"",
+    "new gr(\"collapse-all\",\"全部折叠\""
+  ],
+  [
+    "children:\"Cut\"",
+    "children:\"剪切\""
+  ],
+  [
+    "children:\"Paste\"",
+    "children:\"粘贴\""
+  ],
+  [
+    "children:\"Select All\"",
+    "children:\"全选\""
+  ],
+  [
+    "children:\"No projects\"",
+    "children:\"暂无项目\""
+  ],
+  [
+    "children:\"Reload\"",
+    "children:\"重新加载\""
+  ],
+  [
+    "children:\"Clone Repository\"",
+    "children:\"克隆仓库\""
+  ],
+  [
+    "label:\"Cut\"",
+    "label:\"剪切\""
+  ],
+  [
+    "label:\"Paste\"",
+    "label:\"粘贴\""
+  ],
+  [
+    "label:\"Select All\"",
+    "label:\"全选\""
+  ],
+  [
+    "label:\"Clone Repository\"",
+    "label:\"克隆仓库\""
+  ],
+  [
+    "label:\"Reload\"",
+    "label:\"重新加载\""
+  ],
+  [
+    "groupLabel:\"Repos\"",
+    "groupLabel:\"仓库\""
+  ],
+  [
+    "buttonLabel:\"Reload\"",
+    "buttonLabel:\"重新加载\""
+  ],
+  [
+    "doc:\"Docs\"",
+    "doc:\"文档\""
+  ],
+  [
+    "title:\"Docs\"",
+    "title:\"文档\""
+  ],
+  [
+    "case\"doc\":return\"Docs\"",
+    "case\"doc\":return\"文档\""
+  ],
+  [
+    "case\"docs\":return\"Docs\"",
+    "case\"docs\":return\"文档\""
+  ],
+  [
+    "label:\"Ask Agent\"",
+    "label:\"询问智能体\""
+  ],
+  [
+    "children:\"Ask Agent\"",
+    "children:\"询问智能体\""
+  ],
+  [
+    "?\"Hide Details\":\"Show Details\"",
+    "?\"隐藏详情\":\"显示详情\""
+  ],
+  [
+    ">Show Details</button>",
+    ">显示详情</button>"
+  ],
+  [
+    "btn.textContent = 'Hide Details'",
+    "btn.textContent = '隐藏详情'"
+  ],
+  [
+    "btn.textContent = 'Show Details'",
+    "btn.textContent = '显示详情'"
+  ],
+  [
+    "label:\"Home\",workspaceIdentifier",
+    "label:\"主页\",workspaceIdentifier"
+  ],
+  [
+    "title:Te(9500,\"Collapse All\")",
+    "title:Te(9500,\"全部折叠\")"
+  ],
+  [
+    "collapseAll: 'Collapse All'",
+    "collapseAll: '全部折叠'"
+  ],
+  [
+    "case\"docs\":return`Documentation: ${n||t}`",
+    "case\"docs\":return`文档：${n||t}`"
+  ],
+  [
+    "\"No uncommitted changes\"",
+    "\"无未提交更改\""
+  ],
+  [
+    "hintText:\"Add files\"",
+    "hintText:\"添加文件\""
+  ],
+  [
+    "name:\"AI Code Tracking - Recent Commit\"",
+    "name:\"AI 代码追踪 - 最近提交\""
+  ],
+  [
+    "\"Most Recent Commit Scored:\"",
+    "\"最近评分的提交：\""
+  ],
+  [
+    "\"AI-Generated:\"",
+    "\"AI 生成：\""
+  ],
+  [
+    "\"Total Changes:\"",
+    "\"总更改：\""
+  ],
+  [
+    "\"Models\",\"Projects\",\"Open\"",
+    "\"模型\",\"项目\",\"打开\""
+  ],
+  [
+    ",\"Other\"]",
+    ",\"其他\"]"
+  ],
+  [
+    "children:[\"Browse\"",
+    "children:[\"浏览\""
+  ],
+  [
+    "children:[\"Browse\",\" \",\"Marketplace\"]",
+    "children:[\"浏览插件市场\"]"
+  ],
+  [
+    "?\"Connect\":\"保存\"",
+    "?\"连接\":\"保存\""
+  ],
+  [
+    "?\"Reconnect\":\"Connect\"",
+    "?\"重新连接\":\"连接\""
+  ],
+  [
+    ",\"New\"]",
+    ",\"新建\"]"
+  ],
+  [
+    "void 0:\"New\",removable",
+    "void 0:\"新建\",removable"
+  ],
+  [
+    "?\"Adding...\":\"Add\"",
+    "?\"正在添加...\":\"添加\""
+  ],
+  [
+    "void 0?\"Add\":n",
+    "void 0?\"添加\":n"
+  ],
+  [
+    "?\"Added\":\"Add\"",
+    "?\"已添加\":\"添加\""
+  ],
+  [
+    "addLabel:\"Add\"",
+    "addLabel:\"添加\""
+  ],
+  [
+    "folder:\"Folders\",git:\"Commits\",commit_notes:\"Commit History\"",
+    "folder:\"文件夹\",git:\"提交\",commit_notes:\"提交历史\""
+  ],
+  [
+    "title=\"Remove from history\"",
+    "title=\"从历史记录中移除\""
+  ],
+  [
+    "\"Switch to Auto\"",
+    "\"切换到自动\""
+  ],
+  [
+    "displayName:\"Inbox and Collaboration\"",
+    "displayName:\"收件箱与协作\""
+  ],
+  [
+    "displayName:\"Scheduling\"",
+    "displayName:\"日程安排\""
+  ],
+  [
+    "displayName:\"Sales\"",
+    "displayName:\"销售\""
+  ],
+  [
+    "displayName:\"Customer Support\"",
+    "displayName:\"客户支持\""
+  ],
+  [
+    "displayName:\"Finance and Legal\"",
+    "displayName:\"财务与法务\""
+  ],
+  [
+    "displayName:\"Research\"",
+    "displayName:\"研究\""
+  ],
+  [
+    "displayName:\"Design\"",
+    "displayName:\"设计\""
+  ],
+  [
+    "label:()=>\"Last Agent Turn\"",
+    "label:()=>\"上一次 Agent 回合\""
+  ],
+  [
+    "label:\"Last Agent Turn\"",
+    "label:\"上一次 Agent 回合\""
+  ],
+  [
+    "children:\"Update\"",
+    "children:\"更新\""
+  ],
+  [
+    "children:n.length>0?\"审查\":\"Open\"",
+    "children:n.length>0?\"审查\":\"打开\""
+  ],
+  [
+    "\"Side Chat\"",
+    "\"侧边对话\""
+  ],
+  [
+    "pillLabel:\"Set up Environment\"",
+    "pillLabel:\"设置环境\""
+  ],
+  [
+    "name:\"Agent\"",
+    "name:\"智能体\""
+  ],
+  [
+    "children:\"Mode\"",
+    "children:\"模式\""
+  ],
+  [
+    "aria-label:\"Mode\"",
+    "aria-label:\"模式\""
+  ],
+  [
+    "title:{value:\"View\",original:\"View\"",
+    "title:{value:\"视图\",original:\"视图\""
+  ],
+  [
+    "glassCategory:\"Appearance\"",
+    "glassCategory:\"外观\""
+  ],
+  [
+    "\"Workspace\"",
+    "\"工作区\""
+  ],
+  [
+    "\"Built-in\"",
+    "\"内置\""
+  ],
+  [
+    "\"Microsoft Teams\"",
+    "\"微软 Teams\""
+  ],
+  [
+    "children:\"Name\"",
+    "children:\"名称\""
+  ],
+  [
+    "children:\"Got it\"",
+    "children:\"知道了\""
+  ],
+  [
+    "\"Added\"",
+    "\"已新增\""
+  ],
+  [
+    "[\"Agent\",\"Mode\",\"Workspace\",\"View\",\"设置\",\"Appearance\",\"开发者\"]",
+    "[\"智能体\",\"模式\",\"工作区\",\"视图\",\"设置\",\"外观\",\"开发者\"]"
+  ]
+]

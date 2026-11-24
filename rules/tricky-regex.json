@@ -1,0 +1,992 @@
+[
+  {
+    "pattern": "title:\\s*\\w+\\(\\{key:\"glassOsEdit(Undo|Redo|Cut|Copy|Paste|SelectAll)\",comment:\\[\"&& denotes a mnemonic\"\\]\\},\"[^\"]*\"\\)",
+    "flags": "g",
+    "fnIndex": 0,
+    "kind": "fn"
+  },
+  {
+    "pattern": "\\b([A-Za-z_$][\\w$]*)=\"Agents Window\"",
+    "flags": "g",
+    "fnIndex": 1,
+    "kind": "fn"
+  },
+  {
+    "pattern": "children:`Link \\$\\{(\\w+)\\+(\\d+)\\}`",
+    "flags": "g",
+    "zh": "children:`链接 ${$1+$2}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "title:`By \\$\\{(\\w+)\\}`",
+    "flags": "g",
+    "zh": "title:`由 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "Are you sure you want to delete \\\\u201C\\$\\{(\\w+)\\}\\\\u201D\\? This cannot be undone\\.",
+    "flags": "g",
+    "zh": "确定要删除 \\u201C${$1}\\u201D 吗？此操作无法撤销。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Are you sure you want to delete \"\\$\\{([\\w.]+)\\}\"\\? This action cannot be undone\\.",
+    "flags": "g",
+    "zh": "确定要删除 \"${$1}\" 吗？此操作无法撤销。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Are you sure you want to delete \"\\$\\{([\\w.]+)\\}\"\\?",
+    "flags": "g",
+    "zh": "确定要删除 \"${$1}\" 吗？",
+    "kind": "str"
+  },
+  {
+    "pattern": "Saved to: \"\\$\\{(\\w+)\\}\"\\n\\nMemory snapshots can contain sensitive information; please ask your administrator to share your snapshot with Cursor\\.",
+    "flags": "g",
+    "zh": "已保存至: \"${$1}\"\n\n内存快照可能包含敏感信息；请让管理员与 Cursor 分享你的快照。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Saved to: \"\\$\\{(\\w+)\\}\"\\n\\nSending this snapshot to Cursor will help us diagnose and fix memory issues. Please note that the snapshot may include file contents, conversations, and other workspace data\\.",
+    "flags": "g",
+    "zh": "已保存至: \"${$1}\"\n\n将此快照发送给 Cursor 有助于我们诊断和修复内存问题。请注意，快照可能包含文件内容、对话及其他工作区数据。",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\|\\|\"Cancel\"|\\?\\?\"Cancel\"",
+    "flags": "g",
+    "fnIndex": 2,
+    "kind": "fn"
+  },
+  {
+    "pattern": "Using \\$\\{[a-z]\\.count===1\\?\"image\":`\\$\\{[a-z]\\.count\\} images`}",
+    "flags": "g",
+    "fnIndex": 3,
+    "kind": "fn"
+  },
+  {
+    "pattern": "Using \\$\\{[a-z]\\.count===1\\?\"video\":`\\$\\{[a-z]\\.count\\} videos`}",
+    "flags": "g",
+    "fnIndex": 4,
+    "kind": "fn"
+  },
+  {
+    "pattern": "Reset\\s+(?:\\\\?[\"']|\\\\u201[CD]|\\\\u0022|&quot;)Don(?:'|\\\\'|\\\\u2019|’|&#39;)t\\s+Ask\\s+Again(?:\\\\?[\"']|\\\\u201[CD]|\\\\u0022|&quot;)\\s+Dialogs",
+    "flags": "gi",
+    "zh": "重置“不再询问”弹窗",
+    "kind": "str"
+  },
+  {
+    "pattern": "See\\s+warnings\\s+and\\s+tips\\s+that\\s+you(?:'|\\\\'|\\\\u2019|’|&#39;)ve\\s+hidden",
+    "flags": "gi",
+    "zh": "查看您已隐藏的警告和提示",
+    "kind": "str"
+  },
+  {
+    "pattern": "No\\s+Hidden\\s+Dialogs\\s+Yet",
+    "flags": "gi",
+    "zh": "暂无隐藏的弹窗",
+    "kind": "str"
+  },
+  {
+    "pattern": "You\\s+haven(?:'|\\\\'|\\\\u2019|’|&#39;)t\\s+marked\\s+any\\s+dialogs\\s+as\\s+(?:\\\\?[\"']|\\\\u201[CD]|\\\\u0022|&quot;)Don(?:'|\\\\'|\\\\u2019|’|&#39;)t\\s+ask\\s+again(?:\\\\?[\"']|\\\\u201[CD]|\\\\u0022|&quot;)\\.\\s*Any\\s+hidden\\s+dialogs\\s+will\\s+appear\\s+here\\s+to\\s+manage\\.",
+    "flags": "gi",
+    "zh": "您尚未将任何弹窗标记为“不再询问”。任何隐藏的弹窗都将显示在此处以供管理。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Use\\s+with\\s+caution\\.\\s*Skip\\s+symlinks\\s+during\\s+\\.cursorignore\\s+file\\s+discovery\\.\\s*Only\\s+enable\\s+if\\s+your\\s+repository\\s+has\\s+many\\s+symlinks\\s+and\\s+all\\s+\\.cursorignore\\s+files\\s+are\\s+reachable\\s+without\\s+them(?:\\$\\{[^}]*\\}[^C]*)?\\.\\s*Changing\\s+this\\s+setting\\s+will\\s+require\\s+a\\s+restart\\s+of\\s+Cursor\\.",
+    "flags": "gi",
+    "zh": "请谨慎使用。在查找 .cursorignore 文件时跳过符号链接。仅当代码库包含大量符号链接且均可直接访问时才启用。更改此设置需重启 Cursor。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Submit\\s+with\\s+(\\$\\{[^}]+\\}|\\\\u2318\\s*\\+\\s*|⌘\\s*\\+\\s*|Ctrl\\s*\\+\\s*)Enter",
+    "flags": "gi",
+    "zh": "使用 $1Enter 提交",
+    "kind": "str"
+  },
+  {
+    "pattern": "When\\s+enabled,\\s+(\\$\\{[^}]+\\}|\\\\u2318\\s*\\+\\s*|⌘\\s*\\+\\s*|Ctrl\\s*\\+\\s*)Enter\\s+submits\\s+chat\\s+and\\s+Enter\\s+inserts\\s+a\\s+newline",
+    "flags": "gi",
+    "zh": "启用后，$1Enter 提交聊天，Enter 插入换行",
+    "kind": "str"
+  },
+  {
+    "pattern": "Apply\\s+(.{0,10}?)\\.cursorignore(.{0,10}?)\\s+files\\s+to\\s+all\\s+subdirectories(?:\\$\\{[^}]*\\}[^C]*)?\\.\\s*Changing\\s+this\\s+setting\\s+will\\s+require\\s+a\\s+restart\\s+of\\s+Cursor\\.",
+    "flags": "gi",
+    "zh": "将 $1.cursorignore$2 文件应用于所有子目录。更改此设置需重启 Cursor。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Automatically\\s+import\\s+necessary\\s+modules\\s+for\\s+(\\$\\{[^}]+\\}|TypeScript|C\\+\\+)",
+    "flags": "gi",
+    "zh": "自动为 $1 导入必要的模块",
+    "kind": "str"
+  },
+  {
+    "pattern": "Accept\\s+the\\s+next\\s+word\\s+of\\s+a\\s+suggestion\\s+via\\s+(\\$\\{[^}]+\\}|Ctrl\\+RightArrow)",
+    "flags": "gi",
+    "zh": "使用 $1 接受建议的下一个词",
+    "kind": "str"
+  },
+  {
+    "pattern": "Embed\\s+codebase\\s+for\\s+improved\\s+contextual\\s+understanding\\s+and\\s+knowledge\\.\\s*Embeddings\\s+and\\s+metadata\\s+are\\s+stored\\s+in\\s+the\\s+([^,]{1,50}?),\\s*but\\s+all\\s+code\\s+is\\s+stored\\s+locally\\.",
+    "flags": "gi",
+    "zh": "嵌入代码库以提升上下文理解和知识运用。嵌入向量和元数据存储在$1中，但所有代码均存储在本地。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Files\\s+to\\s+exclude\\s+from\\s+indexing\\s+in\\s+addition\\s+to\\s+([\\s\\S]{0,10}?)\\.gitignore([\\s\\S]{0,10}?)\\.",
+    "flags": "gi",
+    "zh": "除 $1.gitignore$2 外要从索引中排除的额外文件。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Add\\s+documentation\\s+to\\s+use\\s+as\\s+context\\.\\s*You\\s+can\\s+also\\s+use\\s+([\\s\\S]{0,20}?)@Add([\\s\\S]{0,20}?)\\s+in\\s+Chat\\s+or\\s+while\\s+editing\\s+to\\s+add\\s+a\\s+doc\\.",
+    "flags": "gi",
+    "zh": "添加文档以用作上下文。您也可以在聊天或编辑框中使用 $1@Add$2 来添加文档。",
+    "kind": "str"
+  },
+  {
+    "pattern": "You(?:'|\\\\'|\\\\u2019|’|&#39;)re\\s+over\\s+your\\s+current\\s+usage\\s+limit\\s+and\\s+your\\s+requests\\s+are\\s+being\\s+processed\\s+with\\s+(.{1,20}?)\\s+in\\s+the\\s+slow\\s+queue\\.",
+    "flags": "gi",
+    "zh": "您已超出当前使用额度，您的请求正在慢速队列中由 $1 处理。",
+    "kind": "str"
+  },
+  {
+    "pattern": "Automatically\\s+parse\\s+links\\s+when\\s+pasted\\s+into\\s+Quick\\s+Edit\\s+\\((\\$\\{[^}]+\\}|Ctrl\\+)K\\)\\s+input",
+    "flags": "gi",
+    "zh": "粘贴到快速编辑 ($1K) 输入框时自动解析链接",
+    "kind": "str"
+  },
+  {
+    "pattern": "Automatically\\s+jump\\s+to\\s+the\\s+next\\s+diff\\s+when\\s+accepting\\s+changes\\s+with\\s+(\\$\\{[^}]+\\}|Ctrl\\+)Y",
+    "flags": "gi",
+    "zh": "使用 $1Y 接受更改时自动跳转到下一个差异",
+    "kind": "str"
+  },
+  {
+    "pattern": "Show\\s+a\\s+hint\\s+for\\s+(\\$\\{[^}]+\\}|Ctrl\\+)K\\s+in\\s+the\\s+Terminal",
+    "flags": "gi",
+    "zh": "在终端中显示 $1K 提示",
+    "kind": "str"
+  },
+  {
+    "pattern": "Preview\\s+Box\\s+for\\s+Terminal\\s+(\\$\\{[^}]+\\}|Ctrl\\+)K",
+    "flags": "gi",
+    "zh": "终端 $1K 的预览框",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\[\\s*\"Automatically\\s+index\\s+any\\s+new\\s+folders\\s+with\\s+fewer\\s+than\"\\s*,\\s*\" \"\\s*,\\s*(.+?)\\s*,\\s*\" \"\\s*,\\s*\"files\"\\s*\\]",
+    "flags": "gi",
+    "zh": "[\"自动索引少于\", \" \", $1, \" \", \"个文件的新文件夹\"]",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Automatically\\s+index\\s+repositories\\s+to\\s+speed\\s+up\\s+Grep\\s+searches\\.\\s+All\\s+data\\s+is\\s+stored\\s+locally\\.\"",
+    "flags": "gi",
+    "zh": "\"自动索引代码库以加速 Grep 搜索。所有数据均存储在本地。\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]+)\\}\\s+\\(\\$\\{([^}]+)\\}\\s+days\\)`",
+    "flags": "g",
+    "zh": "`${$1} (${$2} 天)`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Included\\s+in\\s+\\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`包含在 ${$1} 中`",
+    "kind": "str"
+  },
+  {
+    "pattern": "Search\\s+settings\\s+\\$\\{([^}]+)\\}",
+    "flags": "g",
+    "zh": "搜索设置 ${$1}",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Included\\s+in\\s+\\$\\{([^}]+)\\}\\s+Plan`",
+    "flags": "g",
+    "zh": "`包含在 ${$1} 套餐中`",
+    "kind": "str"
+  },
+  {
+    "pattern": "e\\.push\\(`\\$\\{n\\.enabledToolCount\\}\\s+tools`\\),\\(n\\.promptCount\\?\\?0\\)>0&&e\\.push\\(`\\$\\{n\\.promptCount\\}\\s+prompts`\\),\\(n\\.resourceCount\\?\\?0\\)>0&&e\\.push\\(`\\$\\{n\\.resourceCount\\}\\s+resources`\\),e\\.length>0\\?`\\$\\{e\\.join\\(\", \"\\)\\}\\s+enabled`:\"No tools, prompts, or resources\"",
+    "flags": "g",
+    "zh": "e.push(`${n.enabledToolCount} 个工具`),(n.promptCount??0)>0&&e.push(`${n.promptCount} 个提示`),(n.resourceCount??0)>0&&e.push(`${n.resourceCount} 个资源`),e.length>0?`${e.join(\"，\")}已启用`:\"没有工具、提示或资源\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "Thought\\s+for\\s+(\\d+(?:\\.\\d+)?)ms",
+    "flags": "gi",
+    "zh": "思考了 $1 毫秒",
+    "kind": "str"
+  },
+  {
+    "pattern": "Thought\\s+for\\s+(\\d+(?:\\.\\d+)?)s",
+    "flags": "gi",
+    "zh": "思考了 $1 秒",
+    "kind": "str"
+  },
+  {
+    "pattern": "Thought\\s+for\\s+(\\d+(?:\\.\\d+)?)m",
+    "flags": "gi",
+    "zh": "思考了 $1 分钟",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Thought\\s+for\\s+\\$\\{([^}]+)\\}ms`",
+    "flags": "g",
+    "zh": "`思考了 ${$1} 毫秒`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Thought\\s+for\\s+\\$\\{([^}]+)\\}s`",
+    "flags": "g",
+    "zh": "`思考了 ${$1} 秒`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Thought\\s+for\\s+\\$\\{([^}]+)\\}m`",
+    "flags": "g",
+    "zh": "`思考了 ${$1} 分钟`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Thought\\s+for\\s+\\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`思考了 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Ran\\s+\\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`已运行 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "([\"'`])Ran\\s+",
+    "flags": "g",
+    "zh": "$1已运行：",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Copy\\s+Request\\s+\\(\\$\\{([^}]+)\\}\\)`",
+    "flags": "g",
+    "zh": "`复制请求 (${$1})`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Used\\s+by\\s+\\$\\{([^}]+)\\}\\s+\\$\\{([^}]+)\\===1\\?\"teammate\":\"teammates\"\\}`",
+    "flags": "g",
+    "zh": "`${$1} 位成员使用`",
+    "kind": "str"
+  },
+  {
+    "pattern": "Gdf\\(t,a,d,\"Results\",c\\)",
+    "flags": "g",
+    "zh": "Gdf(t,a,d,\"结果\",c)",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\{id:\"search-results\",title:\"Results\",items:t\\}",
+    "flags": "g",
+    "zh": "{id:\"search-results\",title:\"结果\",items:t}",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\[\\{title:\"Results\",items:m\\}\\]",
+    "flags": "g",
+    "zh": "[{title:\"结果\",items:m}]",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Switch\\s+Agent\\s+Mode\\s*\\(\\$\\{([^}]+)\\}\\)`",
+    "flags": "g",
+    "zh": "`切换 Agent 模式 (${$1})`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]*)\\}\\s*submits chat, Enter inserts a newline, and primary actions move to \\$\\{([^}]*)\\}`",
+    "flags": "g",
+    "zh": "`${$1} 提交聊天，Enter 插入换行，主要操作移到 ${$2}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Choose\\s+\\$\\{([^}]+)\\}\\s+for pull request links on web and desktop`",
+    "flags": "g",
+    "zh": "`为网页和桌面端的 PR 链接选择 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Voice\\s+Input\\s+\\(\\$\\{([^}]+)\\}\\)`",
+    "flags": "g",
+    "zh": "`语音输入 (${$1})`",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Enabled\":\"Disabled\"",
+    "flags": "g",
+    "zh": "?\"已启用\":\"已禁用\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Configured\\s+Hooks\\s*\\(\\$\\{([^}]+)\\}\\)`",
+    "flags": "g",
+    "zh": "`已配置的钩子 (${$1})`",
+    "kind": "str"
+  },
+  {
+    "pattern": "(heading|title):([a-zA-Z_$][\\w$.]*(?:\\s*[><!=]+\\s*[^?]*?))\\?\"Recent\":",
+    "flags": "g",
+    "zh": "$1:$2?\"最近\":",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]+)\\}\\s+day\\$\\{[^}]+===1\\?\"\":\"s\"\\}\\s+left`",
+    "flags": "g",
+    "zh": "`${$1} 天后重置`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]+)\\}\\s+hour\\$\\{[^}]+===1\\?\"\":\"s\"\\}\\s+and\\s+\\$\\{([^}]+)\\}\\s+minute\\$\\{[^}]+===1\\?\"\":\"s\"\\}\\s+left`",
+    "flags": "g",
+    "zh": "`${$1} 小时 ${$2} 分钟后重置`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]+)\\}\\s+hour\\$\\{[^}]+===1\\?\"\":\"s\"\\}\\s+left`",
+    "flags": "g",
+    "zh": "`${$1} 小时后重置`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{([^}]+)\\}\\s+minute\\$\\{[^}]+===1\\?\"\":\"s\"\\}\\s+left`",
+    "flags": "g",
+    "zh": "`${$1} 分钟后重置`",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"0 minutes left\"",
+    "flags": "g",
+    "zh": "\"已到期\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "apiUsageBarLabel:\"your included API usage\"",
+    "flags": "g",
+    "zh": "apiUsageBarLabel:\"包含的 API 用量\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "autoUsageBarLabel:\"your included total usage\"",
+    "flags": "g",
+    "zh": "autoUsageBarLabel:\"包含的总用量\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)Tab AI Stats \\(Today\\): (\\$\\{this\\.todayStats\\.tabAcceptedLines\\})\\/(\\$\\{this\\.todayStats\\.tabSuggestedLines\\}) lines \\((\\$\\{[^}]+\\}%)\\)(`)",
+    "flags": "g",
+    "zh": "$1Tab AI 统计（今日）：$2/$3 行（$4）$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)\\$\\(tab\\) Tab Stats: (\\$\\{this\\.todayStats\\.tabAcceptedLines\\})\\/(\\$\\{this\\.todayStats\\.tabSuggestedLines\\}) \\((\\$\\{[^}]+\\}%)\\)(`)",
+    "flags": "g",
+    "zh": "$1$(tab) Tab 统计：$2/$3（$4）$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)Tab AI Stats: (\\$\\{this\\.todayStats\\.tabAcceptedLines\\}) accepted out of (\\$\\{this\\.todayStats\\.tabSuggestedLines\\}) suggested, (\\$\\{[^}]+\\}) percent acceptance rate(`)",
+    "flags": "g",
+    "zh": "$1Tab AI 统计：$2/$3 已接受，采纳率 $4%$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)Agent AI Stats \\(Today\\): (\\$\\{this\\.todayStats\\.composerAcceptedLines\\})\\/(\\$\\{this\\.todayStats\\.composerSuggestedLines\\}) lines \\((\\$\\{[^}]+\\}%)\\)(`)",
+    "flags": "g",
+    "zh": "$1Agent AI 统计（今日）：$2/$3 行（$4）$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)\\$\\(comment-discussion\\) Agent Stats: (\\$\\{this\\.todayStats\\.composerAcceptedLines\\})\\/(\\$\\{this\\.todayStats\\.composerSuggestedLines\\}) \\((\\$\\{[^}]+\\}%)\\)(`)",
+    "flags": "g",
+    "zh": "$1$(comment-discussion) Agent 统计：$2/$3（$4）$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "(`)Agent AI Stats: (\\$\\{this\\.todayStats\\.composerAcceptedLines\\}) accepted out of (\\$\\{this\\.todayStats\\.composerSuggestedLines\\}) suggested, (\\$\\{[^}]+\\}) percent acceptance rate(`)",
+    "flags": "g",
+    "zh": "$1Agent AI 统计：$2/$3 已接受，采纳率 $4%$5",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Disable for \\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`对 ${$1} 禁用`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Snooze for \\$\\{([^}]+)\\.label\\}`",
+    "flags": "g",
+    "zh": "`暂停 ${$1.label}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Your usage resets on \\$\\{([^}]+)\\} \\(\\$\\{([^}]+)\\} \\$\\{[^}]+===1\\?\"day\":\"days\"\\}\\)\\.`",
+    "flags": "g",
+    "zh": "`用量将在 ${$1} 重置（${$2} 天）。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Your usage resets on \\$\\{([^}]+)\\}\\.`",
+    "flags": "g",
+    "zh": "`用量将在 ${$1} 重置。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{(\\w+)\\} \\$\\{([^}]+)\\} \\$\\{\\1===1\\?\"Change\":\"Changes\"\\}`",
+    "flags": "g",
+    "zh": "`${$1}处更改${$2}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{(\\w+)\\} \\$\\{\\1===1\\?\"Change\":\"Changes\"\\}`",
+    "flags": "g",
+    "zh": "`${$1}处更改`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{(\\w+)\\} \\$\\{\\1===1\\?\"Commit\":\"Commits\"\\}`",
+    "flags": "g",
+    "zh": "`${$1}次提交`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Uncommitted changes in \\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`${$1} 中未提交的更改`",
+    "kind": "str"
+  },
+  {
+    "pattern": "description:\"Systematically diagnose and fix bugs using runtime traces\"",
+    "flags": "g",
+    "zh": "description:\"使用运行时跟踪系统性地诊断和修复 Bug\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"On\":\"Off\"",
+    "flags": "g",
+    "zh": "?\"开\":\"关\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "===!0\\?\"On\":(\\w+)===!1\\?\"Off\"",
+    "flags": "g",
+    "zh": "===!0?\"开\":$1===!1?\"关\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Open \\$\\{([^}]+)\\} in Customize`",
+    "flags": "g",
+    "zh": "`在自定义中打开 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Cloud\":\"Repos\"",
+    "flags": "g",
+    "zh": "?\"云端\":\"仓库\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Select one\":\"Select Multiple\"",
+    "flags": "g",
+    "zh": "?\"选择一个\":\"选择多个\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Describe the change\"",
+    "flags": "g",
+    "zh": "?\"描述更改\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Expand All\":\"Collapse All\"",
+    "flags": "g",
+    "zh": "?\"全部展开\":\"全部折叠\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\"Collapse All\":\"Expand All\"",
+    "flags": "g",
+    "zh": "?\"全部折叠\":\"全部展开\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Could not reach \\$\\{([^}]+)\\}\\.`",
+    "flags": "g",
+    "zh": "`无法连接 ${$1}.`",
+    "kind": "str"
+  },
+  {
+    "pattern": "case\"docs\":return`Documentation: \\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "case\"docs\":return`文档：${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "(let|const)\\s+(\\w+)=\"Discard Changes\"",
+    "flags": "g",
+    "zh": "$1 $2=\"放弃更改\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "=\"Discard Folder Changes\"",
+    "flags": "g",
+    "zh": "=\"放弃文件夹更改\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "title:\"Discard Changes\\?\"",
+    "flags": "g",
+    "zh": "title:\"放弃更改？\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "=\"Discard Untracked Changes\"",
+    "flags": "g",
+    "zh": "=\"放弃未跟踪更改\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "Most Recent Commit Scored:\\n",
+    "flags": "g",
+    "zh": "最近评分的提交：\n",
+    "kind": "str"
+  },
+  {
+    "pattern": "AI-Generated: \\$\\{this\\.recentCommit\\.aiPercentage\\}% \\(\\$\\{n\\} lines\\)",
+    "flags": "g",
+    "zh": "AI 生成：${this.recentCommit.aiPercentage}% (${n} 行)",
+    "kind": "str"
+  },
+  {
+    "pattern": "  - Tab: \\$\\{i\\} lines ",
+    "flags": "g",
+    "zh": "  - Tab 补全：${i} 行 ",
+    "kind": "str"
+  },
+  {
+    "pattern": "  - Composer: \\$\\{r\\} lines ",
+    "flags": "g",
+    "zh": "  - Composer：${r} 行 ",
+    "kind": "str"
+  },
+  {
+    "pattern": "Total Changes: \\$\\{this\\.recentCommit\\.linesAdded\\} added, \\$\\{this\\.recentCommit\\.linesDeleted\\} deleted",
+    "flags": "g",
+    "zh": "总更改：新增 ${this.recentCommit.linesAdded}，删除 ${this.recentCommit.linesDeleted}",
+    "kind": "str"
+  },
+  {
+    "pattern": "name:\"AI Code Tracking - Recent Commit\"",
+    "flags": "g",
+    "zh": "name:\"AI 代码追踪 - 最近提交\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "AI-Generated Lines: \\$\\{a\\} \\(\\$\\{c\\}%\\)",
+    "flags": "g",
+    "zh": "AI 生成行数：${a} (${c}%)",
+    "kind": "str"
+  },
+  {
+    "pattern": "AI-Generated Lines: \\$\\{C\\}",
+    "flags": "g",
+    "zh": "AI 生成行数：${C}",
+    "kind": "str"
+  },
+  {
+    "pattern": "AI-Generated: \\$\\{T\\} \\(\\$\\{C\\.aiPercentage\\|\\|\"",
+    "flags": "g",
+    "zh": "AI 生成：${T} (${C.aiPercentage||\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Always Run '(\\$\\{[^}]+\\})'(\\s*\\+\\s*\\$\\{[^}]+\\})?`",
+    "flags": "g",
+    "zh": "`始终运行 $1$2`",
+    "kind": "str"
+  },
+  {
+    "pattern": "=\"Always Run '\"",
+    "flags": "g",
+    "zh": "=\"始终运行 '\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\[\\s*\"Automatically\\s+index\\s+any\\s+new\\s+folders\\s+with\\s+fewer\\s+than\"\\s*,\\s*\" \"\\s*,\\s*(.+?)\\s*,\\s*\" files\"\\s*\\]",
+    "flags": "gi",
+    "zh": "[\"自动索引少于\", \" \", $1, \" 个文件的新文件夹\"]",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Apply\\s+\\.cursorignore\\s+files\\s+to\\s+all\\s+subdirectories(\\$\\{[^}]*\\})\\.\\s*Changing\\s+this\\s+setting\\s+requires\\s+restarting\\s+Cursor\\.`",
+    "flags": "g",
+    "zh": "`将 .cursorignore 文件应用至所有子目录$1。更改此设置需要重启 Cursor。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Use\\s+with\\s+caution\\.\\s*Skip\\s+symlinks\\s+during\\s+\\.cursorignore\\s+file\\s+discovery\\.\\s*Enable\\s+only\\s+when\\s+all\\s+\\.cursorignore\\s+files\\s+are\\s+reachable\\s+without\\s+symlinks(\\$\\{[^}]*\\})\\.\\s*Changing\\s+this\\s+setting\\s+requires\\s+restarting\\s+Cursor\\.`",
+    "flags": "g",
+    "zh": "`谨慎使用。在查找 .cursorignore 文件时跳过符号链接。仅当所有 .cursorignore 文件无需符号链接即可直接访问时才启用$1。更改此设置需要重启 Cursor。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`New\\s+Agent\\s+in\\s+\\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`在 ${$1} 中新建智能体`",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Save\"",
+    "flags": "g",
+    "zh": "\"保存\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=upgrade-pro-button-text>Upgrade to Pro",
+    "flags": "g",
+    "zh": "class=upgrade-pro-button-text>升级到 Pro",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=minor-version-notification-text>New update available<\\/span>",
+    "flags": "g",
+    "zh": "class=minor-version-notification-text>新版本可用</span>",
+    "kind": "str"
+  },
+  {
+    "pattern": "<span>New in <\\/span>",
+    "flags": "g",
+    "zh": "<span>新版本 </span>",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=composer-cloud-transfer-dismiss>Dismiss<\\/button>",
+    "flags": "g",
+    "zh": "class=composer-cloud-transfer-dismiss>取消</button>",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=composer-cloud-transfer-title>Move to Cloud<\\/span>",
+    "flags": "g",
+    "zh": "class=composer-cloud-transfer-title>迁移到 Cloud</span>",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=composer-cloud-transfer-primary>Move",
+    "flags": "g",
+    "zh": "class=composer-cloud-transfer-primary>迁移",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=composer-cloud-transfer-subtitle>Select the branch to continue from, then confirm to transfer this agent to the cloud",
+    "flags": "g",
+    "zh": "class=composer-cloud-transfer-subtitle>选择要从中继续的分支，然后确认将此智能体迁移到云端",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Transferring\\\\u2026\"",
+    "flags": "g",
+    "zh": "\"正在迁移…\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Moving to Cloud\\\\u2026\"",
+    "flags": "g",
+    "zh": "\"正在迁移到 Cloud…\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Confirm & Move to Cloud\"",
+    "flags": "g",
+    "zh": "\"确认并迁移到 Cloud\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "typeof\\s+\\w+==\"string\"\\?\\s*\\w+:\"Dismiss\"",
+    "flags": "g",
+    "zh": "typeof u==\"string\"?u:\"取消\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "children:\"Later\"",
+    "flags": "g",
+    "zh": "children:\"稍后\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Upgrade\\s+to\\s+\\$\\{([^}]+)\\}`:\"Upgrade\"",
+    "flags": "g",
+    "zh": "`升级到 ${$1}`:\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Upgrade\\s+to\\s+\\$\\{([^}]+)\\}\\s+to\\s+keep\\s+going\\.`",
+    "flags": "g",
+    "zh": "`升级到 ${$1} 以继续。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Upgrade\\s+to\\s+\\$\\{([^}]+)\\}\\s+to\\s+use\\s+Cloud\\s+Agents\\.`",
+    "flags": "g",
+    "zh": "`升级到 ${$1} 以使用云智能体。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Upgrade\\s+to\\s+\\$\\{([^}]+)\\}\\.`",
+    "flags": "g",
+    "zh": "`升级到 ${$1}。`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Upgrade\\s+to\\s+\\$\\{([^}]+)\\}`",
+    "flags": "g",
+    "zh": "`升级到 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`Start\\s+\\$\\{([^}]+)\\}\\s+now`",
+    "flags": "g",
+    "zh": "`立即开始 ${$1}`",
+    "kind": "str"
+  },
+  {
+    "pattern": "return\"Upgrade\"",
+    "flags": "g",
+    "zh": "return\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\\?\\?\"Upgrade\"",
+    "flags": "g",
+    "zh": "??\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "void 0\\?\"Upgrade\"",
+    "flags": "g",
+    "zh": "void 0?\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "children:\\[\"Upgrade\"",
+    "flags": "g",
+    "zh": "children:[\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "children:\"Upgrade\"",
+    "flags": "g",
+    "zh": "children:\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": ",\"Upgrade\"\\]",
+    "flags": "g",
+    "zh": ",\"升级\"]",
+    "kind": "str"
+  },
+  {
+    "pattern": "label\\|\\|\"Upgrade\"",
+    "flags": "g",
+    "zh": "label||\"升级\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Upgrade to keep going\\.\"",
+    "flags": "g",
+    "zh": "\"升级以继续。\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Upgrading\\\\u2026\"",
+    "flags": "g",
+    "zh": "\"正在升级…\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "ctaLabel:\"Get More Usage\"",
+    "flags": "g",
+    "zh": "ctaLabel:\"获取更多用量\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"Switched to Cursor Models\\. Other Models limit reached\\.\"",
+    "flags": "g",
+    "zh": "\"已切换到 Cursor Models。其他模型用量已达上限。\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "class=cursor-settings-sidebar-cell-label>Upgrade to Pro",
+    "flags": "g",
+    "zh": "class=cursor-settings-sidebar-cell-label>升级到 Pro",
+    "kind": "str"
+  },
+  {
+    "pattern": "`(\\$\\{[^}]*\\})% Full`",
+    "flags": "g",
+    "zh": "`$1% 已用`",
+    "kind": "str"
+  },
+  {
+    "pattern": " of API usage\\.",
+    "flags": "g",
+    "zh": " 的 API 用量。",
+    "kind": "str"
+  },
+  {
+    "pattern": "\"禁用\":\"Enable\"",
+    "flags": "g",
+    "zh": "\"禁用\":\"启用\"",
+    "kind": "str"
+  },
+  {
+    "pattern": ":\"Results\":\"Suggested\"",
+    "flags": "g",
+    "zh": ":\"结果\":\"推荐\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`No (\\$\\{[^}]*\\}) MCP Tools`",
+    "flags": "g",
+    "zh": "`没有 $1 MCP 工具`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`(\\$\\{[^}]*\\}) MCP Tools`",
+    "flags": "g",
+    "zh": "`$1 MCP 工具`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`显示 (\\$\\{[^}]*\\}) more`",
+    "flags": "g",
+    "zh": "`显示 $1 更多`",
+    "kind": "str"
+  },
+  {
+    "pattern": "`(\\$\\{[^}]*\\}) more`",
+    "flags": "g",
+    "zh": "`$1 更多`",
+    "kind": "str"
+  },
+  {
+    "pattern": ":\"搜索或粘贴链接\":\"Search\"",
+    "flags": "g",
+    "zh": ":\"搜索或粘贴链接\":\"搜索\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "type===\"models\"\\?\"搜索模型\":\"Search\"",
+    "flags": "g",
+    "zh": "type===\"models\"?\"搜索模型\":\"搜索\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "([A-Za-z_$][\\w$]*\\.name===[A-Za-z_$][\\w$]*)\\?\"Enable\":this\\.findMCPServerAuthUrl\\(([A-Za-z_$][\\w$]*)\\)\\?\"Connect\":\"Add\"",
+    "flags": "g",
+    "zh": "$1?\"启用\":this.findMCPServerAuthUrl($2)?\"连接\":\"添加\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "(children:[A-Za-z_$][\\w$]*\\?[A-Za-z_$][\\w$]*):\"Connect\"",
+    "flags": "g",
+    "zh": "$1:\"连接\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "===\"Connect\"",
+    "flags": "g",
+    "zh": "===\"连接\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "case\"connectUnavailable\":return\"Connect\"",
+    "flags": "g",
+    "zh": "case\"connectUnavailable\":return\"连接\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "([A-Za-z_$][\\w$]*===null\\?\"Import from IDE\":)`Import from IDE \\(\\$\\{([^}]*)\\}\\)`",
+    "flags": "g",
+    "zh": "$1`从 IDE 导入（${$2}）`",
+    "kind": "str"
+  },
+  {
+    "pattern": "===1\\?\"line\":\"lines\"",
+    "flags": "g",
+    "zh": "===1?\"行\":\"行\"",
+    "kind": "str"
+  },
+  {
+    "pattern": ",\\s*\"\\s*unmodified\\s*\"\\s*,[A-Za-z_$][\\w$]*\\]",
+    "flags": "g",
+    "zh": ",\" 行未修改\"]",
+    "kind": "str"
+  },
+  {
+    "pattern": "===1\\?\"行\":\"行\"\\}\\s+collapsed\\]",
+    "flags": "g",
+    "zh": "===1?\"行\":\"行\"} 已折叠]",
+    "kind": "str"
+  },
+  {
+    "pattern": "([A-Za-z_$][\\w$]*)=\"Canvas\"",
+    "flags": "g",
+    "zh": "$1=\"画布\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "([A-Za-z_$][\\w$]*)=\"Set up Environment\"",
+    "flags": "g",
+    "zh": "$1=\"设置环境\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "offerAction:\"Sync\"",
+    "flags": "g",
+    "zh": "offerAction:\"同步\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "offerDismiss:\"Not now\"",
+    "flags": "g",
+    "zh": "offerDismiss:\"暂不\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "progressCancel:\"Cancel\"",
+    "flags": "g",
+    "zh": "progressCancel:\"取消\"",
+    "kind": "str"
+  },
+  {
+    "pattern": "`\\$\\{(\\w+)\\} \\\\u2219 Side Chat`",
+    "flags": "g",
+    "zh": "`${$1} · 侧边对话`",
+    "kind": "str"
+  },
+  {
+    "pattern": "label:\"Download\",cta:\"download\"",
+    "flags": "g",
+    "zh": "label:\"下载\",cta:\"download\"",
+    "kind": "str"
+  }
+]

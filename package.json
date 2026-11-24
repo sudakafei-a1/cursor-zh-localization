@@ -1,0 +1,48 @@
+{
+  "name": "cursor-zh",
+  "version": "2.0.0",
+  "description": "Cursor-zh — Cursor 编辑器一键汉化工具",
+  "main": "dist/cli.js",
+  "bin": {
+    "cursor-zh": "dist/cli.js"
+  },
+  "scripts": {
+    "start": "node dist/cli.js",
+    "verify": "npm run build && node scripts/verify-ui.js && node scripts/verify-plugin-market.js && node scripts/verify-structural.js",
+    "test": "node test/golden.test.js",
+    "build": "tsc && node scripts/copy-dist-assets.js",
+    "build:pkg": "pkg . --out-path dist --targets node18-win-x64,node18-macos-x64,node18-macos-arm64,node18-linux-x64,node18-linux-arm64 --no-bytecode --public-packages \"*\"",
+    "build:pkg:win": "pkg . --out-path dist --targets node18-win-x64 --no-bytecode --public-packages \"*\"",
+    "build:pkg:mac": "pkg . --out-path dist --targets node18-macos-x64,node18-macos-arm64 --no-bytecode --public-packages \"*\"",
+    "build:pkg:linux": "pkg . --out-path dist --targets node18-linux-x64,node18-linux-arm64 --no-bytecode --public-packages \"*\"",
+    "pack:release": "node scripts/package-release.js",
+    "build:release": "npm run build && npm run build:pkg && npm run pack:release"
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64",
+      "node18-macos-x64",
+      "node18-macos-arm64",
+      "node18-linux-x64",
+      "node18-linux-arm64"
+    ],
+    "outputPath": "dist",
+    "assets": [
+      "rules/**/*.json",
+      "dist/market/runtime-template.js",
+      "dist/translate/storage.js"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.11.4",
+    "inquirer": "^8.2.6",
+    "sudo-prompt": "^9.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@yao-pkg/pkg": "^5.15.0",
+    "typescript": "^7.0.2"
+  },
+  "license": "MIT"
+}

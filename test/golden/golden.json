@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-08-25T04:23:56.875Z",
+  "node": "v24.16.0",
+  "inputs": {
+    "workbench.desktop.main.js": "a7c959de1aab7d38a696b925aa0cf16c2d92d696dbbdc9af24718c888d811478",
+    "workbench.glass.main.js": "d190ca24358f871ce5359bbd89ee2915483c9a4eda5b310e196a441ff70e254e",
+    "workbench.anysphere-ui-automations.js": "1fdc35cec87d3143f3762663861639c63f94e5a1b626a8ff75a96910e5be273a",
+    "workbench.html": "059f196f84c605b0cf69a1a303e32e0c9c5a16cc639a61b460ccadb43e3381c5"
+  },
+  "outputs": {
+    "workbench.desktop.main.js": "21c1bd3db96ab56bc565335c435c7821ad7c4040ca61a84d8cc026013f80cde9",
+    "workbench.glass.main.js": "742b3045845a5f61a6148117f57ca8f8fdd1e66b2b4ea12e77776358ee0434d3",
+    "workbench.anysphere-ui-automations.js": "6e252151db624d3abeed504cdb80356ab2d7af4f0c8f2f615fff84a46a13663d",
+    "workbench.html": "071ecac2731a4a45582f75daef9662f99c72dc8a1ca4ff048c4e675ccdbd7c24"
+  }
+}
